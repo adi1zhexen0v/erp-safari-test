@@ -1,0 +1,12 @@
+.text-heading-lg {
+  @apply font-extrabold text-lg leading-6 tracking-[-0.005em] md:text-lg md:leading-6 md:tracking-[-0.005em] xl:text-xl xl:leading-7 xl:tracking-[-0.01em];
+}
+.text-heading-md {
+  @apply font-extrabold text-base leading-5 tracking-[-0.005em] md:text-base md:leading-5 md:tracking-[-0.003em] xl:text-lg xl:leading-6 xl:tracking-[-0.01em];
+}
+.text-heading-sm {
+  @apply font-extrabold text-sm leading-5 tracking-[-0.003em] md:text-sm md:leading-5 md:tracking-[0em] xl:text-base xl:leading-5 xl:tracking-[0em];
+}
+.text-heading-overtext {
+  @apply font-extrabold text-xs leading-3.5 tracking-[0.08em] md:text-xs md:leading-3.5 md:tracking-[0.08em] xl:text-xs xl:leading-3.5 xl:tracking-[0.08em];
+}

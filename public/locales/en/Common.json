@@ -1,0 +1,21 @@
+{
+  "loadingCities": "Loading cities list...",
+  "statusIndicator": {
+    "amendment": {
+      "cancelled": "Cancelled",
+      "applied": "Applied",
+      "default": "Pending"
+    },
+    "jobApplication": {
+      "contractSigned": "Contract signed",
+      "decision": "Rejected",
+      "jobAppPending": "Under revision",
+      "jobAppReview": "Waiting for decision on application",
+      "default": "Approved"
+    },
+    "order": {
+      "orderPending": "Pending",
+      "default": "Completed"
+    }
+  }
+}

@@ -1,0 +1,614 @@
+{
+  "personal": {
+    "loading": "Loading...",
+    "title": "Personal Information",
+    "photo": {
+      "label": "3×4 Photo File"
+    },
+    "surname": {
+      "label": "Last Name",
+      "placeholder": "Enter last name"
+    },
+    "name": {
+      "label": "First Name",
+      "placeholder": "Enter first name"
+    },
+    "father_name": {
+      "label": "Middle Name",
+      "placeholder": "Enter middle name"
+    },
+    "iin": {
+      "label": "IIN",
+      "placeholder": "123456789012"
+    },
+    "date_of_birth": {
+      "label": "Date of Birth",
+      "placeholder": "dd.mm.yyyy"
+    },
+    "gender": {
+      "label": "Gender",
+      "placeholder": "Select",
+      "male": "Male",
+      "female": "Female"
+    },
+    "family_status": {
+      "label": "Marital Status",
+      "placeholder": "Select",
+      "single": "Single",
+      "married": "Married",
+      "divorced": "Divorced",
+      "widowed": "Widowed"
+    },
+    "city_of_birth": {
+      "label": "City of Birth",
+      "placeholder": "Enter city"
+    },
+    "nationality": {
+      "label": "Nationality",
+      "placeholder": "Enter"
+    },
+    "citizenship": {
+      "label": "Citizenship",
+      "placeholder": "Enter"
+    },
+    "not_resident": "I am not a resident of the Republic of Kazakhstan",
+    "is_student": "I am currently a student",
+    "enrollment": {
+      "label": "Enrollment Certificate File"
+    },
+    "submit_review": "Submit for Review",
+    "save": "Save section",
+    "saving": "Saving...",
+    "toast": {
+      "success": "Personal information saved successfully",
+      "error": "Failed to save information"
+    }
+  },
+  "contacts": {
+    "loading": "Loading...",
+    "title": "Contacts",
+    "email": {
+      "label": "Email",
+      "placeholder": "name@example.com"
+    },
+    "phone": {
+      "label": "Phone",
+      "placeholder": "+7 707 123 45 67"
+    },
+    "phone_additional": {
+      "label": "Additional phone",
+      "placeholder": "+7 707 123 45 67"
+    },
+    "submit_review": "Submit for review",
+    "save": "Save",
+    "saving": "Saving...",
+    "toast": {
+      "success": "Contact information saved successfully",
+      "error": "Failed to save contact information"
+    }
+  },
+  "addresses": {
+    "loading": "Loading...",
+    "title": "Addresses",
+    "registration": {
+      "label": "Registered address",
+      "placeholder": "Enter your registered address"
+    },
+    "actual": {
+      "label": "Actual address",
+      "placeholder": "Enter yout actual address"
+    },
+    "submit_review": "Submit for review",
+    "save": "Save",
+    "saving": "Saving...",
+    "toast": {
+      "success": "Addresses saved successfully",
+      "error": "Failed to save data"
+    }
+  },
+  "emergency": {
+    "title": "Emergency Contacts",
+    "contact_1": {
+      "title": "Contact 1"
+    },
+    "contact_2": {
+      "title": "Contact 2"
+    },
+    "name": {
+      "label": "Full name of emergency contact",
+      "placeholder": "Enter full name"
+    },
+    "relation": {
+      "label": "Relationship",
+      "placeholder": "Select",
+      "mother": "Mother",
+      "father": "Father",
+      "spouse": "Spouse",
+      "sibling": "Sibling",
+      "other": "Other"
+    },
+    "phone": {
+      "label": "Phone number",
+      "placeholder": "+1 555 123 4567"
+    },
+    "submit_review": "Submit for review",
+    "save": "Save section",
+    "saving": "Saving...",
+    "next": "Next step",
+    "toast": {
+      "success": "Emergency contacts saved successfully",
+      "error": "Failed to save data"
+    }
+  },
+  "id": {
+    "title": "Documents",
+    "identity": {
+      "title": "National ID",
+      "number": {
+        "label": "ID Number",
+        "placeholder": "123456789"
+      },
+      "issued_by": {
+        "label": "Issued by",
+        "placeholder": "e.g., Ministry of Internal Affairs"
+      },
+      "issue_date": {
+        "label": "Issue date",
+        "placeholder": "dd.mm.yyyy"
+      },
+      "expiry_date": {
+        "label": "Expiry date",
+        "placeholder": "dd.mm.yyyy"
+      },
+      "file": {
+        "label": "National ID File",
+        "button": "Choose file",
+        "hint": "PDF, JPG, PNG up to 5 MB"
+      }
+    },
+    "military": {
+      "title": "Military Registration",
+      "file": {
+        "label": "Military ID File",
+        "button": "Choose file",
+        "hint": "PDF, JPG, PNG up to 5 MB",
+        "note": "For males (military ID or registration certificate)"
+      }
+    },
+    "enrollment": {
+      "title": "Enrollment Certificate",
+      "file": {
+        "label": "Upload enrollment certificate",
+        "button": "Choose file",
+        "hint": "PDF, JPG, PNG up to 5 MB"
+      }
+    },
+    "save": "Save",
+    "saving": "Saving...",
+    "submit_review": "Submit for review",
+    "toast": {
+      "success": "Documents saved successfully",
+      "error": "Failed to save documents"
+    }
+  },
+  "banking": {
+    "title": "Banking Details",
+
+    "bank_name": {
+      "label": "Bank name",
+      "placeholder": "Select bank",
+      "searchPlaceholder": "Search by name or BIC..."
+    },
+
+    "iban": {
+      "label": "IBAN account",
+      "placeholder": "KZ000000000000000000"
+    },
+
+    "bik": {
+      "label": "BIC",
+      "placeholder": "ABCDEFGH"
+    },
+
+    "certificate": {
+      "label": "Account Ownership Certificate File"
+    },
+
+    "submit_review": "Submit for review",
+    "save": "Save",
+    "saving": "Saving...",
+
+    "toast": {
+      "success": "Banking details saved",
+      "error": "Failed to save banking details"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "add_more": "Add more",
+    "new_form": "New Education",
+    "title_main": "Primary Education",
+    "title_additional": "Additional Education",
+    "degree": {
+      "label": "Degree",
+      "placeholder": "Select",
+      "options": {
+        "bachelor": "Bachelor",
+        "master": "Master",
+        "phd": "PhD",
+        "college": "College"
+      }
+    },
+    "university": {
+      "label": "University",
+      "placeholder": "For example, Al-Farabi KazNU"
+    },
+    "specialty": {
+      "label": "Specialty",
+      "placeholder": "For example, Information Systems"
+    },
+    "year": {
+      "label": "Graduation year",
+      "placeholder": "For example, 2024"
+    },
+    "diploma_number": {
+      "label": "Diploma number",
+      "placeholder": "AB1234567"
+    },
+    "upload_title": "Upload diploma and transcript",
+    "diploma_file": {
+      "label": "Diploma File"
+    },
+    "diploma_transcript": {
+      "label": "Diploma Transcript File"
+    },
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "empty": "You have no education data uploaded",
+    "submit_review": "Submit for review",
+    "toast": {
+      "success": "Education added successfully",
+      "error": "Failed to save the form",
+      "delete_success": "Education deleted successfully",
+      "delete_error": "Error deleting education"
+    }
+  },
+  "experience": {
+    "title": "Work Experience",
+    "add": "Add more",
+    "primary_title": "Workplace",
+    "additional_title": "New workplace",
+    "cancel": "Cancel",
+    "empty": "No experience added yet",
+
+    "work_title": "Workplace",
+
+    "organization": {
+      "label": "Company",
+      "placeholder": "For example, TOO Sen Group"
+    },
+
+    "position": {
+      "label": "Position or profession",
+      "placeholder": "Select"
+    },
+    "sector": {
+      "label": "Employment category",
+      "placeholder": "Select category"
+    },
+    "begin": {
+      "label": "Start date",
+      "placeholder": "dd.mm.yyyy"
+    },
+
+    "end": {
+      "label": "End date",
+      "placeholder": "dd.mm.yyyy"
+    },
+
+    "working_now": "I currently work here",
+    "save": "Save",
+
+    "proof": {
+      "title": "Upload extract from ENPF or a scan of the employment record",
+      "label": "ENPF Extract or Employment Record File",
+      "save": "Save",
+      "saving": "Saving...",
+      "submit": "Submit for review",
+      "sent_for_review": "The file has been submitted for review",
+      "toast": {
+        "success": "File uploaded successfully",
+        "error": "Error uploading the file"
+      }
+    },
+
+    "toast": {
+      "success": "Work experience added",
+      "error": "Error adding work experience",
+      "delete_success": "Work experience deleted successfully",
+      "delete_error": "Error deleting work experience"
+    }
+  },
+  "validation": {
+    "personal": {
+      "iin_length": "IIN must contain 12 characters",
+      "name_required": "First name is required",
+      "surname_required": "Last name is required",
+      "date_required": "Date of birth is required",
+      "date_invalid": "Invalid date format",
+      "gender_required": "Gender is required",
+      "family_required": "Marital status is required",
+      "city_required": "City of birth is required",
+      "nationality_required": "Nationality is required",
+      "citizenship_required": "Citizenship is required",
+      "photo_required": "Upload a 3×4 photo",
+      "enrollment_file_required": "Enrollment certificate file is required"
+    },
+    "contacts": {
+      "email_invalid": "Enter a valid email",
+      "phone_required": "Primary phone number is required"
+    },
+    "addresses": {
+      "address_registration_required": "Registered address is required",
+      "address_factual_required": "Actual address is required"
+    },
+    "emergency": {
+      "name_required": "Name is required",
+      "phone_required": "Phone number is required",
+      "relation_required": "Relationship is required"
+    },
+    "id": {
+      "number_required": "ID number is required",
+      "issued_by_required": "Issuing authority is required",
+      "issue_date_required": "Issue date is required",
+      "expiry_date_required": "Expiry date is required",
+      "file_required": "File upload is required",
+      "military_file_required": "Military document is required",
+      "enrollment_file_required": "Enrollment certificate file is required"
+    },
+    "banking": {
+      "bank_name_required": "Bank name is required",
+      "iban_length": "IBAN must be exactly 20 characters",
+      "bik_length": "BIC must be between 8 and 11 characters",
+      "file_required": "You must upload a file",
+      "file_invalid": "Invalid file"
+    },
+    "education": {
+      "degree_required": "Degree is required",
+      "university_required": "University is required",
+      "specialty_required": "Specialty is required",
+      "year_invalid": "Invalid graduation year",
+      "diploma_number_required": "Diploma number is required",
+      "file_required": "Diploma file is required",
+      "transcript_required": "Transcript file is required"
+    },
+    "experience": {
+      "organization_required": "Organization name is required",
+      "position_required": "Position is required",
+      "begin_required": "Start date is required",
+      "end_required": "End date is required",
+      "begin_invalid": "Invalid start date",
+      "end_invalid": "Invalid end date",
+      "end_before_begin": "End date must be after start date",
+      "date_invalid": "Invalid date"
+    },
+    "social": {
+      "category_required": "Category is required",
+      "document_file_required": "Document is required"
+    }
+  },
+  "prompt": {
+    "ok": "Great"
+  },
+  "prompt_form": {
+    "confirm": "Submit",
+    "cancel": "Cancel",
+    "submitting": "Submitting...",
+    "title": "Are you ready to submit the application?",
+    "description": "Please make sure all data is entered correctly. After submission, editing the application will be unavailable."
+  },
+  "file_uploader": {
+    "drop_here": "Drag a file here or click to select",
+    "formats": "PDF, JPG, PNG format up to {{max}} MB",
+    "formats_images_only": "JPG, PNG format up to {{max}} MB",
+    "errors": {
+      "file_too_large": "File exceeds maximum size: {{max}}MB",
+      "invalid_format": "Invalid file format. Allowed: PDF, JPG, PNG"
+    }
+  },
+  "page": {
+    "title": "Employee's Personal Sheet | SEN Group",
+    "heading": "Employee's Personal Sheet",
+    "subtitle": "Fill in all sections to complete the hiring process",
+    "invalid_link": "Invalid link",
+    "link_expired": "The link has expired.",
+    "submit_error": "Submission error. Please check all section data.",
+    "success_title": "Personal sheet successfully sent!",
+    "success_message": "Your data has been submitted for review. The manager will contact you after reviewing the application.",
+    "error_title": "Error",
+    "error_message": "Submission error. Please check all section data.",
+    "return_home": "Return to home page"
+  },
+  "social": {
+    "title": "Social Categories",
+    "loading": "Loading...",
+    "add_more": "Add category",
+    "empty": "You have no added social categories",
+    "category": {
+      "label": "Category",
+      "placeholder": "Select category"
+    },
+    "categories": {
+      "disability_1": "Disability Group 1",
+      "disability_2": "Disability Group 2",
+      "disability_3": "Disability Group 3",
+      "child_disability": "Child with disability",
+      "veteran": "Veteran",
+      "orphan": "Orphan",
+      "large_family": "Large family"
+    },
+    "document": {
+      "label": "Category Confirmation Document File"
+    },
+    "issue_date": {
+      "label": "Issue date",
+      "placeholder": "dd.mm.yyyy"
+    },
+    "expiry_date": {
+      "label": "Expiry date",
+      "placeholder": "dd.mm.yyyy"
+    },
+    "notes": {
+      "label": "Notes",
+      "placeholder": "Enter notes (optional)"
+    },
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "submit_review": "Submit for review",
+    "toast": {
+      "success": "Social category added successfully",
+      "error": "Error adding category",
+      "delete_success": "Category deleted successfully",
+      "delete_error": "Error deleting category"
+    }
+  },
+  "sections": {
+    "personal_data": "Personal data",
+    "contacts": "Contacts",
+    "addresses": "Addresses",
+    "emergency_contacts": "Emergency contacts",
+    "id_documents": "Documents",
+    "banking": "Banking details",
+    "education": "Education",
+    "experience": "Work experience",
+    "social_categories": "Social categories",
+    "personal_data_required_tooltip": "You must first complete the \"Personal data\" section"
+  },
+  "GeneralForm": {
+    "citizenship": {
+      "kazakhstan": "Kazakhstan",
+      "china": "China",
+      "india": "India",
+      "usa": "United States",
+      "indonesia": "Indonesia",
+      "pakistan": "Pakistan",
+      "nigeria": "Nigeria",
+      "brazil": "Brazil",
+      "bangladesh": "Bangladesh",
+      "russia": "Russia",
+      "mexico": "Mexico",
+      "japan": "Japan",
+      "ethiopia": "Ethiopia",
+      "philippines": "Philippines",
+      "egypt": "Egypt",
+      "vietnam": "Vietnam",
+      "drc": "DR Congo",
+      "iran": "Iran",
+      "turkey": "Turkey",
+      "germany": "Germany",
+      "thailand": "Thailand",
+      "uk": "United Kingdom",
+      "tanzania": "Tanzania",
+      "france": "France",
+      "south_africa": "South Africa",
+      "italy": "Italy",
+      "kenya": "Kenya",
+      "myanmar": "Myanmar",
+      "colombia": "Colombia",
+      "south_korea": "South Korea",
+      "spain": "Spain",
+      "uganda": "Uganda",
+      "argentina": "Argentina",
+      "algeria": "Algeria",
+      "sudan": "Sudan",
+      "ukraine": "Ukraine",
+      "iraq": "Iraq",
+      "afghanistan": "Afghanistan",
+      "poland": "Poland",
+      "canada": "Canada",
+      "morocco": "Morocco",
+      "saudi_arabia": "Saudi Arabia",
+      "uzbekistan": "Uzbekistan",
+      "malaysia": "Malaysia",
+      "angola": "Angola",
+      "mozambique": "Mozambique",
+      "peru": "Peru",
+      "yemen": "Yemen",
+      "ghana": "Ghana",
+      "nepal": "Nepal",
+      "venezuela": "Venezuela",
+      "kyrgyzstan": "Kyrgyzstan",
+      "tajikistan": "Tajikistan",
+      "turkmenistan": "Turkmenistan"
+    },
+    "nationality": {
+      "kazakh": "Kazakh",
+      "russian": "Russian",
+      "uzbek": "Uzbek",
+      "ukrainian": "Ukrainian",
+      "uyghur": "Uyghur",
+      "tatar": "Tatar",
+      "german": "German",
+      "turkmen": "Turkmen",
+      "azerbaijani": "Azerbaijani",
+      "armenian": "Armenian",
+      "korean": "Korean",
+      "chechen": "Chechen",
+      "ingush": "Ingush",
+      "belarusian": "Belarusian",
+      "tajik": "Tajik",
+      "kyrgyz": "Kyrgyz",
+      "turk": "Turkish",
+      "chinese": "Chinese",
+      "dungan": "Dungan",
+      "polish": "Polish",
+      "greek": "Greek",
+      "kumyk": "Kumyk",
+      "karakalpak": "Karakalpak",
+      "bashkir": "Bashkir",
+      "buryat": "Buryat",
+      "kalmyk": "Kalmyk",
+      "lezgin": "Lezgin",
+      "ossetian": "Ossetian",
+      "mari": "Mari",
+      "mordvin": "Mordvin",
+      "chuvash": "Chuvash",
+      "jewish": "Jewish",
+      "bulgarian": "Bulgarian",
+      "romanian": "Romanian",
+      "serbian": "Serbian",
+      "montenegrin": "Montenegrin",
+      "croatian": "Croatian",
+      "macedonian": "Macedonian",
+      "latvian": "Latvian",
+      "lithuanian": "Lithuanian",
+      "estonian": "Estonian",
+      "finnish": "Finnish",
+      "swedish": "Swedish",
+      "norwegian": "Norwegian",
+      "english": "English",
+      "american": "American",
+      "french": "French",
+      "italian": "Italian",
+      "spanish": "Spanish",
+      "portuguese": "Portuguese",
+      "arab": "Arab",
+      "afghan": "Afghan",
+      "iranian": "Iranian",
+      "pakistani": "Pakistani",
+      "indian": "Indian",
+      "kurd": "Kurd",
+      "assyrian": "Assyrian",
+      "gagauz": "Gagauz",
+      "karaim": "Karaim",
+      "moldovan": "Moldovan",
+      "hungarian": "Hungarian",
+      "czech": "Czech",
+      "slovak": "Slovak",
+      "japanese": "Japanese"
+    }
+  }
+}
+

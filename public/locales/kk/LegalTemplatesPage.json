@@ -1,0 +1,973 @@
+{
+  "meta": {
+    "title": "Үлгілер — Заңгерлік көмек | SEN Group",
+    "description": "Үлгілер в системе управления SEN Group."
+  },
+  "breadcrumbs": {
+    "legal": "Заңгерлік көмек",
+    "templates": "Үлгілер"
+  },
+  "header": {
+    "title": "Үлгілер",
+    "newForm": "Консультацияға жазылу"
+  },
+  "common": {
+    "approvalDate": "Бекіту күні",
+    "fill": "Толтыру",
+    "close": "Жабу",
+    "prompts": {
+      "contractUpdated": {
+        "title": "Келісім жаңартылды",
+        "text": "Келісім сәтті жаңартылды"
+      },
+      "contractCreated": {
+        "title": "Келісім құрылды",
+        "text": "Келісім сәтті құрылды"
+      },
+      "vehicleRentCreated": {
+        "title": "Келісім құрылды",
+        "text": "Көлік құралын жалға алу келісімі сәтті құрылды"
+      },
+      "vehicleRentUpdated": {
+        "title": "Келісім жаңартылды",
+        "text": "Көлік құралын жалға алу келісімі сәтті жаңартылды"
+      },
+      "premisesLeaseCreated": {
+        "title": "Келісім құрылды",
+        "text": "Тұрғын емес үй-жайды жалға алу келісімі сәтті құрылды"
+      },
+      "premisesLeaseUpdated": {
+        "title": "Келісім жаңартылды",
+        "text": "Тұрғын емес үй-жайды жалға алу келісімі сәтті жаңартылды"
+      },
+      "serviceAgreementIndividualCreated": {
+        "title": "Келісім құрылды",
+        "text": "Қызмет көрсету келісімі сәтті құрылды"
+      },
+      "serviceAgreementIndividualUpdated": {
+        "title": "Келісім жаңартылды",
+        "text": "Қызмет көрсету келісімі сәтті жаңартылды"
+      },
+      "serviceAgreementMSBCreated": {
+        "title": "Келісім құрылды",
+        "text": "Қызмет көрсету келісімі сәтті құрылды"
+      },
+      "serviceAgreementMSBUpdated": {
+        "title": "Келісім жаңартылды",
+        "text": "Қызмет көрсету келісімі сәтті жаңартылды"
+      },
+      "goodsSupplyCreated": {
+        "title": "Келісім құрылды",
+        "text": "Тауар жеткізу келісімі сәтті құрылды"
+      },
+      "goodsSupplyUpdated": {
+        "title": "Келісім жаңартылды",
+        "text": "Тауар жеткізу келісімі сәтті жаңартылды"
+      },
+      "serviceContractCreated": {
+        "title": "Келісім құрылды",
+        "text": "Өтеулі қызмет көрсету шарты сәтті жіберілді"
+      },
+      "serviceContractUpdated": {
+        "title": "Келісім жаңартылды",
+        "text": "Өтеулі қызмет көрсету шарты сәтті жаңартылды"
+      }
+    }
+  },
+  "templates": {
+    "vehicleRent": {
+      "title": "Көлік құралын жалға алу келісімі",
+      "subtitle": "Қызметтік мақсатта автокөлікті жалға алу"
+    },
+    "commercialPremiseRent": {
+      "title": "Тұрған емес үй-жайды жалға алу келісімі",
+      "subtitle": "Кеңсе немесе үй-жайды уақытша пайдалануға беру"
+    },
+    "paidService": {
+      "title": "Қызмет көрсету шарты",
+      "subtitle": "Жеке тұлғаның қызмет көрсетуі бойынша ГПХ-шарт"
+    },
+    "serviceContract": {
+      "title": "Өтеулі қызмет көрсету шарты",
+      "subtitle": "Орындалған жұмыстар актісі бойынша төлеммен қызмет көрсету"
+    },
+    "supplyContract": {
+      "title": "Тауар жеткізу келісімі",
+      "subtitle": "Сапа, мерзімдер және төлем шарттарымен тауар жеткізу"
+    }
+  },
+  "forms": {
+    "vehicleRent": {
+      "title": "Көлік құралын жалға алу келісімі",
+      "contract_city": {
+        "label": "Қала",
+        "placeholder": "Мысалы: Алматы"
+      },
+      "contract_date": {
+        "label": "Келісім күні",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "lessor_name": {
+        "label": "Жалдаушының атауы",
+        "placeholder": "Мысалы: «Компания» ЖШС"
+      },
+      "lessor_representative": {
+        "label": "Жалдаушының өкілі",
+        "placeholder": "Мысалы: Иванов Иван Иванович"
+      },
+      "lessor_basis": {
+        "label": "Жалдаушының өкілеттігінің негізі",
+        "placeholder": "Мысалы: Жарғы"
+      },
+      "lessor_phone": {
+        "label": "Жалдаушының телефоны",
+        "placeholder": "Мысалы: +77771234567"
+      },
+      "lessor_bin": {
+        "label": "Жалдаушының БСН",
+        "placeholder": "Мысалы: 123456789012"
+      },
+      "lessor_iban": {
+        "label": "Жалдаушының ИИК (IBAN)",
+        "placeholder": "Мысалы: KZ123456789012345678"
+      },
+      "bank": {
+        "label": "Банк",
+        "placeholder": "Банкті таңдаңыз",
+        "searchPlaceholder": "Атауы немесе БИК бойынша іздеу..."
+      },
+      "signer_type": {
+        "label": "Қол қоюшы түрі",
+        "individual": "Жеке тұлға",
+        "legal_entity": "Заңды тұлға"
+      },
+      "car_brand": {
+        "label": "Автокөлік маркасы",
+        "placeholder": "Мысалы: Toyota Camry"
+      },
+      "car_year": {
+        "label": "Шығарылған жылы",
+        "placeholder": "Мысалы: 2020"
+      },
+      "car_vin": {
+        "label": "VIN нөмірі",
+        "placeholder": "Мысалы: 1HGBH41JXMN109186"
+      },
+      "car_plate": {
+        "label": "Мемлекеттік нөмір",
+        "placeholder": "Мысалы: 123ABC01"
+      },
+      "car_color": {
+        "label": "Автокөлік түсі",
+        "placeholder": "Мысалы: Ақ"
+      },
+      "rental_term_text": {
+        "label": "Жалға алу мерзімі",
+        "placeholder": "Мысалы: 12"
+      },
+      "rental_amount": {
+        "label": "Жалға алу құны (санмен)",
+        "placeholder": "Мысалы: 150000"
+      },
+      "rental_amount_text": {
+        "label": "Жалға алу құны (сөзбен)",
+        "placeholder": "Мысалы: жүз елу мың"
+      },
+      "save": "Сақтау",
+      "saving": "Сақталуда...",
+      "preview": "Алдын ала қарау",
+      "back": "Қайту",
+      "submit": "Келісімді жіберу",
+      "submitting": "Жіберілуде...",
+      "createContract": "Келісімді жасау",
+      "updateContract": "Келісімді жаңарту",
+      "creating": "Жасалуда...",
+      "updating": "Жаңартуда...",
+      "close": "Жабу",
+      "previewTitle": "Келісімді алдын ала қарау",
+      "errors": {
+        "createFailed": "Келісімді жіберу мүмкін болмады",
+        "updateFailed": "Келісімді жаңарту мүмкін болмады"
+      },
+      "toast": {
+        "success": "Келісім сәтті жасалды",
+        "error": "Келісімді жасау кезінде қате"
+      }
+    },
+    "commercialPremiseRent": {
+      "title": "Тұрған емес үй-жайды жалға алу келісімі",
+      "contract_city": {
+        "label": "Қала",
+        "placeholder": "Мысалы: Алматы"
+      },
+      "contract_date": {
+        "label": "Келісім күні",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "lessor_name": {
+        "label": "Жалдаушының атауы",
+        "placeholder": "Мысалы: «Компания» ЖШС"
+      },
+      "lessor_representative": {
+        "label": "Жалдаушының өкілі",
+        "placeholder": "Мысалы: Иванов Иван Иванович"
+      },
+      "lessor_basis": {
+        "label": "Жалдаушының өкілеттігінің негізі",
+        "placeholder": "Мысалы: Жарғы"
+      },
+      "lessor_phone": {
+        "label": "Жалдаушының телефоны",
+        "placeholder": "Мысалы: +77771234567"
+      },
+      "lessor_bin": {
+        "label": "Жалдаушының БСН",
+        "placeholder": "Мысалы: 123456789012"
+      },
+      "lessor_iban": {
+        "label": "Жалдаушының ИИК (IBAN)",
+        "placeholder": "Мысалы: KZ123456789012345678"
+      },
+      "bank": {
+        "label": "Банк",
+        "placeholder": "Банкті таңдаңыз",
+        "searchPlaceholder": "Атауы немесе БИК бойынша іздеу..."
+      },
+      "signer_type": {
+        "label": "Қол қоюшы түрі",
+        "individual": "Жеке тұлға",
+        "legal_entity": "Заңды тұлға"
+      },
+      "premise_area": {
+        "label": "Үй-жай ауданы (кв.м)",
+        "placeholder": "Мысалы: 50.5"
+      },
+      "premise_address": {
+        "label": "Үй-жай мекен-жайы",
+        "placeholder": "Мысалы: Алматы қ., Абай көшесі, 150"
+      },
+      "premise_usage_purpose": {
+        "label": "Пайдалану мақсаты",
+        "placeholder": "Мысалы, кеңсені орналастыру"
+      },
+      "rental_start_date": {
+        "label": "Жалға алу басталу күні",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "rental_end_date": {
+        "label": "Жалға алу аяқталу күні",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "rental_term_text": {
+        "label": "Жалға алу мерзімі",
+        "placeholder": "Мысалы: 12 (он екі) ай"
+      },
+      "rental_amount": {
+        "label": "Жалға алу құны (санмен)",
+        "placeholder": "Мысалы: 150000"
+      },
+      "rental_amount_text": {
+        "label": "Жалға алу құны (сөзбен)",
+        "placeholder": "Мысалы: жүз елу мың"
+      },
+      "first_month_payment_deadline": {
+        "label": "Бірінші ай үшін төлем мерзімі",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "save": "Сақтау",
+      "saving": "Сақталуда...",
+      "preview": "Алдын ала қарау",
+      "back": "Қайту",
+      "submit": "Келісімді жіберу",
+      "submitting": "Жіберілуде...",
+      "previewTitle": "Келісімді алдын ала қарау",
+      "close": "Жабу",
+      "createContract": "Келісімді жасау",
+      "updateContract": "Келісімді жаңарту",
+      "creating": "Жасалуда...",
+      "updating": "Жаңартуда...",
+      "errors": {
+        "createFailed": "Келісімді жіберу мүмкін болмады",
+        "updateFailed": "Келісімді жаңарту мүмкін болмады"
+      },
+      "toast": {
+        "success": "Келісім сәтті жасалды",
+        "error": "Келісімді жасау кезінде қате"
+      }
+    },
+    "paidServiceContract": {
+      "title": "Қызмет көрсету шарты",
+      "contract_city": {
+        "label": "Қала",
+        "placeholder": "Мысалы: Алматы"
+      },
+      "contract_date": {
+        "label": "Келісім күні",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "executor_full_name": {
+        "label": "Орындаушының толық аты-жөні",
+        "placeholder": "Мысалы: Иванов Иван Иванович"
+      },
+      "executor_phone": {
+        "label": "Орындаушының телефоны",
+        "placeholder": "Мысалы: +77771234567"
+      },
+      "executor_iin": {
+        "label": "Орындаушының ЖСН",
+        "placeholder": "Мысалы: 123456789012"
+      },
+      "contract_amount": {
+        "label": "Шарт сомасы (санмен)",
+        "placeholder": "Мысалы: 200000"
+      },
+      "contract_amount_kk_text": {
+        "label": "Шарт сомасы сөзбен (қазақша)",
+        "placeholder": "Мысалы: екі жүз мың"
+      },
+      "contract_amount_ru_text": {
+        "label": "Шарт сомасы сөзбен (орысша)",
+        "placeholder": "Мысалы: двести тысяч"
+      },
+      "employer_bank_name": {
+        "label": "Тапсырыс берушінің банкісі",
+        "placeholder": "Мысалы: «Банк» АҚ"
+      },
+      "employer_iban": {
+        "label": "Тапсырыс берушінің ИИК (IBAN)",
+        "placeholder": "Мысалы: KZ123456789012345678"
+      },
+      "employer_bik": {
+        "label": "Тапсырыс берушінің БИК",
+        "placeholder": "Мысалы: 123456789"
+      },
+      "executor_bank_name": {
+        "label": "Орындаушының банкісі",
+        "placeholder": "Мысалы: «Банк» АҚ"
+      },
+      "executor_iban": {
+        "label": "Орындаушының ИИК (IBAN)",
+        "placeholder": "Мысалы: KZ123456789012345678"
+      },
+      "executor_bik": {
+        "label": "Орындаушының БИК",
+        "placeholder": "Мысалы: 123456789"
+      },
+      "service_name": {
+        "label": "Қызмет атауы",
+        "placeholder": "Мысалы: Консультациялық қызметтер"
+      },
+      "service_location": {
+        "label": "Қызметтер көрсету орны",
+        "placeholder": "Мысалы: Алматы қ., Абай көшесі, 150"
+      },
+      "service_period_text": {
+        "label": "Қызмет көрсету мерзімі",
+        "placeholder": "Мысалы: 12 (он екі) ай"
+      },
+      "contract_end_date": {
+        "label": "Шарттың аяқталу күні",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "services": {
+        "title": "Қызметтер",
+        "label": "Қызметтер",
+        "add": "Қызмет қосу",
+        "item": "Қызмет {{number}}",
+        "name": {
+          "label": "Қызмет атауы",
+          "placeholder": "Мысалы: Консультациялық қызметтер"
+        },
+        "date": {
+          "label": "Көрсету мерзімі",
+          "placeholder": "Күнді таңдаңыз"
+        },
+        "price": {
+          "label": "Төлемге жататын сома (теңге)",
+          "placeholder": "Мысалы: 100000"
+        },
+        "service_name": {
+          "label": "Қызмет атауы",
+          "placeholder": "Мысалы: Консультациялық қызметтер"
+        },
+        "service_date": {
+          "label": "Көрсету мерзімі",
+          "placeholder": "Күнді таңдаңыз"
+        },
+        "service_price": {
+          "label": "Төлемге жататын сома (теңге)",
+          "placeholder": "Мысалы: 100000"
+        }
+      },
+      "save": "Сақтау",
+      "saving": "Сақталуда...",
+      "preview": "Алдын ала қарау",
+      "back": "Қайту",
+      "submit": "Келісімді жіберу",
+      "submitting": "Жіберілуде...",
+      "previewTitle": "Келісімді алдын ала қарау",
+      "close": "Жабу",
+      "createContract": "Келісімді жасау",
+      "updateContract": "Келісімді жаңарту",
+      "creating": "Жасалуда...",
+      "updating": "Жаңартуда...",
+      "errors": {
+        "createFailed": "Келісімді жіберу мүмкін болмады",
+        "updateFailed": "Келісімді жаңарту мүмкін болмады"
+      },
+      "toast": {
+        "success": "Келісім сәтті жасалды",
+        "error": "Келісімді жасау кезінде қате"
+      }
+    },
+    "serviceAgreementMSB": {
+      "title": "Қызмет көрсету шарты",
+      "previewTitle": "Келісімді алдын ала қарау",
+      "contract_city": {
+        "label": "Қала",
+        "placeholder": "Мысалы: Алматы"
+      },
+      "contract_date": {
+        "label": "Келісім күні",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "executor_name": {
+        "label": "Орындаушының атауы",
+        "placeholder": "Мысалы: ТОО Компания"
+      },
+      "executor_representative": {
+        "label": "Орындаушының өкілі",
+        "placeholder": "Мысалы: Иванов Иван Иванович"
+      },
+      "executor_bin": {
+        "label": "Орындаушының БСН",
+        "placeholder": "Мысалы: 123456789012"
+      },
+      "executor_basis": {
+        "label": "Өкілеттік негізі",
+        "placeholder": "Мысалы: Жарғы"
+      },
+      "executor_phone": {
+        "label": "Орындаушының телефоны",
+        "placeholder": "Мысалы: +77771234567"
+      },
+      "executor_iban": {
+        "label": "Орындаушының ИИК (IBAN)",
+        "placeholder": "Мысалы: KZ123456789012345678"
+      },
+      "bank": {
+        "label": "Банк",
+        "placeholder": "Банкті таңдаңыз",
+        "searchPlaceholder": "Атауы немесе БИК бойынша іздеу..."
+      },
+      "contract_amount": {
+        "label": "Келісім сомасы (санмен)",
+        "placeholder": "Мысалы: 200000"
+      },
+      "contract_amount_text": {
+        "label": "Келісім сомасы (сөзбен)",
+        "placeholder": "Мысалы: екі жүз мың"
+      },
+      "services_description": {
+        "label": "Қызметтердің сипаттамасы",
+        "placeholder": "Көрсетілетін қызметтерді сипаттаңыз"
+      },
+      "service_start_date": {
+        "label": "Қызмет көрсетудің басталу күні",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "service_end_date": {
+        "label": "Қызмет көрсетудің аяқталу күні",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "correction_days": {
+        "label": "Кемшіліктерді жою мерзімі (күндер)",
+        "placeholder": "Мысалы: 5"
+      },
+      "payment_days": {
+        "label": "Төлем мерзімі (күндер)",
+        "placeholder": "Мысалы: 10"
+      },
+      "penalty_percent": {
+        "label": "Айыппұл пайызы",
+        "placeholder": "Мысалы: 0.1"
+      },
+      "daily_penalty_percent": {
+        "label": "Күнделікті айыппұл пайызы",
+        "placeholder": "Мысалы: 0.01"
+      },
+      "dispute_resolution_body": {
+        "label": "Дауларды шешу органы",
+        "placeholder": "Мысалы: жауапкершінің орналасқан жері бойынша сот"
+      },
+      "saving": "Сақталуда...",
+      "preview": "Алдын ала қарау",
+      "close": "Жабу",
+      "back": "Қайту",
+      "createContract": "Келісімді жасау",
+      "updateContract": "Келісімді жаңарту",
+      "creating": "Жасалуда...",
+      "updating": "Жаңартуда...",
+      "errors": {
+        "createFailed": "Келісімді жіберу мүмкін болмады",
+        "updateFailed": "Келісімді жаңарту мүмкін болмады"
+      }
+    },
+    "serviceContract": {
+      "title": "Өтеулі қызмет көрсету шарты",
+      "contract_city": {
+        "label": "Қала",
+        "placeholder": "Мысалы: Алматы"
+      },
+      "contract_date": {
+        "label": "Келісім күні",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "signer_type": {
+        "label": "Қол қоюшы түрі",
+        "individual": "Жеке тұлға",
+        "legal_entity": "Заңды тұлға"
+      },
+      "executor_full_name": {
+        "label": "Орындаушының толық аты-жөні",
+        "placeholder": "Мысалы: Иванов Иван Иванович"
+      },
+      "executor_phone": {
+        "label": "Орындаушының телефоны",
+        "placeholder": "Мысалы: +77771234567"
+      },
+      "executor_iin": {
+        "label": "Орындаушының ЖСН",
+        "placeholder": "Мысалы: 123456789012"
+      },
+      "executor_iban": {
+        "label": "Орындаушының ИИК (IBAN)",
+        "placeholder": "Мысалы: KZ123456789012345678"
+      },
+      "signer_phone": {
+        "label": "Қол қоюшының телефоны",
+        "placeholder": "Мысалы: +77771234567"
+      },
+      "signer_iin": {
+        "label": "Қол қоюшының ЖСН",
+        "placeholder": "Мысалы: 123456789012"
+      },
+      "contract_end_date": {
+        "label": "Шарттың аяқталу күні",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "executor_bank_name": {
+        "label": "Орындаушының банкісі",
+        "placeholder": "Мысалы: «Банк» АҚ"
+      },
+      "executor_iban": {
+        "label": "Орындаушының ИИК (IBAN)",
+        "placeholder": "Мысалы: KZ123456789012345678"
+      },
+      "executor_bik": {
+        "label": "Орындаушының БИК",
+        "placeholder": "Мысалы: 123456789"
+      },
+      "bank": {
+        "label": "Банк",
+        "placeholder": "Банкті таңдаңыз",
+        "searchPlaceholder": "Атауы немесе БИК бойынша іздеу..."
+      },
+      "service_name": {
+        "label": "Қызмет атауы",
+        "placeholder": "Мысалы: Консультациялық қызметтер"
+      },
+      "service_location": {
+        "label": "Қызметтер көрсету орны",
+        "placeholder": "Мысалы: Алматы қ., Абай көшесі, 150"
+      },
+      "service_period_text": {
+        "label": "Қызмет көрсету мерзімі",
+        "placeholder": "Мысалы: 12 (он екі) ай"
+      },
+      "services": {
+        "label": "Қызметтер",
+        "add": "Қызмет қосу",
+        "remove": "Жою",
+        "item": "Қызмет {{number}}",
+        "name": {
+          "label": "Қызмет атауы",
+          "placeholder": "Мысалы: Консультациялық қызметтер"
+        },
+        "date": {
+          "label": "Көрсету күні",
+          "placeholder": "Күнді таңдаңыз"
+        },
+        "price": {
+          "label": "Құны (теңге)",
+          "placeholder": "Мысалы: 100000"
+        }
+      },
+      "executor_name": {
+        "label": "Орындаушының атауы",
+        "placeholder": "Мысалы: «Компания» ЖШС"
+      },
+      "executor_representative": {
+        "label": "Орындаушының өкілі",
+        "placeholder": "Мысалы: Иванов Иван Иванович"
+      },
+      "executor_basis": {
+        "label": "Орындаушының өкілеттігінің негізі",
+        "placeholder": "Мысалы: Жарғы"
+      },
+      "services_description": {
+        "label": "Қызметтер сипаттамасы",
+        "placeholder": "Мысалы: Консультациялық қызметтер..."
+      },
+      "service_start_date": {
+        "label": "Қызмет көрсету басталу күні",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "service_end_date": {
+        "label": "Қызмет көрсету аяқталу күні",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "correction_days": {
+        "label": "Кемшіліктерді жою мерзімі (күн)",
+        "placeholder": "Мысалы: 5"
+      },
+      "payment_days": {
+        "label": "Төлем мерзімі (күн)",
+        "placeholder": "Мысалы: 10"
+      },
+      "contract_amount": {
+        "label": "Шарт сомасы (санмен)",
+        "placeholder": "Мысалы: 200000"
+      },
+      "contract_amount_text": {
+        "label": "Шарт сомасы (сөзбен)",
+        "placeholder": "Мысалы: екі жүз мың"
+      },
+      "penalty_percent": {
+        "label": "Айыппұл пайызы",
+        "placeholder": "Мысалы: 0.1"
+      },
+      "daily_penalty_percent": {
+        "label": "Күн сайынғы айыппұл пайызы",
+        "placeholder": "Мысалы: 0.01"
+      },
+      "dispute_resolution_body": {
+        "label": "Дау қарайтын орган",
+        "placeholder": "Мысалы: жауап берушінің орналасқан жеріндегі сот"
+      },
+      "save": "Сақтау",
+      "saving": "Сақталуда...",
+      "preview": "Алдын ала қарау",
+      "back": "Қайту",
+      "submit": "Келісімді жіберу",
+      "submitting": "Жіберілуде...",
+      "previewTitle": "Келісімді алдын ала қарау",
+      "close": "Жабу",
+      "createContract": "Келісімді жасау",
+      "updateContract": "Келісімді жаңарту",
+      "creating": "Жасалуда...",
+      "updating": "Жаңартуда...",
+      "errors": {
+        "createFailed": "Келісімді жіберу мүмкін болмады",
+        "updateFailed": "Келісімді жаңарту мүмкін болмады"
+      },
+      "toast": {
+        "success": "Келісім сәтті жасалды",
+        "error": "Келісімді жасау кезінде қате"
+      }
+    },
+    "supplyContract": {
+      "title": "Тауар жеткізу келісімі",
+      "contract_city": {
+        "label": "Қала",
+        "placeholder": "Мысалы: Алматы"
+      },
+      "contract_date": {
+        "label": "Келісім күні",
+        "placeholder": "Күнді таңдаңыз"
+      },
+      "supplier_name": {
+        "label": "Жеткізушінің атауы",
+        "placeholder": "Мысалы: «Компания» ЖШС"
+      },
+      "supplier_representative": {
+        "label": "Жеткізушінің өкілі",
+        "placeholder": "Мысалы: Иванов Иван Иванович"
+      },
+      "supplier_basis": {
+        "label": "Жеткізушінің өкілеттігінің негізі",
+        "placeholder": "Мысалы: Жарғы"
+      },
+      "supplier_phone": {
+        "label": "Жеткізушінің телефоны",
+        "placeholder": "Мысалы: +77771234567"
+      },
+      "supplier_bin": {
+        "label": "Жеткізушінің БСН",
+        "placeholder": "Мысалы: 123456789012"
+      },
+      "supplier_iban": {
+        "label": "Жеткізушінің ИИК (IBAN)",
+        "placeholder": "Мысалы: KZ123456789012345678"
+      },
+      "bank": {
+        "label": "Банк",
+        "placeholder": "Банкті таңдаңыз",
+        "searchPlaceholder": "Атауы немесе БИК бойынша іздеу..."
+      },
+      "delivery_address": {
+        "label": "Жеткізу мекен-жайы",
+        "placeholder": "Мысалы: Алматы қ., Абай көшесі, 150"
+      },
+      "delivery_days": {
+        "label": "Жеткізу мерзімі (күн)",
+        "placeholder": "Мысалы: 10"
+      },
+      "delivery_days_text": {
+        "label": "Жеткізу мерзімі (сөзбен)",
+        "placeholder": "Мысалы: он"
+      },
+      "total_amount": {
+        "label": "Жалпы шарт сомасы (санмен)",
+        "placeholder": "Мысалы: 500000"
+      },
+      "total_amount_text": {
+        "label": "Жалпы шарт сомасы (сөзбен)",
+        "placeholder": "Мысалы: бес жүз мың"
+      },
+      "payment_days": {
+        "label": "Төлем мерзімі (күн)",
+        "placeholder": "Мысалы: 5"
+      },
+      "payment_days_text": {
+        "label": "Төлем мерзімі (сөзбен)",
+        "placeholder": "Мысалы: бес"
+      },
+      "warranty_months": {
+        "label": "Кепілдік (ай)",
+        "placeholder": "Мысалы: 12"
+      },
+      "court_location": {
+        "label": "Дау қарайтын орын",
+        "placeholder": "Мысалы: Алматы қ."
+      },
+      "product_name": {
+        "label": "Тауар атауы",
+        "placeholder": "Мысалы: Жабдық"
+      },
+      "product_model": {
+        "label": "Модель",
+        "placeholder": "Мысалы: Model-2024"
+      },
+      "product_manufacturer": {
+        "label": "Өндіруші",
+        "placeholder": "Мысалы: Компания-Өндіруші"
+      },
+      "product_power": {
+        "label": "Қуат / өнімділік",
+        "placeholder": "Мысалы: 1000 Вт"
+      },
+      "product_voltage": {
+        "label": "Қоректендіру / кернеу",
+        "placeholder": "Мысалы: 220 В"
+      },
+      "product_material": {
+        "label": "Материал / орындалу",
+        "placeholder": "Мысалы: Металл"
+      },
+      "product_package": {
+        "label": "Комплект",
+        "placeholder": "Мысалы: Толық комплект"
+      },
+      "product_size": {
+        "label": "Габариттік өлшемдер",
+        "placeholder": "Мысалы: 100x50x30 см"
+      },
+      "product_weight": {
+        "label": "Салмақ",
+        "placeholder": "Мысалы: 25 кг"
+      },
+      "product_quantity": {
+        "label": "Саны",
+        "placeholder": "Мысалы: 1"
+      },
+      "product_unit_price": {
+        "label": "Бірлік бағасы (теңге)",
+        "placeholder": "Мысалы: 500000"
+      },
+      "product_total_price": {
+        "label": "Жалпы құны (теңге)",
+        "placeholder": "Мысалы: 500000"
+      },
+      "product_warranty_months": {
+        "label": "Кепілдік (ай)",
+        "placeholder": "Мысалы: 12"
+      },
+      "product_delivery_place": {
+        "label": "Жеткізу орны",
+        "placeholder": "Мысалы: Алматы қ., Абай көшесі, 150"
+      },
+      "product_warranty_term": {
+        "label": "Кепілдік мерзімі (санмен)",
+        "placeholder": "Мысалы: 12"
+      },
+      "save": "Сақтау",
+      "saving": "Сақталуда...",
+      "preview": "Алдын ала қарау",
+      "back": "Қайту",
+      "submit": "Келісімді жіберу",
+      "submitting": "Жіберілуде...",
+      "previewTitle": "Келісімді алдын ала қарау",
+      "close": "Жабу",
+      "createContract": "Келісімді жасау",
+      "updateContract": "Келісімді жаңарту",
+      "creating": "Жасалуда...",
+      "updating": "Жаңартуда...",
+      "errors": {
+        "createFailed": "Келісімді жіберу мүмкін болмады",
+        "updateFailed": "Келісімді жаңарту мүмкін болмады"
+      },
+      "toast": {
+        "success": "Келісім сәтті жасалды",
+        "error": "Келісімді жасау кезінде қате"
+      }
+    }
+  },
+  "validation": {
+    "legal": {
+      "city_required": "Қала міндетті",
+      "date_required": "Күн міндетті",
+      "lessor_name_required": "Жалдаушының атауы міндетті",
+      "lessor_representative_required": "Жалдаушының өкілі міндетті",
+      "lessor_basis_required": "Жалдаушының өкілеттігінің негізі міндетті",
+      "rental_term_text_required": "Жалға алу мерзімі міндетті",
+      "rental_amount_required": "Жалға алу сомасы міндетті",
+      "rental_amount_invalid": "Жалға алу сомасы тек сандарды қамтуы керек",
+      "rental_amount_text_required": "Жалға алу құны сөзбен міндетті",
+      "car_brand_required": "Автокөлік маркасы міндетті",
+      "car_year_required": "Жыл міндетті",
+      "car_year_invalid": "Жыл тек сандарды қамтуы керек",
+      "car_vin_required": "VIN нөмірі міндетті",
+      "car_plate_required": "Мемлекеттік нөмір міндетті",
+      "car_color_required": "Автокөлік түсі міндетті",
+      "lessor_phone_required": "Жалдаушының телефоны міндетті",
+      "lessor_phone_invalid": "Телефон +7XXXXXXXXXX форматында болуы керек",
+      "lessor_bin_required": "Жалдаушының БСН міндетті",
+      "lessor_bin_invalid": "БСН 12 саннан тұруы керек",
+      "lessor_iban_required": "Жалдаушының ИИК міндетті",
+      "lessor_bank_name_required": "Жалдаушының банкісі міндетті",
+      "lessor_bank_bik_required": "Жалдаушының банкісінің БИК міндетті",
+      "premise_area_required": "Үй-жай ауданы міндетті",
+      "premise_area_invalid": "Үй-жай ауданы тек сандарды қамтуы керек",
+      "premise_address_required": "Үй-жай мекен-жайы міндетті",
+      "premise_usage_purpose_required": "Пайдалану мақсаты міндетті",
+      "rental_start_date_required": "Жалға алу басталу күні міндетті",
+      "rental_end_date_required": "Жалға алу аяқталу күні міндетті",
+      "first_month_payment_deadline_required": "Бірінші ай үшін төлем мерзімі міндетті",
+      "executor_full_name_required": "Орындаушының толық аты-жөні міндетті",
+      "contract_amount_required": "Шарт сомасы міндетті",
+      "contract_amount_invalid": "Шарт сомасы тек сандарды қамтуы керек",
+      "contract_kk_date_required": "Келісім күні (қазақша) міндетті",
+      "contract_ru_date_required": "Келісім күні (орысша) міндетті",
+      "contract_amount_kk_text_required": "Шарт сомасы сөзбен (қазақша) міндетті",
+      "contract_amount_ru_text_required": "Шарт сомасы сөзбен (орысша) міндетті",
+      "executor_phone_required": "Орындаушының телефоны міндетті",
+      "executor_phone_invalid": "Телефон +7XXXXXXXXXX форматында болуы керек",
+      "executor_iin_required": "Орындаушының ЖСН міндетті",
+      "executor_iin_invalid": "ЖСН 12 саннан тұруы керек",
+      "employer_bank_name_required": "Тапсырыс берушінің банкісі міндетті",
+      "employer_iban_required": "Тапсырыс берушінің ИИК міндетті",
+      "employer_bik_required": "Тапсырыс берушінің БИК міндетті",
+      "executor_bank_name_required": "Орындаушының банкісі міндетті",
+      "executor_iban_required": "Орындаушының ИИК міндетті",
+      "executor_bank_bik_required": "Орындаушының банкісінің БИК міндетті",
+      "service_name_required": "Қызмет атауы міндетті",
+      "service_location_required": "Қызметтер көрсету орны міндетті",
+      "service_period_text_required": "Қызмет көрсету мерзімі міндетті",
+      "contract_end_date_required": "Шарттың аяқталу күні міндетті",
+      "service_date_required": "Көрсету мерзімі міндетті",
+      "service_price_required": "Төлемге жататын сома міндетті",
+      "service_price_invalid": "Төлемге жататын сома тек сандарды қамтуы керек",
+      "service_item_name_required": "Қызмет атауы міндетті",
+      "service_item_date_required": "Қызмет көрсету мерзімі міндетті",
+      "service_item_price_required": "Төлемге жататын сома міндетті",
+      "services_required": "Кем дегенде бір қызмет қосу қажет",
+      "services_min_one": "Кем дегенде бір қызмет қосу қажет",
+      "services_min_one_required": "Кем дегенде бір қызмет қосу қажет",
+      "services_max_three": "Ең көбі 3 қызмет",
+      "signer_type_required": "Қол қоюшы түрі міндетті",
+      "signer_phone_required": "Қол қоюшының телефоны міндетті",
+      "signer_phone_invalid": "Телефон +7XXXXXXXXXX форматында болуы керек",
+      "signer_iin_required": "Қол қоюшының ЖСН міндетті",
+      "signer_iin_invalid": "ЖСН 12 саннан тұруы керек",
+      "contract_end_kk_date_required": "Шарттың аяқталу күні (қазақша) міндетті",
+      "contract_end_ru_date_required": "Шарттың аяқталу күні (орысша) міндетті",
+      "executor_name_required": "Орындаушының атауы міндетті",
+      "executor_representative_required": "Орындаушының өкілі міндетті",
+      "executor_basis_required": "Орындаушының өкілеттігінің негізі міндетті",
+      "executor_iban_required": "Орындаушының ИИК міндетті",
+      "executor_bank_name_required": "Орындаушының банкісі міндетті",
+      "executor_bank_bik_required": "Орындаушының банкісінің БИК міндетті",
+      "services_description_required": "Қызметтер сипаттамасы міндетті",
+      "service_start_date_required": "Қызмет көрсету басталу күні міндетті",
+      "service_end_date_required": "Қызмет көрсету аяқталу күні міндетті",
+      "correction_days_required": "Кемшіліктерді жою мерзімі міндетті",
+      "correction_days_invalid": "Кемшіліктерді жою мерзімі тек сандарды қамтуы керек",
+      "payment_days_required": "Төлем мерзімі міндетті",
+      "payment_days_invalid": "Төлем мерзімі тек сандарды қамтуы керек",
+      "contract_amount_text_required": "Шарт сомасы сөзбен міндетті",
+      "penalty_percent_required": "Айыппұл пайызы міндетті",
+      "penalty_percent_invalid": "Айыппұл пайызы тек сандарды қамтуы керек",
+      "daily_penalty_percent_required": "Күн сайынғы айыппұл пайызы міндетті",
+      "daily_penalty_percent_invalid": "Күн сайынғы айыппұл пайызы тек сандарды қамтуы керек",
+      "dispute_resolution_body_required": "Дау қарайтын орган міндетті",
+      "supplier_name_required": "Жеткізушінің атауы міндетті",
+      "supplier_representative_required": "Жеткізушінің өкілі міндетті",
+      "supplier_basis_required": "Жеткізушінің өкілеттігінің негізі міндетті",
+      "supplier_phone_required": "Жеткізушінің телефоны міндетті",
+      "supplier_phone_invalid": "Телефон +7XXXXXXXXXX форматында болуы керек",
+      "supplier_bin_required": "Жеткізушінің БСН міндетті",
+      "supplier_bin_invalid": "БСН 12 саннан тұруы керек",
+      "supplier_iban_required": "Жеткізушінің ИИК міндетті",
+      "supplier_bank_name_required": "Жеткізушінің банкісі міндетті",
+      "supplier_bank_bik_required": "Жеткізушінің банкісінің БИК міндетті",
+      "delivery_address_required": "Жеткізу мекен-жайы міндетті",
+      "delivery_days_required": "Жеткізу мерзімі міндетті",
+      "delivery_days_invalid": "Жеткізу мерзімі тек сандарды қамтуы керек",
+      "delivery_days_text_required": "Жеткізу мерзімі сөзбен міндетті",
+      "total_amount_required": "Жалпы шарт сомасы міндетті",
+      "total_amount_invalid": "Жалпы шарт сомасы тек сандарды қамтуы керек",
+      "total_amount_text_required": "Жалпы шарт сомасы сөзбен міндетті",
+      "payment_days_text_required": "Төлем мерзімі сөзбен міндетті",
+      "warranty_months_required": "Кепілдік міндетті",
+      "warranty_months_invalid": "Кепілдік тек сандарды қамтуы керек",
+      "court_location_required": "Дау қарайтын орын міндетті",
+      "product_name_required": "Тауар атауы міндетті",
+      "product_model_required": "Модель міндетті",
+      "product_manufacturer_required": "Өндіруші міндетті",
+      "product_power_required": "Қуат / өнімділік міндетті",
+      "product_voltage_required": "Қоректендіру / кернеу міндетті",
+      "product_material_required": "Материал / орындалу міндетті",
+      "product_package_required": "Комплект міндетті",
+      "product_size_required": "Габариттік өлшемдер міндетті",
+      "product_weight_required": "Салмақ міндетті",
+      "product_quantity_required": "Саны міндетті",
+      "product_quantity_invalid": "Саны тек сандарды қамтуы керек",
+      "product_unit_price_required": "Бірлік бағасы міндетті",
+      "product_unit_price_invalid": "Бірлік бағасы тек сандарды қамтуы керек",
+      "product_total_price_required": "Жалпы құны міндетті",
+      "product_total_price_invalid": "Жалпы құны тек сандарды қамтуы керек",
+      "product_warranty_months_required": "Тауар кепілдігі міндетті",
+      "product_warranty_months_invalid": "Тауар кепілдігі тек сандарды қамтуы керек",
+      "product_delivery_place_required": "Жеткізу орны міндетті",
+      "product_warranty_term_required": "Кепілдік мерзімі міндетті"
+    }
+  },
+  "messages": {
+    "loading": "Жүктелуде..."
+  },
+  "prompt": {
+    "ok": "OK"
+  }
+}
+

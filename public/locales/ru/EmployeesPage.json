@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "title": "Сотрудники — Кадры | SEN Group",
+    "description": "Список сотрудников в системе управления SEN Group."
+  },
+  "header": {
+    "title": "Сотрудники",
+    "download": "Скачать",
+    "downloadPdf": "Скачать как PDF",
+    "downloadCsv": "Скачать как CSV",
+    "newEmployee": "Новый сотрудник"
+  },
+  "breadcrumbs": {
+    "hr": "Кадры",
+    "employees": "Сотрудники"
+  },
+  "summary": {
+    "totalEmployees": "Количество участников",
+    "activeEmployees": "Активные сотрудники",
+    "fund": "Фонд оплаты труда",
+    "compareWithLastMonth": "по сравнению с прошлым месяцем"
+  },
+  "filters": {
+    "searchPlaceholder": "Введите имя, ИИН или должность",
+    "position": "Должность",
+    "department": "Отдел",
+    "hireDate": "Дата найма",
+    "status": "Статус",
+    "reset": "Сбросить",
+    "all": "Все"
+  },
+  "table": {
+    "fullName": "Сотрудник",
+    "email": "Почта",
+    "iin": "ИИН",
+    "hireDate": "Дата найма",
+    "position": "Должность",
+    "department": "Отдел",
+    "salary": "Зарплата",
+    "status": "Статус",
+    "actions": "Действия"
+  },
+  "status": {
+    "active": "Активен",
+    "vacation": "В отпуске",
+    "sick": "На больничном",
+    "medical_leave": "На больничном",
+    "unpaid": "Без содержания",
+    "inactive": "Неактивен",
+    "businessTrip": "Командировка",
+    "resigned": "Уволен"
+  },
+  "view": {
+    "table": "Таблица",
+    "cards": "Галерея"
+  },
+  "cards": {
+    "hireDate": "Дата найма",
+    "salary": "Зарплата",
+    "downloadProfile": "Скачать личный листок сотрудника"
+  },
+  "messages": {
+    "error": "Ошибка загрузки сотрудников",
+    "noResults": "Сотрудники не найдены",
+    "downloadingProfile": "Скачивание профиля",
+    "errorTitle": "Ошибка",
+    "downloadFailed": "Ошибка при скачивании",
+    "loading": "Загрузка...",
+    "waitingForDownload": "Пожалуйста дождитесь скачивание файла"
+  },
+  "actions": {
+    "sendOnLeave": "Отправить на отпуск",
+    "sendOnSickLeave": "Отправить на больничный",
+    "terminateContract": "Разорвать контракт",
+    "modifyContract": "Внести изменения в договор"
+  },
+  "leaveForm": {
+    "title": "Отправить сотрудника в отпуск",
+    "subtitle": "Заполните форму для создания заявления на отпуск",
+    "annual": "Трудовой отпуск",
+    "unpaid": "Без содержания",
+    "medical": "На больничном",
+    "start_date": {
+      "label": "Дата начала",
+      "placeholder": "Выберите дату начала",
+      "error": {
+        "required": "Укажите дату начала отпуска",
+        "invalid": "Некорректная дата",
+        "past": "Дата начала не может быть в прошлом"
+      }
+    },
+    "end_date": {
+      "label": "Дата окончания",
+      "placeholder": "Выберите дату окончания",
+      "error": {
+        "required": "Укажите дату окончания отпуска",
+        "invalid": "Некорректная дата",
+        "before_start": "Дата окончания должна быть позже даты начала"
+      }
+    },
+    "reason": {
+      "label": "Причина",
+      "placeholder": "Укажите причину отпуска",
+      "error": {
+        "required": "Причина обязательна для неоплачиваемого отпуска"
+      }
+    },
+    "approval_resolution": {
+      "label": "Решение руководителя",
+      "placeholder": "Выберите решение",
+      "approved": "Согласовано",
+      "recommend": "Ходатайствую",
+      "no_objection": "Не возражаю"
+    },
+    "diagnosis": {
+      "label": "Диагноз",
+      "placeholder": "Укажите диагноз (необязательно)"
+    },
+    "cancel": "Отмена",
+    "continue": "Продолжить",
+    "loading": "Загрузка...",
+    "successTitle": "Успешно",
+    "successText": "Заявление на отпуск успешно создано",
+    "medicalForm": {
+      "title": "Отправить сотрудника на больничный",
+      "subtitle": "Заполните форму для создания заявления на больничный"
+    },
+    "editForm": {
+      "title": "Редактирование отпуска",
+      "subtitle": "Измените данные заявления на отпуск",
+      "successTitle": "Успешно",
+      "successText": "Заявление на отпуск успешно обновлено",
+      "errorTitle": "Ошибка",
+      "errorText": "Не удалось обновить заявление на отпуск",
+      "save": "Обновить заявление",
+      "loading": "Сохранение..."
+    }
+  },
+  "resignationForm": {
+    "title": "Разорвать контракт",
+    "subtitle": "Заполните форму для создания заявления на увольнение",
+    "errorTitle": "Ошибка",
+    "createError": "Не удалось создать заявление",
+    "last_working_day": {
+      "label": "Последний рабочий день",
+      "placeholder": "Выберите дату",
+      "error": {
+        "required": "Укажите последний рабочий день",
+        "past": "Дата должна быть в будущем"
+      }
+    },
+    "approval_resolution": {
+      "label": "Решение руководителя",
+      "placeholder": "Выберите решение",
+      "approved_with_1month": "Согласовано с отработкой",
+      "approved": "Согласовано",
+      "no_objection": "Не возражаю"
+    },
+    "cancel": "Отмена",
+    "continue": "Продолжить",
+    "loading": "Загрузка...",
+    "successTitle": "Успешно",
+    "successText": "Заявление на увольнение успешно создано"
+  },
+  "resignationPreview": {
+    "title": "Предпросмотр заявления"
+  },
+  "prompt": {
+    "ok": "ОК"
+  }
+}

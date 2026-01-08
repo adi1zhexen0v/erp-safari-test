@@ -1,0 +1,47 @@
+.text-body-bold-lg {
+  @apply font-bold text-base leading-5 tracking-[-0.003em]
+         md:text-base md:leading-5 md:tracking-[-0.003em]
+         xl:text-lg xl:leading-6 xl:tracking-[-0.005em];
+}
+
+.text-body-bold-md {
+  @apply font-bold text-sm leading-4.5 tracking-[-0.003em]
+         md:text-sm md:leading-4.5 md:tracking-[-0.003em]
+         xl:text-base xl:leading-5 xl:tracking-[-0.005em];
+}
+
+.text-body-bold-sm {
+  @apply font-bold text-xs leading-4 tracking-[0em]
+         md:text-xs md:leading-4 md:tracking-[0em]
+         xl:text-sm xl:leading-4.5 xl:tracking-[-0.003em];
+}
+
+.text-body-bold-xs {
+  @apply font-bold text-[0.625rem] leading-3.5 tracking-[0em]
+         md:text-[0.625rem] md:leading-3.5 md:tracking-[0em]
+         xl:text-xs xl:leading-4 xl:tracking-[-0.003em];
+}
+
+.text-body-regular-lg {
+  @apply font-normal text-base leading-5 tracking-[-0.003em]
+         md:text-base md:leading-5 md:tracking-[-0.003em]
+         xl:text-lg xl:leading-6 xl:tracking-[-0.005em];
+}
+
+.text-body-regular-md {
+  @apply font-normal text-sm leading-4.5 tracking-[0em]
+         md:text-sm md:leading-4.5 md:tracking-[-0.003em]
+         xl:text-base xl:leading-5 xl:tracking-[0em];
+}
+
+.text-body-regular-sm {
+  @apply font-normal text-xs leading-4 tracking-[0em]
+         md:text-xs md:leading-4 md:tracking-[0em]
+         xl:text-sm xl:leading-4.5 xl:tracking-[0em];
+}
+
+.text-body-regular-xs {
+  @apply font-normal text-[0.625rem] leading-3.5 tracking-[0em]
+         md:text-[0.625rem] md:leading-3.5 md:tracking-[0em]
+         xl:text-xs xl:leading-4 xl:tracking-[-0.003em];
+}

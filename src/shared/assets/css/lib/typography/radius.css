@@ -1,0 +1,39 @@
+.radius-3xs {
+  border-radius: 0.125rem; /* 2px */
+}
+
+.radius-2xs {
+  border-radius: 0.25rem; /* 4px */
+}
+
+.radius-xs {
+  border-radius: 0.5rem; /* 8px */
+}
+
+.radius-sm {
+  border-radius: 0.75rem; /* 12px */
+}
+
+.radius-md {
+  border-radius: 1rem; /* 16px */
+}
+
+.radius-lg {
+  border-radius: 1.25rem; /* 20px */
+}
+
+.radius-xl {
+  border-radius: 1.5rem; /* 24px */
+}
+
+.radius-2xl {
+  border-radius: 1.75rem; /* 28px */
+}
+
+.radius-3xl {
+  border-radius: 2rem; /* 32px */
+}
+
+.radius-full {
+  border-radius: 624.9375rem; /* 9999px */
+}

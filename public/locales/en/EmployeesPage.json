@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "title": "Employees — HR | SEN Group",
+    "description": "List of employees in the SEN Group management system."
+  },
+  "header": {
+    "title": "Employees",
+    "download": "Download",
+    "downloadPdf": "Download as PDF",
+    "downloadCsv": "Download as CSV",
+    "newEmployee": "New Employee"
+  },
+  "breadcrumbs": {
+    "hr": "HR",
+    "employees": "Employees"
+  },
+  "summary": {
+    "totalEmployees": "Total employees",
+    "activeEmployees": "Active employees",
+    "fund": "Payroll fund",
+    "compareWithLastMonth": "compared to last month"
+  },
+  "filters": {
+    "searchPlaceholder": "Enter name, IIN, or position",
+    "position": "Position",
+    "department": "Department",
+    "hireDate": "Hire Date",
+    "status": "Status",
+    "reset": "Reset",
+    "all": "All"
+  },
+  "table": {
+    "fullName": "Employee",
+    "email": "Email",
+    "iin": "IIN",
+    "hireDate": "Hire Date",
+    "position": "Position",
+    "department": "Department",
+    "salary": "Salary",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "status": {
+    "active": "Active",
+    "vacation": "On vacation",
+    "sick": "Sick leave",
+    "medical_leave": "Sick leave",
+    "unpaid": "Unpaid leave",
+    "inactive": "Inactive",
+    "businessTrip": "Business trip",
+    "resigned": "Resigned"
+  },
+  "view": {
+    "table": "Table View",
+    "cards": "Grid View"
+  },
+  "cards": {
+    "hireDate": "Hire Date",
+    "salary": "Salary",
+    "downloadProfile": "Download Employee Personal Record"
+  },
+  "messages": {
+    "error": "Error loading employees",
+    "noResults": "No employees found",
+    "downloadingProfile": "Downloading profile",
+    "errorTitle": "Error",
+    "downloadFailed": "Error downloading",
+    "loading": "Loading...",
+    "waitingForDownload": "Please wait for the file to download"
+  },
+  "actions": {
+    "sendOnLeave": "Send on Leave",
+    "sendOnSickLeave": "Send on Sick Leave",
+    "terminateContract": "Terminate Contract",
+    "modifyContract": "Modify Contract"
+  },
+  "leaveForm": {
+    "title": "Send Employee on Leave",
+    "subtitle": "Fill out the form to create a leave application",
+    "annual": "Annual Leave",
+    "unpaid": "Unpaid Leave",
+    "medical": "Medical Leave",
+    "start_date": {
+      "label": "Start Date",
+      "placeholder": "Select start date",
+      "error": {
+        "required": "Please specify the leave start date",
+        "invalid": "Invalid date",
+        "past": "Start date cannot be in the past"
+      }
+    },
+    "end_date": {
+      "label": "End Date",
+      "placeholder": "Select end date",
+      "error": {
+        "required": "Please specify the leave end date",
+        "invalid": "Invalid date",
+        "before_start": "End date must be after start date"
+      }
+    },
+    "reason": {
+      "label": "Reason",
+      "placeholder": "Specify the reason for leave",
+      "error": {
+        "required": "Reason is required for unpaid leave"
+      }
+    },
+    "approval_resolution": {
+      "label": "Manager's Resolution",
+      "placeholder": "Select resolution",
+      "approved": "Approved",
+      "recommend": "Recommended",
+      "no_objection": "No Objection"
+    },
+    "diagnosis": {
+      "label": "Diagnosis",
+      "placeholder": "Specify diagnosis (optional)"
+    },
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "loading": "Loading...",
+    "successTitle": "Success",
+    "successText": "Leave application created successfully",
+    "medicalForm": {
+      "title": "Send Employee on Sick Leave",
+      "subtitle": "Fill out the form to create a medical leave application"
+    },
+    "editForm": {
+      "title": "Edit Leave",
+      "subtitle": "Modify leave application data",
+      "successTitle": "Success",
+      "successText": "Leave application updated successfully",
+      "errorTitle": "Error",
+      "errorText": "Failed to update leave application",
+      "save": "Update Application",
+      "loading": "Saving..."
+    }
+  },
+  "resignationForm": {
+    "title": "Terminate Contract",
+    "subtitle": "Fill out the form to create a resignation letter",
+    "errorTitle": "Error",
+    "createError": "Failed to create application",
+    "last_working_day": {
+      "label": "Last Working Day",
+      "placeholder": "Select date",
+      "error": {
+        "required": "Please specify the last working day",
+        "past": "Date must be in the future"
+      }
+    },
+    "approval_resolution": {
+      "label": "Manager's Resolution",
+      "placeholder": "Select resolution",
+      "approved_with_1month": "Approved with notice period",
+      "approved": "Approved",
+      "no_objection": "No Objection"
+    },
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "loading": "Loading...",
+    "successTitle": "Success",
+    "successText": "Resignation letter created successfully"
+  },
+  "resignationPreview": {
+    "title": "Preview Application"
+  },
+  "prompt": {
+    "ok": "OK"
+  }
+}

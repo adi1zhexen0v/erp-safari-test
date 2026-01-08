@@ -1,0 +1,43 @@
+{
+  "main": "Главная",
+  "home": "Главная",
+
+  "social": "Социальный эффект",
+  "impact": "Воздействие",
+
+  "workflows": "Рабочие процессы",
+  "requests": "Заявки",
+  "projects": "Проекты",
+  "socialBank": "Социальный банк",
+
+  "finance": "Финансовые процессы",
+  "accounting": "Бухгалтерия",
+  "accounting.timesheets": "Табели",
+  "accounting.payrolls": "Расчёт зарплаты",
+  "financePage": "Финансы",
+
+  "legal": "Правовая поддержка",
+  "legal.help": "Юридическая помощь",
+  "legal.consultation": "Консультация",
+  "legal.templates": "Шаблоны",
+  "legal.cases": "Правовые дела",
+  "legal.applications": "Созданные документы",
+
+  "people": "Люди и взаимодействие",
+  "tasks": "Задачи",
+  "hr": "Кадры",
+
+  "hr.employees": "Сотрудники",
+  "hr.hiring": "Процесс найма",
+  "hr.contracts": "Трудовые договоры",
+  "hr.vacations": "Отпуска",
+
+  "team": "Команда",
+
+  "support": "Поддержка",
+  "settings": "Настройки",
+  "supportCenter": "Служба поддержки",
+
+  "logout": "Выйти",
+  "logout.loading": "Выход..."
+}

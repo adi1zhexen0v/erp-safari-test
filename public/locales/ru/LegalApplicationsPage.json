@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "title": "Созданные документы — Юридическая помощь | SEN Group",
+    "description": "Созданные документы в системе управления SEN Group."
+  },
+  "breadcrumbs": {
+    "legal": "Юридическая помощь",
+    "applications": "Созданные документы"
+  },
+  "header": {
+    "title": "Созданные документы",
+    "newForm": "Записаться на консультацию"
+  },
+  "filters": {
+    "searchPlaceholder": "Поиск...",
+    "createdDate": "Дата создания",
+    "status": "Статус",
+    "documentType": "Тип документа",
+    "reset": "Сбросить",
+    "documentTypes": {
+      "vehicleRental": "Договор аренды ТС",
+      "premisesLease": "Договор аренды помещения",
+      "serviceAgreementIndividual": "Договор на оказание услуг",
+      "serviceAgreementMSB": "Договор на оказание услуг",
+      "goodsSupply": "Договор поставки товаров",
+      "vehicleHandover": "Акт к Договору аренды транспортного средства",
+      "premisesHandover": "Акт к Договору аренды нежилого помещения"
+    },
+    "statuses": {
+      "draft": "Черновик",
+      "signed": "Подписан",
+      "pendingSigning": "Ожидает подписания"
+    }
+  },
+  "cards": {
+    "supplier": "Поставщик",
+    "lessor": "Арендодатель",
+    "vehicle": "Транспортное средство",
+    "rentalAmount": "Сумма аренды",
+    "rentalTerm": "Срок аренды",
+    "premise": "Помещение",
+    "area": "Площадь",
+    "executor": "Исполнитель",
+    "service": "Услуга",
+    "contractAmount": "Сумма договора",
+    "product": "Товар",
+    "totalAmount": "Общая сумма",
+    "parentContract": "Родительский договор",
+    "actDate": "Дата составления акта",
+    "createdAt": "Дата создания",
+    "edit": "Редактировать",
+    "preview": "Предпросмотр договора",
+    "download": "Скачать договор",
+    "downloadDraft": "Скачать черновик DOCX",
+    "downloadPDF": "Скачать PDF",
+    "downloading": "Скачивание...",
+    "submitForSigning": "Отправить на подписание",
+    "submitting": "Отправка...",
+    "createAct": "Составить акт приема-передачи",
+    "creating": "Создание...",
+    "handoverActPrefix": "Акт приема-передачи",
+    "handoverActTo": "приема-передачи к",
+    "actsCount": "Количество актов",
+    "documents": "Документы",
+    "documentPrefix": "Документ",
+    "vehicleInfo": "Информация о транспорте",
+    "withPlateNumber": "с гос.номером",
+    "premiseAddress": "Адрес помещения",
+    "squareMeters": "кв.м",
+    "serviceLocation": "Место оказания услуг",
+    "representative": "Представитель",
+    "servicesDescription": "Описание услуг",
+    "servicePeriod": "Период оказания услуг",
+    "model": "Модель",
+    "manufacturer": "Производитель",
+    "pieces": "шт.",
+    "deliveryAddress": "Адрес доставки",
+    "parentContractStatus": "Статус родительского договора",
+    "vehicleRentalContract": "Договор аренды ТС",
+    "premisesRentalContract": "Договор аренды помещения",
+    "previewContract": "Предпросмотр договора",
+    "previewAct": "Предпросмотр акта",
+    "delete": "Удалить",
+    "deleting": "Удаление..."
+  },
+  "modals": {
+    "createActTitle": "Создание акта приема-передачи",
+    "actDate": "Дата составления акта",
+    "selectDate": "Выберите дату акта",
+    "cancel": "Закрыть",
+    "close": "Закрыть",
+    "create": "Создать",
+    "creating": "Создание...",
+    "createAct": {
+      "title": "Создание акта приема-передачи",
+      "datePlaceholder": "Выберите дату акта",
+      "dateLabel": "Дата составления акта",
+      "cancel": "Отмена",
+      "confirm": "Создать",
+      "creating": "Создание..."
+    }
+  },
+  "messages": {
+    "loading": "Загрузка...",
+    "waitingForDownload": "Пожалуйста дождитесь скачивание файла",
+    "noResults": "Нет результатов",
+    "noData": "Нет данных",
+    "error": "Произошла ошибка при загрузке документов",
+    "errorTitle": "Ошибка",
+    "editNotSupported": "Редактирование для этого типа документа пока не поддерживается",
+    "submitFailed": "Не удалось отправить на подписание",
+    "downloadFailed": "Ошибка при скачивании",
+    "handoverFailed": "Не удалось создать акт приема-передачи",
+    "actExistsTitle": "Внимание",
+    "actExistsText": "Для данного договора уже существует составленный акт приема-передачи. Вы уверены, что хотите создать еще один акт?",
+    "confirm": "Подтвердить",
+    "cancel": "Отмена",
+    "submitSuccessTitle": "Успешно",
+    "submitSuccessText": "Договор успешно отправлен на подписание",
+    "createActSuccessTitle": "Успешно",
+    "createActSuccessText": "Акт приема-передачи успешно создан",
+    "createActFailed": "Не удалось создать акт приема-передачи",
+    "selectActDate": "Необходимо выбрать дату акта",
+    "updateSuccessTitle": "Успешно",
+    "updateSuccessText": "Договор успешно обновлен",
+    "delete": "Удалить",
+    "deleteConfirmTitle": "Подтверждение удаления",
+    "deleteConfirmText": "Вы уверены, что хотите удалить этот договор? Это действие нельзя отменить.",
+    "deleteSuccessTitle": "Успешно",
+    "deleteSuccessText": "Договор успешно удален",
+    "deleteFailed": "Не удалось удалить договор"
+  },
+  "handoverAct": {
+    "title": "Создание акта приема-передачи",
+    "description": "Создать акт приема-передачи для {{type}} #{{id}}",
+    "vehicleHandover": "Аренда автомобиля",
+    "premisesHandover": "Аренда помещения",
+    "actDate": "Дата составления акта",
+    "selectDate": "Выберите дату",
+    "dateRequired": "Необходимо указать дату акта",
+    "create": "Создать",
+    "creating": "Создание...",
+    "cancel": "Отмена",
+    "createFailed": "Не удалось создать акт приема-передачи"
+  },
+  "prompt": {
+    "ok": "ОК"
+  },
+  "prompt_form": {
+    "confirm": "Подтвердить",
+    "cancel": "Отмена",
+    "submitting": "Удаление..."
+  },
+  "prompts": {
+    "contractSubmitted": {
+      "title": "Договор отправлен на подписание",
+      "text": "Договор успешно отправлен на подписание"
+    },
+    "contractUpdated": {
+      "title": "Договор обновлен",
+      "text": "Договор успешно обновлен"
+    },
+    "contractCreated": {
+      "title": "Договор создан",
+      "text": "Договор успешно создан"
+    },
+    "vehicleRentCreated": {
+      "title": "Договор создан",
+      "text": "Договор аренды транспортного средства успешно создан"
+    },
+    "vehicleRentUpdated": {
+      "title": "Договор обновлен",
+      "text": "Договор аренды транспортного средства успешно обновлен"
+    },
+    "premisesLeaseCreated": {
+      "title": "Договор создан",
+      "text": "Договор аренды нежилого помещения успешно создан"
+    },
+    "premisesLeaseUpdated": {
+      "title": "Договор обновлен",
+      "text": "Договор аренды нежилого помещения успешно обновлен"
+    },
+    "serviceAgreementIndividualCreated": {
+      "title": "Договор создан",
+      "text": "Договор возмездного оказания услуг успешно создан"
+    },
+    "serviceAgreementIndividualUpdated": {
+      "title": "Договор обновлен",
+      "text": "Договор возмездного оказания услуг успешно обновлен"
+    },
+    "serviceAgreementMSBCreated": {
+      "title": "Договор создан",
+      "text": "Договор на оказание услуг успешно создан"
+    },
+    "serviceAgreementMSBUpdated": {
+      "title": "Договор обновлен",
+      "text": "Договор на оказание услуг успешно обновлен"
+    },
+    "goodsSupplyCreated": {
+      "title": "Договор создан",
+      "text": "Договор поставки товара успешно создан"
+    },
+    "goodsSupplyUpdated": {
+      "title": "Договор обновлен",
+      "text": "Договор поставки товара успешно обновлен"
+    },
+    "vehicleHandoverCreated": {
+      "title": "Акт создан",
+      "text": "Акт приема-передачи транспортного средства успешно создан"
+    },
+    "premisesHandoverCreated": {
+      "title": "Акт создан",
+      "text": "Акт приема-передачи нежилого помещения успешно создан"
+    },
+    "handoverActCreated": {
+      "title": "Акт приема-передачи создан",
+      "text": "Акт приема-передачи успешно создан"
+    },
+    "close": "Закрыть"
+  },
+  "templates": {
+    "paidServiceContract": {
+      "title": "Договор на оказание услуг"
+    }
+  },
+  "completionAct": {
+    "createTitle": "Создание акта выполненных работ",
+    "createDescription": "Заполните информацию об акте выполненных работ (АВР)",
+    "createAct": "Создать АВР",
+    "listTitle": "Акты выполненных работ",
+    "noActs": "Акты выполненных работ отсутствуют",
+    "createdAt": "Создан",
+    "approved": "Утвержден",
+    "rejectedBy": "Отклонён",
+    "rejectionReason": "Причина отклонения",
+    "rejectTitle": "Отклонение акта",
+    "rejectDescription": "Укажите причину отклонения акта выполненных работ",
+    "fields": {
+      "serviceItem": "Услуга",
+      "serviceItemPlaceholder": "Выберите услугу",
+      "periodStartDate": "Дата начала периода",
+      "periodEndDate": "Дата окончания периода",
+      "selectDate": "Выберите дату",
+      "amount": "Сумма",
+      "amountPlaceholder": "Введите сумму",
+      "description": "Описание выполненных работ",
+      "descriptionPlaceholder": "Опишите выполненные работы",
+      "remainingAmount": "Доступный остаток",
+      "executor": "Исполнитель",
+      "service": "Услуга",
+      "period": "Период",
+      "rejectionReason": "Причина отклонения",
+      "rejectionReasonPlaceholder": "Укажите причину отклонения (минимум 10 символов)",
+      "uploadedDocument": "Загруженный документ"
+    },
+    "actions": {
+      "submit": "Отправить на проверку",
+      "submitting": "Отправка...",
+      "approve": "Утвердить",
+      "approving": "Утверждение...",
+      "reject": "Отклонить",
+      "rejecting": "Отклонение...",
+      "delete": "Удалить",
+      "deleting": "Удаление...",
+      "uploadDocument": "Загрузить PDF",
+      "viewDocument": "Просмотреть документ",
+      "downloadDocument": "Скачать документ"
+    },
+    "messages": {
+      "fullyUsed": "Вся сумма по услуге уже распределена",
+      "createSuccessTitle": "АВР создан",
+      "createSuccessText": "Акт выполненных работ успешно создан",
+      "createError": "Не удалось создать акт выполненных работ",
+      "updateSuccessTitle": "АВР обновлен",
+      "updateSuccessText": "Акт выполненных работ успешно обновлен",
+      "updateError": "Не удалось обновить акт выполненных работ",
+      "deleteSuccessTitle": "АВР удален",
+      "deleteSuccessText": "Акт выполненных работ успешно удален",
+      "deleteError": "Не удалось удалить акт выполненных работ",
+      "uploadSuccessTitle": "Документ загружен",
+      "uploadSuccessText": "PDF документ успешно загружен",
+      "uploadError": "Не удалось загрузить документ",
+      "uploading": "Загрузка документа...",
+      "submitSuccessTitle": "АВР отправлен",
+      "submitSuccessText": "Акт выполненных работ отправлен на проверку",
+      "submitError": "Не удалось отправить акт на проверку",
+      "approveSuccessTitle": "АВР утвержден",
+      "approveSuccessText": "Акт выполненных работ успешно утвержден",
+      "approveError": "Не удалось утвердить акт выполненных работ",
+      "rejectSuccessTitle": "АВР отклонен",
+      "rejectSuccessText": "Акт выполненных работ отклонен",
+      "rejectError": "Не удалось отклонить акт выполненных работ"
+    },
+    "validation": {
+      "reasonMinLength": "Причина должна содержать минимум 10 символов"
+    }
+  }
+}
+

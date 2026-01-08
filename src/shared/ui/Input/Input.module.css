@@ -1,0 +1,27 @@
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  font-weight: 400;
+  outline: none;
+}
+
+.input::placeholder {
+  color: var(--color-grey-400);
+}
+
+.dark .input::placeholder {
+  color: var(--color-grey-700);
+}
+
+.input-icon {
+  padding: 0.6875rem 0.75rem 0.6875rem 2.25rem;
+}
+
+.input-error {
+  box-shadow:
+    0 0 0 4px rgba(221, 82, 76, 0.2),
+    0 1px 1px 0 rgba(170, 46, 38, 0.2),
+    0 0 0 1px rgba(170, 46, 38, 0.5),
+    0 1px 3px 0 rgba(170, 46, 38, 0.1);
+}
+

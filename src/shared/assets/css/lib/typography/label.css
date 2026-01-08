@@ -1,0 +1,27 @@
+.text-label-lg {
+  @apply font-semibold
+         text-base leading-5 tracking-[-0.005em]
+         md:text-base md:leading-5 md:tracking-[-0.003em]
+         xl:text-lg xl:leading-5 xl:tracking-[-0.003em];
+}
+
+.text-label-md {
+  @apply font-semibold
+         text-sm leading-4.5 tracking-[-0.005em]
+         md:text-sm md:leading-4.5 md:tracking-[-0.003em]
+         xl:text-base xl:leading-5 xl:tracking-[-0.003em];
+}
+
+.text-label-sm {
+  @apply font-semibold
+         text-xs leading-4 tracking-[3em]
+         md:text-xs md:leading-4 md:tracking-[0em]
+         xl:text-sm xl:leading-4.5 xl:tracking-[-0.003em];
+}
+
+.text-label-xs {
+  @apply font-semibold
+         text-[0.625rem] leading-3.5 tracking-[0em]
+         md:text-[0.625rem] md:leading-3.5 md:tracking-[0em]
+         xl:text-xs xl:leading-4 xl:tracking-[-0.003em];
+}

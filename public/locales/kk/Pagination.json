@@ -1,0 +1,8 @@
+{
+  "results": "{{count}} нәтиже",
+  "results_plural": {
+    "one": "{{count}} нәтиже",
+    "other": "{{count}} нәтиже"
+  },
+  "shown": "<0>{{total}}</0>-ден <0>{{from}}–{{to}}</0> көрсетілді"
+}

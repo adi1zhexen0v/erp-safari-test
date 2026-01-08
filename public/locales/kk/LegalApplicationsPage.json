@@ -1,0 +1,300 @@
+{
+  "meta": {
+    "title": "Құрылған құжаттар — Заңгерлік көмек | SEN Group",
+    "description": "Құрылған құжаттар в системе управления SEN Group."
+  },
+  "breadcrumbs": {
+    "legal": "Заңгерлік көмек",
+    "applications": "Құрылған құжаттар"
+  },
+  "header": {
+    "title": "Құрылған құжаттар",
+    "newForm": "Консультацияға жазылу"
+  },
+  "filters": {
+    "searchPlaceholder": "Іздеу...",
+    "createdDate": "Құрылған күні",
+    "status": "Мәртебе",
+    "documentType": "Құжат түрі",
+    "reset": "Тазалау",
+    "documentTypes": {
+      "vehicleRental": "Көлік құралын жалға алу келісімі",
+      "premisesLease": "Бөлмені жалға алу келісімі",
+      "serviceAgreementIndividual": "Қызмет көрсету келісімі",
+      "serviceAgreementMSB": "Қызмет көрсету келісімі",
+      "goodsSupply": "Тауар жеткізу келісімі",
+      "vehicleHandover": "Көлік құралын жалға алу келісіміне акт",
+      "premisesHandover": "Тұрғын емес үй-жайды жалға алу келісіміне акт"
+    },
+    "statuses": {
+      "draft": "Жоба",
+      "signed": "Қол қойылған",
+      "pendingSigning": "Қол қою күтілуде"
+    }
+  },
+  "cards": {
+    "supplier": "Жабдықтаушы",
+    "lessor": "Жалдаушы",
+    "vehicle": "Көлік құралы",
+    "rentalAmount": "Жалдау сомасы",
+    "rentalTerm": "Жалдау мерзімі",
+    "premise": "Бөлме",
+    "area": "Ауданы",
+    "executor": "Орындаушы",
+    "service": "Қызмет",
+    "contractAmount": "Келісім сомасы",
+    "product": "Өнім",
+    "totalAmount": "Жалпы сома",
+    "parentContract": "Ата-ана келісімі",
+    "actDate": "Акт күні",
+    "createdAt": "Құрылған күні",
+    "edit": "Өңдеу",
+    "preview": "Келісімді алдын ала қарау",
+    "download": "Жүктеу",
+    "downloadDraft": "Жобаны DOCX жүктеу",
+    "downloadPDF": "PDF жүктеу",
+    "downloading": "Жүктелуде...",
+    "submitForSigning": "Қол қоюға жіберу",
+    "submitting": "Жіберілуде...",
+    "generateHandoverAct": "Қабылдау-тапсыру актісін құру",
+    "createAct": "Қабылдау-тапсыру актісін құру",
+    "creating": "Құрылуда...",
+    "handoverActPrefix": "Қабылдау-тапсыру актісі",
+    "handoverActTo": "қабылдау-тапсыру",
+    "actsCount": "Акттер саны",
+    "documents": "Құжаттар",
+    "documentPrefix": "Құжат",
+    "vehicleInfo": "Көлік туралы ақпарат",
+    "withPlateNumber": "мемлекеттік нөмірі",
+    "premiseAddress": "Бөлме мекенжайы",
+    "squareMeters": "кв.м",
+    "serviceLocation": "Қызмет көрсету орны",
+    "representative": "Өкіл",
+    "servicesDescription": "Қызметтер сипаттамасы",
+    "servicePeriod": "Қызмет көрсету кезеңі",
+    "model": "Модель",
+    "manufacturer": "Өндіруші",
+    "pieces": "дана",
+    "deliveryAddress": "Жеткізу мекенжайы",
+    "parentContractStatus": "Ата-ана келісімнің мәртебесі",
+    "vehicleRentalContract": "Көлік құралын жалға алу келісімі",
+    "premisesRentalContract": "Бөлмені жалға алу келісімі",
+    "previewContract": "Келісімді алдын ала қарау",
+    "previewAct": "Актті алдын ала қарау",
+    "delete": "Жою",
+    "deleting": "Жойылуда..."
+  },
+  "messages": {
+    "loading": "Жүктелуде...",
+    "waitingForDownload": "Файлдың жүктелуін күтіңіз",
+    "noResults": "Нәтижелер жоқ",
+    "noData": "Деректер жоқ",
+    "error": "Құжаттарды жүктеу кезінде қате пайда болды",
+    "errorTitle": "Қате",
+    "editNotSupported": "Бұл құжат түрі үшін өңдеу әлі қолдау көрсетілмейді",
+    "submitFailed": "Қол қоюға жіберу сәтсіз аяқталды",
+    "downloadFailed": "Жүктеу кезінде қате пайда болды",
+    "handoverFailed": "Қабылдау-тапсыру актісін құру сәтсіз аяқталды",
+    "actExistsTitle": "Ескерту",
+    "actExistsText": "Бұл келісім үшін қабылдау-тапсыру актісі қазірдің өзінде бар. Тағы бір акт құруға сенімдісіз бе?",
+    "confirm": "Растау",
+    "cancel": "Болдырмау",
+    "submitSuccessTitle": "Сәтті",
+    "submitSuccessText": "Келісім сәтті қол қоюға жіберілді",
+    "createActSuccessTitle": "Сәтті",
+    "createActSuccessText": "Қабылдау-тапсыру актісі сәтті құрылды",
+    "createActFailed": "Қабылдау-тапсыру актісін құру сәтсіз аяқталды",
+    "selectActDate": "Акт күнін таңдаңыз",
+    "updateSuccessTitle": "Сәтті",
+    "updateSuccessText": "Келісім сәтті жаңартылды",
+    "delete": "Жою",
+    "deleteConfirmTitle": "Жоюды растау",
+    "deleteConfirmText": "Бұл келісімді жоюға сенімдісіз бе? Бұл әрекетті болдырмау мүмкін емес.",
+    "deleteSuccessTitle": "Сәтті",
+    "deleteSuccessText": "Келісім сәтті жойылды",
+    "deleteFailed": "Келісімді жою сәтсіз аяқталды"
+  },
+  "handoverAct": {
+    "title": "Қабылдау-тапсыру актісін құру",
+    "description": "{{type}} #{{id}} үшін қабылдау-тапсыру актісін құру",
+    "vehicleHandover": "Көлік құралын жалға алу",
+    "premisesHandover": "Бөлмені жалға алу",
+    "actDate": "Акт күні",
+    "selectDate": "Күнді таңдаңыз",
+    "dateRequired": "Акт күнін көрсету қажет",
+    "create": "Құру",
+    "creating": "Құрылуда...",
+    "cancel": "Болдырмау",
+    "createFailed": "Қабылдау-тапсыру актісін құру сәтсіз аяқталды"
+  },
+  "prompt": {
+    "ok": "OK"
+  },
+  "prompt_form": {
+    "confirm": "Растау",
+    "cancel": "Болдырмау",
+    "submitting": "Жойылуда..."
+  },
+  "prompts": {
+    "contractSubmitted": {
+      "title": "Келісім қол қоюға жіберілді",
+      "text": "Келісім сәтті қол қоюға жіберілді"
+    },
+    "contractUpdated": {
+      "title": "Келісім жаңартылды",
+      "text": "Келісім сәтті жаңартылды"
+    },
+    "contractCreated": {
+      "title": "Келісім құрылды",
+      "text": "Келісім сәтті құрылды"
+    },
+    "vehicleRentCreated": {
+      "title": "Келісім құрылды",
+      "text": "Көлік құралын жалға алу келісімі сәтті құрылды"
+    },
+    "vehicleRentUpdated": {
+      "title": "Келісім жаңартылды",
+      "text": "Көлік құралын жалға алу келісімі сәтті жаңартылды"
+    },
+    "premisesLeaseCreated": {
+      "title": "Келісім құрылды",
+      "text": "Тұрғын емес үй-жайды жалға алу келісімі сәтті құрылды"
+    },
+    "premisesLeaseUpdated": {
+      "title": "Келісім жаңартылды",
+      "text": "Тұрғын емес үй-жайды жалға алу келісімі сәтті жаңартылды"
+    },
+    "serviceAgreementIndividualCreated": {
+      "title": "Келісім құрылды",
+      "text": "Қызмет көрсету келісімі сәтті құрылды"
+    },
+    "serviceAgreementIndividualUpdated": {
+      "title": "Келісім жаңартылды",
+      "text": "Қызмет көрсету келісімі сәтті жаңартылды"
+    },
+    "serviceAgreementMSBCreated": {
+      "title": "Келісім құрылды",
+      "text": "Қызмет көрсету келісімі сәтті құрылды"
+    },
+    "serviceAgreementMSBUpdated": {
+      "title": "Келісім жаңартылды",
+      "text": "Қызмет көрсету келісімі сәтті жаңартылды"
+    },
+    "goodsSupplyCreated": {
+      "title": "Келісім құрылды",
+      "text": "Тауар жеткізу келісімі сәтті құрылды"
+    },
+    "goodsSupplyUpdated": {
+      "title": "Келісім жаңартылды",
+      "text": "Тауар жеткізу келісімі сәтті жаңартылды"
+    },
+    "vehicleHandoverCreated": {
+      "title": "Акт құрылды",
+      "text": "Көлік құралын қабылдау-тапсыру актісі сәтті құрылды"
+    },
+    "premisesHandoverCreated": {
+      "title": "Акт құрылды",
+      "text": "Тұрғын емес үй-жайды қабылдау-тапсыру актісі сәтті құрылды"
+    },
+    "handoverActCreated": {
+      "title": "Қабылдау-тапсыру актісі құрылды",
+      "text": "Қабылдау-тапсыру актісі сәтті құрылды"
+    },
+    "close": "Жабу"
+  },
+  "modals": {
+    "createActTitle": "Қабылдау-тапсыру актісін құру",
+    "actDate": "Акт құрылған күні",
+    "selectDate": "Акт күнін таңдаңыз",
+    "cancel": "Жабу",
+    "close": "Жабу",
+    "create": "Құру",
+    "creating": "Құрылуда...",
+    "createAct": {
+      "title": "Қабылдау-тапсыру актісін құру",
+      "datePlaceholder": "Акт күнін таңдаңыз",
+      "dateLabel": "Акт құрылған күні",
+      "cancel": "Болдырмау",
+      "confirm": "Құру",
+      "creating": "Құрылуда..."
+    }
+  },
+  "templates": {
+    "paidServiceContract": {
+      "title": "Өтеулі қызмет көрсету шарты"
+    }
+  },
+  "completionAct": {
+    "createTitle": "Орындалған жұмыстар актісін құру",
+    "createDescription": "Орындалған жұмыстар актісі (ОЖА) туралы ақпаратты толтырыңыз",
+    "createAct": "ОЖА құру",
+    "listTitle": "Орындалған жұмыстар актілері",
+    "noActs": "Орындалған жұмыстар актілері жоқ",
+    "createdAt": "Құрылған",
+    "approved": "Бекітілген",
+    "rejectedBy": "Қабылданбады",
+    "rejectionReason": "Қабылданбау себебі",
+    "rejectTitle": "Актіні қабылдамау",
+    "rejectDescription": "Орындалған жұмыстар актісін қабылдамау себебін көрсетіңіз",
+    "fields": {
+      "serviceItem": "Қызмет",
+      "serviceItemPlaceholder": "Қызметті таңдаңыз",
+      "periodStartDate": "Кезең басталу күні",
+      "periodEndDate": "Кезең аяқталу күні",
+      "selectDate": "Күнді таңдаңыз",
+      "amount": "Сома",
+      "amountPlaceholder": "Соманы енгізіңіз",
+      "description": "Орындалған жұмыстардың сипаттамасы",
+      "descriptionPlaceholder": "Орындалған жұмыстарды сипаттаңыз",
+      "remainingAmount": "Қолжетімді қалдық",
+      "executor": "Орындаушы",
+      "service": "Қызмет",
+      "period": "Кезең",
+      "rejectionReason": "Қабылданбау себебі",
+      "rejectionReasonPlaceholder": "Қабылданбау себебін көрсетіңіз (кемінде 10 таңба)",
+      "uploadedDocument": "Жүктелген құжат"
+    },
+    "actions": {
+      "submit": "Тексеруге жіберу",
+      "submitting": "Жіберілуде...",
+      "approve": "Бекіту",
+      "approving": "Бекітілуде...",
+      "reject": "Қабылдамау",
+      "rejecting": "Қабылданбауда...",
+      "delete": "Жою",
+      "deleting": "Жойылуда...",
+      "uploadDocument": "PDF жүктеу",
+      "viewDocument": "Құжатты қарау",
+      "downloadDocument": "Құжатты жүктеу"
+    },
+    "messages": {
+      "fullyUsed": "Қызмет сомасы толық бөлінген",
+      "createSuccessTitle": "ОЖА құрылды",
+      "createSuccessText": "Орындалған жұмыстар актісі сәтті құрылды",
+      "createError": "Орындалған жұмыстар актісін құру сәтсіз аяқталды",
+      "updateSuccessTitle": "ОЖА жаңартылды",
+      "updateSuccessText": "Орындалған жұмыстар актісі сәтті жаңартылды",
+      "updateError": "Орындалған жұмыстар актісін жаңарту сәтсіз аяқталды",
+      "deleteSuccessTitle": "ОЖА жойылды",
+      "deleteSuccessText": "Орындалған жұмыстар актісі сәтті жойылды",
+      "deleteError": "Орындалған жұмыстар актісін жою сәтсіз аяқталды",
+      "uploadSuccessTitle": "Құжат жүктелді",
+      "uploadSuccessText": "PDF құжаты сәтті жүктелді",
+      "uploadError": "Құжатты жүктеу сәтсіз аяқталды",
+      "uploading": "Құжат жүктелуде...",
+      "submitSuccessTitle": "ОЖА жіберілді",
+      "submitSuccessText": "Орындалған жұмыстар актісі тексеруге жіберілді",
+      "submitError": "Актіні тексеруге жіберу сәтсіз аяқталды",
+      "approveSuccessTitle": "ОЖА бекітілді",
+      "approveSuccessText": "Орындалған жұмыстар актісі сәтті бекітілді",
+      "approveError": "Орындалған жұмыстар актісін бекіту сәтсіз аяқталды",
+      "rejectSuccessTitle": "ОЖА қабылданбады",
+      "rejectSuccessText": "Орындалған жұмыстар актісі қабылданбады",
+      "rejectError": "Орындалған жұмыстар актісін қабылдамау сәтсіз аяқталды"
+    },
+    "validation": {
+      "reasonMinLength": "Себеп кемінде 10 таңба болуы керек"
+    }
+  }
+}
+

@@ -1,0 +1,15 @@
+export const LOGIN_PAGE_ROUTE: string = "/login";
+export const HR_EMPLOYEES_PAGE_ROUTE: string = "/hr/employees";
+export const HR_HIRING_PAGE_ROUTE: string = "/hr/hiring";
+export const HR_APPLY_PAGE_ROUTE: string = "/hr/apply/:token";
+export const HR_CONTRACTS_PAGE_ROUTE: string = "/hr/contracts";
+export const HR_LEAVES_PAGE_ROUTE: string = "/hr/leaves";
+export const HR_FILL_CONTRACT_PAGE_ROUTE: string = "/hr/contracts/fill/:applicationId";
+export const LEGAL_CONSULTATION_PAGE_ROUTE: string = "/legal/consultation";
+export const LEGAL_TEMPLATES_PAGE_ROUTE: string = "/legal/templates";
+export const LEGAL_CASES_PAGE_ROUTE: string = "/legal/cases";
+export const LEGAL_APPLICATIONS_PAGE_ROUTE: string = "/legal/applications";
+export const ACCOUNTING_TIMESHEETS_PAGE_ROUTE: string = "/accounting/timesheets";
+export const ACCOUNTING_TIMESHEET_DETAIL_PAGE_ROUTE: string = "/accounting/timesheets/:id";
+export const ACCOUNTING_PAYROLLS_PAGE_ROUTE: string = "/accounting/payrolls";
+export const ACCOUNTING_PAYROLL_DETAIL_PAGE_ROUTE: string = "/accounting/payrolls/:id";

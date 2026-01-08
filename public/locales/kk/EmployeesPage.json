@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "title": "Қызметкерлер — Кадрлар | SEN Group",
+    "description": "Қызметкерлердің тізімі SEN Group басқару жүйесінде."
+  },
+  "header": {
+    "title": "Қызметкерлер",
+    "download": "Жүктеу",
+    "downloadPdf": "PDF ретінде жүктеу",
+    "downloadCsv": "CSV ретінде жүктеу",
+    "newEmployee": "Жаңа қызметкер"
+  },
+  "breadcrumbs": {
+    "hr": "Кадрлар",
+    "employees": "Қызметкерлер"
+  },
+  "summary": {
+    "totalEmployees": "Қатысушылар саны",
+    "activeEmployees": "Белсенді қызметкерлер",
+    "fund": "Еңбекақы қоры",
+    "compareWithLastMonth": "өткен аймен салыстырғанда"
+  },
+  "filters": {
+    "searchPlaceholder": "Атын, ЖСН немесе лауазымын енгізіңіз",
+    "position": "Лауазымы",
+    "department": "Бөлім",
+    "hireDate": "Жалдану күні",
+    "status": "Статус",
+    "reset": "Қалпына келтіру",
+    "all": "Барлығы"
+  },
+  "table": {
+    "fullName": "Қызметкер",
+    "email": "Пошта",
+    "iin": "ЖСН",
+    "hireDate": "Жалдану күні",
+    "position": "Лауазымы",
+    "department": "Бөлім",
+    "salary": "Жалақы",
+    "status": "Статус",
+    "actions": "Әрекеттер"
+  },
+  "status": {
+    "active": "Жұмыс істейді",
+    "vacation": "Сырқаттану парағында",
+    "sick": "Сырқаттану парағында",
+    "medical_leave": "Сырқаттану парағында",
+    "unpaid": "Есепсіз демалыс",
+    "inactive": "Белсенді емес",
+    "businessTrip": "Іссапар",
+    "resigned": "Жұмыстан шыққан"
+  },
+  "view": {
+    "table": "Кесте",
+    "cards": "Галерея"
+  },
+  "cards": {
+    "hireDate": "Жалдану күні",
+    "salary": "Жалақы",
+    "downloadProfile": "Қызметкердің жеке парағын жүктеу"
+  },
+  "messages": {
+    "error": "Қызметкерлерді жүктеу қатесі",
+    "noResults": "Қызметкерлер табылмады",
+    "downloadingProfile": "Профиль жүктелуде",
+    "errorTitle": "Қате",
+    "downloadFailed": "Жүктеу кезінде қате пайда болды",
+    "loading": "Жүктелуде...",
+    "waitingForDownload": "Файлдың жүктелуін күтіңіз"
+  },
+  "actions": {
+    "sendOnLeave": "Демалысқа жіберу",
+    "sendOnSickLeave": "Сырқаттану парағына жіберу",
+    "terminateContract": "Келісімді бұзу",
+    "modifyContract": "Келісімде өзгерістер енгізу"
+  },
+  "leaveForm": {
+    "title": "Қызметкерді демалысқа жіберу",
+    "subtitle": "Демалыс өтінішін құру үшін форманы толтырыңыз",
+    "annual": "Жылдық демалыс",
+    "unpaid": "Ақысыз демалыс",
+    "medical": "Сырқаттану парағы",
+    "start_date": {
+      "label": "Басталу күні",
+      "placeholder": "Басталу күнін таңдаңыз",
+      "error": {
+        "required": "Демалыстың басталу күнін көрсетіңіз",
+        "invalid": "Дұрыс емес күн",
+        "past": "Басталу күні өткен болуы мүмкін емес"
+      }
+    },
+    "end_date": {
+      "label": "Аяқталу күні",
+      "placeholder": "Аяқталу күнін таңдаңыз",
+      "error": {
+        "required": "Демалыстың аяқталу күнін көрсетіңіз",
+        "invalid": "Дұрыс емес күн",
+        "before_start": "Аяқталу күні басталу күнінен кейін болуы керек"
+      }
+    },
+    "reason": {
+      "label": "Себебі",
+      "placeholder": "Демалыс себебін көрсетіңіз",
+      "error": {
+        "required": "Ақысыз демалыс үшін себебі міндетті"
+      }
+    },
+    "approval_resolution": {
+      "label": "Басшының шешімі",
+      "placeholder": "Шешімді таңдаңыз",
+      "approved": "Келісілді",
+      "recommend": "Ұсынамын",
+      "no_objection": "Қарсы емеспін"
+    },
+    "diagnosis": {
+      "label": "Диагноз",
+      "placeholder": "Диагнозды көрсетіңіз (міндетті емес)"
+    },
+    "cancel": "Болдырмау",
+    "continue": "Жалғастыру",
+    "loading": "Жүктелуде...",
+    "successTitle": "Сәтті",
+    "successText": "Демалыс өтініші сәтті құрылды",
+    "medicalForm": {
+      "title": "Қызметкерді сырқаттану парағына жіберу",
+      "subtitle": "Сырқаттану парағына өтініш құру үшін форманы толтырыңыз"
+    },
+    "editForm": {
+      "title": "Демалысты өңдеу",
+      "subtitle": "Демалыс өтінішінің деректерін өзгерту",
+      "successTitle": "Сәтті",
+      "successText": "Демалыс өтініші сәтті жаңартылды",
+      "errorTitle": "Қате",
+      "errorText": "Демалыс өтінішін жаңарту мүмкін болмады",
+      "save": "Өтінішті жаңарту",
+      "loading": "Сақталуда..."
+    }
+  },
+  "resignationForm": {
+    "title": "Келісімді бұзу",
+    "subtitle": "Жұмыстан босату өтінішін құру үшін форманы толтырыңыз",
+    "errorTitle": "Қате",
+    "createError": "Өтінішті құру мүмкін болмады",
+    "last_working_day": {
+      "label": "Соңғы жұмыс күні",
+      "placeholder": "Күнді таңдаңыз",
+      "error": {
+        "required": "Соңғы жұмыс күнін көрсетіңіз",
+        "past": "Күн болашақта болуы керек"
+      }
+    },
+    "approval_resolution": {
+      "label": "Басшының шешімі",
+      "placeholder": "Шешімді таңдаңыз",
+      "approved_with_1month": "Отработкамен келісілді",
+      "approved": "Келісілді",
+      "no_objection": "Қарсы емеспін"
+    },
+    "cancel": "Болдырмау",
+    "continue": "Жалғастыру",
+    "loading": "Жүктелуде...",
+    "successTitle": "Сәтті",
+    "successText": "Жұмыстан босату өтініші сәтті құрылды"
+  },
+  "resignationPreview": {
+    "title": "Өтінішті алдын ала қарау"
+  },
+  "prompt": {
+    "ok": "OK"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "Жалдау үдерісі — Кадрлар | SEN Group",
+    "description": "Жалдау үдерісі SEN Group басқару жүйесінде."
+  },
+  "createForm": {
+    "candidate_name": {
+      "error": {
+        "required": "Үміткердің атын енгізіңіз"
+      }
+    },
+    "email": {
+      "error": {
+        "required": "Электрондық поштаны енгізіңіз",
+        "invalid": "Электрондық поштаның форматы дұрыс емес"
+      }
+    },
+    "phone": {
+      "error": {
+        "required": "Телефон нөмірін енгізіңіз",
+        "invalid": "Телефон нөмірінің форматы дұрыс емес"
+      }
+    },
+    "job_position": {
+      "error": {
+        "required": "Лауазымды енгізіңіз"
+      }
+    }
+  },
+  "breadcrumbs": {
+    "hr": "Кадрлар",
+    "hiring": "Жалдау үдерісі"
+  },
+  "header": {
+    "title": "Жалдау үдерісі",
+    "newInvitation": "Кандидатты шақыру"
+  },
+  "summary": {
+    "totalApplications": "Барлық өтінімдер",
+    "submittedApplications": "Жіберілген өтінімдер",
+    "approvedApplications": "Мақұлданған өтінімдер",
+    "compareWithLastMonth": "Өткен аймен салыстырғанда"
+  },
+  "filters": {
+    "searchPlaceholder": "Аты-жөні бойынша іздеу",
+    "submittedDate": "Жіберілген күні",
+    "stage": "Кезең",
+    "status": "Статус",
+    "reset": "Қалпына келтіру",
+    "all": "Барлығы"
+  },
+  "view": {
+    "table": "Кесте",
+    "cards": "Галерея"
+  },
+  "table": {
+    "candidate": "Үміткер",
+    "email": "Email",
+    "phone": "Телефон",
+    "position": "Лауазым",
+    "iin": "ЖСН",
+    "stage": "Кезең",
+    "status": "Мәртебе",
+    "submittedAt": "Жіберілген күні",
+    "reviewedAt": "Қаралған күні",
+    "invitationDate": "Шақырылған күні",
+    "actions": "Әрекеттер"
+  },
+  "cards": {
+    "actionPrimary": "Өтінімді ашу",
+    "viewProfile": "Кандидат профилі",
+    "dateInvited": "Шақырылған күні",
+    "personalSheet": "Жеке парақ",
+    "downloadProfile": "Жеке парақты жүктеу"
+  },
+  "status": {
+    "draft": "Кандидатқа жіберілді",
+    "submitted": "Шешімді күту",
+    "revision_requested": "Түзетуде",
+    "approved": "Мақұлданды",
+    "rejected": "Қабылданбады"
+  },
+  "stage": {
+    "invited": "Шақырылған",
+    "filling": "Форманы толтыру",
+    "review": "Қарау",
+    "decision": "Шешім",
+    "completed": "Аяқталған"
+  },
+  "invite": {
+    "title": "Үміткерді шақыру",
+    "subtitle": "Үміткердің деректерін енгізіңіз",
+    "name": "Толық аты-жөні",
+    "namePlaceholder": "Аман Амина Маратовна",
+    "email": "Email",
+    "emailPlaceholder": "name@sengroup.one",
+    "phone": "Телефон нөмірі",
+    "phonePlaceholder": "+7 707 123 45 67",
+    "position": "Лауазым",
+    "positionPlaceholder": "Мысалы: Сату менеджері",
+    "cancel": "Бас тарту",
+    "send": "Шақыру жіберу",
+    "loading": "Жүктелуде...",
+    "error": "Үміткерді құру кезінде қате пайда болды",
+    "successTitle": "Шақыру жіберілді",
+    "successText": "Үміткер сәтті шақырылды. Электрондық поштаға хат жіберілді."
+  },
+  "actions": {
+    "approve": "Жеке парақты мақұлдау",
+    "requestRevision": "Түзетуге жіберу",
+    "reject": "Қабылдамау",
+    "createContract": "Еңбек келісімін құру",
+    "viewDetails": "Жеке парақты көру",
+    "approving": "Мақұлдау...",
+    "rejecting": "Қабылдамау...",
+    "creating": "Құру..."
+  },
+  "modals": {
+    "revisionTitle": "Түзету себебі",
+    "revisionPlaceholder": "Не түзету керектігін сипаттаңыз",
+    "sending": "Жіберу...",
+    "send": "Жіберу",
+    "rejectTitle": "Қабылдамау себебі",
+    "rejectPlaceholder": "Қабылдамау себебін сипаттаңыз",
+    "rejecting": "Қабылдамау...",
+    "createContractTitle": "Еңбек келісімін құру",
+    "startDateLabel": "Жұмыс басталу күні",
+    "selectDate": "Күнді таңдаңыз",
+    "creating": "Құру...",
+    "createContract": "Келісім құру",
+    "errorLoading": "Өтінім деректерін жүктеу қатесі",
+    "personalSheet": "Жеке парақ",
+    "personalData": "Жеке деректер",
+    "iin": "ЖСН",
+    "dateOfBirth": "Туған күні",
+    "gender": "Жынысы",
+    "familyStatus": "Отбасылық жағдайы",
+    "cityOfBirth": "Туған қаласы",
+    "nationality": "Ұлты",
+    "citizenship": "Азаматтығы",
+    "contacts": "Байланыстар",
+    "email": "Email",
+    "phone": "Телефон",
+    "additionalPhone": "Қосымша телефон",
+    "emergencyContacts": "Төтенше байланыстар",
+    "contact1": "Байланыс 1",
+    "contact2": "Байланыс 2",
+    "fullName": "Толық аты-жөні",
+    "relation": "Туыстық дәрежесі",
+    "addresses": "Мекенжайлар",
+    "registrationAddress": "Тіркеу мекенжайы",
+    "actualAddress": "Нақты тұрған мекенжайы",
+    "documents": "Құжаттар",
+    "nationalId": "Жеке басын куәландыратын құжат",
+    "idNumber": "Құжат нөмірі",
+    "issuedBy": "Кім берген",
+    "issueDate": "Берілген күні",
+    "expiryDate": "Жарамдылық мерзімі",
+    "militaryCertificate": "Әскери билет",
+    "banking": "Банк реквизиттері",
+    "bankName": "Банк атауы",
+    "iban": "Есеп айырысу нөмірі (IBAN)",
+    "bik": "БИК",
+    "education": "Білімі",
+    "university": "Оқу орны",
+    "specialty": "Мамандығы",
+    "graduationYear": "Бітірген жылы",
+    "workExperience": "Жұмыс тәжірибесі",
+    "position": "Лауазымы немесе кәсібі",
+    "startDate": "Жұмыс басталуы",
+    "endDate": "Жұмыс аяқталуы",
+    "genderValues": {
+      "male": "Ер",
+      "female": "Әйел"
+    },
+    "familyStatusValues": {
+      "single": "Үйленбеген / Тұрмысқа шықпаған",
+      "married": "Үйленген / Тұрмыста",
+      "divorced": "Ажырасқан",
+      "widowed": "Жесір"
+    },
+    "relationValues": {
+      "mother": "Ана",
+      "father": "Әке",
+      "spouse": "Жұбайы",
+      "sibling": "Аға / Әпке / Іні / Сіңлі",
+      "other": "Басқа"
+    },
+    "degreeValues": {
+      "bachelor": "Бакалавр",
+      "master": "Магистр",
+      "phd": "PhD",
+      "college": "Колледж"
+    },
+    "noEmergencyContacts": "Төтенше байланыстар көрсетілмеген",
+    "noEducation": "Білімі көрсетілмеген",
+    "noWorkExperience": "Жұмыс тәжірибесі көрсетілмеген",
+    "socialCategories": "Әлеуметтік категориялар"
+  },
+  "messages": {
+    "loading": "Жүктелуде...",
+    "error": "Өтінімдерді жүктеу сәтсіз аяқталды. Бетті қайта жүктеп көріңіз.",
+    "noResults": "Берілген фильтрлер бойынша өтінімдер табылмады.",
+    "errorTitle": "Қате",
+    "approveSuccessTitle": "Өтінім мақұлданды",
+    "approveSuccessText": "Үміткер келесі кезеңге сәтті ауыстырылды",
+    "approveErrorText": "Өтінімді мақұлдау мүмкін болмады",
+    "revisionSuccessTitle": "Түзетуге жіберілді",
+    "revisionSuccessText": "Үміткерге түзету қажеттілігі туралы хабарландыру жіберілді",
+    "revisionErrorText": "Түзетуге жіберу мүмкін болмады",
+    "rejectSuccessTitle": "Үміткер қабылданбады",
+    "rejectSuccessText": "Өтінім мәртебесі жаңартылды",
+    "rejectErrorText": "Өтінімді қабылдамау мүмкін болмады",
+    "selectStartDate": "Жұмыс басталу күнін таңдаңыз",
+    "contractSuccessTitle": "Еңбек келісімі құрылды",
+    "contractSuccessText": "Келісім жобасы сәтті құрылды",
+    "contractErrorText": "Еңбек келісімін құру мүмкін болмады",
+    "contractGeneralErrorText": "Еңбек келісімін құру кезінде қате пайда болды. Қайталап көріңіз.",
+    "reminderTitle": "Еске салу",
+    "reminderText": "Еске салу функциясы кейінірек іске қосылады",
+    "downloadFailed": "Жеке парақты жүктеу мүмкін болмады",
+    "waitingForDownload": "Файл дайындалуда..."
+  },
+  "prompt": {
+    "ok": "OK"
+  }
+}

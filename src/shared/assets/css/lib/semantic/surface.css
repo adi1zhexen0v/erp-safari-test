@@ -1,0 +1,90 @@
+.surface-backdrop {
+  @apply bg-alpha-black-60 dark:bg-alpha-black-80;
+}
+.surface-base-fill {
+  @apply bg-white dark:bg-grey-950;
+}
+.surface-base-stroke {
+  @apply border-grey-100 dark:border-grey-900;
+}
+.surface-secondary-fill {
+  @apply bg-grey-50 dark:bg-black;
+}
+.surface-secondary-stroke {
+  @apply border-grey-200 dark:border-grey-900;
+}
+.surface-tertiary-fill {
+  @apply bg-grey-50 dark:bg-grey-900;
+}
+.surface-tertiary-stroke {
+  @apply border-grey-200 dark:border-grey-800;
+}
+.surface-brand-fill {
+  @apply bg-primary-500 dark:bg-primary-500;
+}
+.surface-brand-subtle {
+  @apply bg-primary-50 dark:bg-primary-950;
+}
+.surface-brand-stroke {
+  @apply border-primary-600 dark:border-alpha-white-30;
+}
+
+.surface-neutral-fill {
+  @apply bg-grey-500 dark:bg-grey-500;
+}
+.surface-neutral-subtle {
+  @apply bg-grey-100 dark:bg-grey-100;
+}
+.surface-neutral-stroke {
+  @apply border-grey-600 dark:border-grey-300;
+}
+
+.surface-info-fill {
+  @apply bg-info-500 dark:bg-info-400;
+}
+.surface-info-subtle {
+  @apply bg-info-100 dark:bg-info-100;
+}
+.surface-info-stroke {
+  @apply border-info-600 dark:border-alpha-white-30;
+}
+
+.surface-notice-fill {
+  @apply bg-notice-500 dark:bg-notice-400;
+}
+.surface-notice-subtle {
+  @apply bg-notice-100 dark:bg-notice-100;
+}
+.surface-notice-stroke {
+  @apply border-notice-600 dark:border-notice-300;
+}
+
+.surface-positive-fill {
+  @apply bg-positive-500 dark:bg-positive-400;
+}
+.surface-positive-subtle {
+  @apply bg-positive-100 dark:bg-positive-100;
+}
+.surface-positive-stroke {
+  @apply border-positive-600 dark:border-positive-300;
+}
+
+.surface-negative-fill {
+  @apply bg-negative-500 dark:bg-negative-400;
+}
+.surface-negative-subtle {
+  @apply bg-negative-100 dark:bg-negative-100;
+}
+.surface-negative-stroke {
+  @apply border-negative-600 dark:border-negative-300;
+}
+
+.surface-component-fill {
+  @apply bg-grey-50 dark:bg-grey-900;
+}
+.surface-container-fill {
+  @apply bg-white dark:bg-grey-950;
+}
+.surface-component-stroke {
+  @apply border-grey-100 dark:border-grey-700;
+}

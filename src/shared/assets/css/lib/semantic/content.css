@@ -1,0 +1,60 @@
+.content-base-primary {
+  @apply text-black dark:text-white;
+}
+.content-base-secondary {
+  @apply text-grey-700 dark:text-grey-200;
+}
+.content-base-low {
+  @apply text-grey-400 dark:text-grey-700;
+}
+.content-base-inverse {
+  @apply text-white dark:text-black;
+}
+.content-action-brand {
+  @apply text-primary-500 dark:text-primary-400;
+}
+.content-action-neutral {
+  @apply text-grey-500 dark:text-grey-400;
+}
+.content-action-info {
+  @apply text-info-500 dark:text-info-400;
+}
+.content-action-notice {
+  @apply text-notice-500 dark:text-notice-500;
+}
+.content-action-positive {
+  @apply text-positive-500 dark:text-positive-500;
+}
+.content-action-negative {
+  @apply text-negative-500 dark:text-negative-500;
+}
+.content-on-background-brand {
+  @apply text-primary-50 dark:text-primary-50;
+}
+.content-on-background-neutral {
+  @apply text-grey-50 dark:text-grey-50;
+}
+.content-on-background-info {
+  @apply text-info-50 dark:text-info-50;
+}
+.content-on-background-notice {
+  @apply text-notice-50 dark:text-notice-50;
+}
+.content-on-background-positive {
+  @apply text-positive-50 dark:text-positive-50;
+}
+.content-on-background-negative {
+  @apply text-negative-50 dark:text-negative-50;
+}
+.content-static-white {
+  @apply text-white dark:text-black;
+}
+.content-static-black {
+  @apply text-black dark:text-white;
+}
+.icon-secondary {
+  @apply text-grey-500 dark:text-grey-500;
+}
+.icon-primary {
+  @apply text-primary-500 dark:text-primary-500;
+}

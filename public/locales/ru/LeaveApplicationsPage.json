@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Отпуска - Кадры | SEN Group",
+    "description": "Управление заявлениями на отпуск"
+  },
+  "breadcrumbs": {
+    "hr": "Кадры",
+    "leaves": "Отпуска"
+  },
+  "header": {
+    "title": "Отпуска"
+  },
+  "filters": {
+    "searchPlaceholder": "Введите имя или причину",
+    "period": "Период",
+    "status": "Статус",
+    "reset": "Сбросить",
+    "statusOptions": {
+      "annual": "Ежегодный отпуск",
+      "unpaid": "Неоплачиваемый отпуск",
+      "medical": "Больничный"
+    }
+  },
+  "view": {
+    "table": "Таблица",
+    "cards": "Галерея"
+  },
+  "cards": {
+    "leaveType": "Вид отпуска",
+    "status": "Статус",
+    "period": "Период",
+    "duration": "Длительность",
+    "days": "дней",
+    "sendForSigning": "Отправить на подписание",
+    "leaveTypeLabels": {
+      "annual": "Ежегодный отпуск",
+      "unpaid": "Неоплачиваемый отпуск",
+      "medical": "Больничный"
+    }
+  },
+  "table": {
+    "employee": "Сотрудник",
+    "leaveType": "Вид отпуска",
+    "period": "Период",
+    "duration": "Длительность",
+    "status": "Статус",
+    "actions": "Действия",
+    "leaveTypeLabels": {
+      "annual": "В отпуске",
+      "unpaid": "Без содержания",
+      "medical": "На больничном"
+    }
+  },
+  "statusLabels": {
+    "draft": "Черновик",
+    "app_pending": "Ожидание заявления",
+    "app_review": "Заявление на проверке",
+    "app_approved": "Заявление одобрено",
+    "order_pending": "Ожидание приказа",
+    "order_uploaded": "Приказ загружен",
+    "active": "Активен",
+    "activeFrom": "Активируется с {{date}}",
+    "completed": "Завершен",
+    "cancelled": "Отменено"
+  },
+  "actions": {
+    "preview": "Предпросмотр заявления",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "sendForSigning": "Отправить на подписание",
+    "uploadApplication": "Загрузка заявления",
+    "uploadOrder": "Загрузка приказа",
+    "uploadCertificate": "Загрузка медицинской справки",
+    "selectPdf": "Выберите PDF файл",
+    "uploading": "Загрузка...",
+    "upload": "Загрузить",
+    "downloadApplicationDocx": "Скачать заявление (DOCX)",
+    "downloadOrderDocx": "Скачать приказ (DOCX)",
+    "downloading": "Загрузка...",
+    "approve": "Одобрить заявление",
+    "revision": "На доработку",
+    "reject": "Отклонить заявление",
+    "reviewing": "Обработка...",
+    "createOrder": "Создать приказ",
+    "creating": "Создание...",
+    "complete": "Активировать отпуск",
+    "completing": "Активация...",
+    "orderCreatedTitle": "Приказ создан",
+    "orderCreatedText": "Приказ успешно создан",
+    "orderCreateError": "Не удалось создать приказ",
+    "completeSuccessTitle": "Успешно",
+    "completeSuccessText": "Отпуск активирован",
+    "completeError": "Не удалось активировать отпуск",
+    "successTitle": "Успешно",
+    "uploadSuccess": "Файл успешно загружен",
+    "approveSuccessTitle": "Успешно",
+    "approveSuccessText": "Заявление одобрено",
+    "reviewError": "Не удалось обработать заявление",
+    "reviewSuccessTitle": "Успешно",
+    "reviewSuccessText": "Заявление обработано",
+    "downloadApplicationDocxError": "Не удалось скачать заявление",
+    "downloadOrderDocxError": "Не удалось скачать приказ",
+    "approvePromptTitle": "Одобрить заявление?",
+    "approvePromptText": "Вы уверены, что хотите одобрить это заявление?",
+    "uploadApplicationScan": "Загрузить скан заявления",
+    "updateCertificate": "Обновить медицинскую справку",
+    "updateCertificateSuccess": "Медицинская справка успешно обновлена"
+  },
+  "details": {
+    "title": "Детали отпуска",
+    "worker": "Работник",
+    "startDate": "Дата начала",
+    "endDate": "Дата окончания",
+    "daysCount": "Количество дней",
+    "reason": "Причина",
+    "approvalResolution": "Резолюция",
+    "diagnosis": "Диагноз",
+    "status": "Статус",
+    "annualLeave": "Ежегодный отпуск",
+    "unpaidLeave": "Отпуск без сохранения заработной платы",
+    "medicalLeave": "На больничном",
+    "applicationFileLabel": "Файл заявления",
+    "orderFileLabel": "Файл приказа",
+    "certificateFileLabel": "Медицинская справка"
+  },
+  "review": {
+    "revisionTitle": "Отправить на доработку",
+    "rejectTitle": "Отклонить заявление",
+    "revisionNotePlaceholder": "Комментарий (необязательно)",
+    "rejectNotePlaceholder": "Причина отклонения (необязательно)",
+    "submitting": "Отправка..."
+  },
+  "buttons": {
+    "cancel": "Отмена",
+    "submit": "Отправить"
+  },
+  "messages": {
+    "loading": "Загрузка...",
+    "noResults": "Результаты не найдены",
+    "error": "Произошла ошибка при загрузке данных",
+    "errorTitle": "Ошибка",
+    "uploadError": "Не удалось загрузить заявление",
+    "uploadOrderError": "Не удалось загрузить приказ",
+    "uploadCertificateError": "Не удалось загрузить справку",
+    "updateCertificateError": "Не удалось обновить медицинскую справку",
+    "loadError": "Ошибка при загрузке данных",
+    "deleteConfirmTitle": "Подтверждение удаления",
+    "deleteConfirmText": "Вы уверены, что хотите удалить это заявление на отпуск?",
+    "deleteSuccessTitle": "Успешно",
+    "deleteSuccessText": "Заявление на отпуск успешно удалено",
+    "deleteErrorTitle": "Ошибка",
+    "deleteFailed": "Не удалось удалить заявление на отпуск",
+    "submitSuccessTitle": "Успешно",
+    "submitSuccessText": "Заявление успешно отправлено на подписание",
+    "submitErrorTitle": "Ошибка",
+    "submitErrorText": "Не удалось отправить заявление на подписание"
+  },
+  "file_uploader": {
+    "drop_here": "Перетащите файл сюда или нажмите, чтобы выбрать",
+    "formats": "Формат PDF, JPG, PNG до {{max}} MB",
+    "formats_images_only": "Формат JPG, PNG до {{max}} MB",
+    "errors": {
+      "file_too_large": "Файл превышает максимальный размер: {{max}}MB",
+      "invalid_format": "Недопустимый формат файла. Разрешены: PDF, JPG, PNG"
+    }
+  },
+  "prompt": {
+    "ok": "ОК"
+  },
+  "prompt_form": {
+    "confirm": "Подтвердить",
+    "cancel": "Отмена",
+    "submitting": "Отправка..."
+  }
+}

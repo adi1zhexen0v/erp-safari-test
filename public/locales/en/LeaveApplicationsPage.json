@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Leaves - HR | SEN Group",
+    "description": "Manage leave applications"
+  },
+  "breadcrumbs": {
+    "hr": "HR",
+    "leaves": "Leaves"
+  },
+  "header": {
+    "title": "Leaves"
+  },
+  "filters": {
+    "searchPlaceholder": "Enter name or reason",
+    "period": "Period",
+    "status": "Status",
+    "reset": "Reset",
+    "statusOptions": {
+      "annual": "Annual Leave",
+      "unpaid": "Unpaid Leave",
+      "medical": "Medical Leave"
+    }
+  },
+  "view": {
+    "table": "Table",
+    "cards": "Gallery"
+  },
+  "cards": {
+    "leaveType": "Leave Type",
+    "status": "Status",
+    "period": "Period",
+    "duration": "Duration",
+    "days": "days",
+    "sendForSigning": "Send for Signing",
+    "leaveTypeLabels": {
+      "annual": "On Leave",
+      "unpaid": "Unpaid",
+      "medical": "Medical Leave"
+    }
+  },
+  "table": {
+    "employee": "Employee",
+    "leaveType": "Leave Type",
+    "period": "Period",
+    "duration": "Duration",
+    "status": "Status",
+    "actions": "Actions",
+    "leaveTypeLabels": {
+      "annual": "On Leave",
+      "unpaid": "Unpaid",
+      "medical": "Medical Leave"
+    }
+  },
+  "statusLabels": {
+    "draft": "Draft",
+    "app_pending": "Waiting for application",
+    "app_review": "Application under review",
+    "app_approved": "Application approved",
+    "order_pending": "Waiting for order",
+    "order_uploaded": "Order uploaded",
+    "active": "Active",
+    "activeFrom": "Activates from {{date}}",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "actions": {
+    "preview": "Preview Application",
+    "edit": "Edit",
+    "delete": "Delete",
+    "sendForSigning": "Send for Signing",
+    "uploadApplication": "Upload Application",
+    "uploadOrder": "Upload Order",
+    "uploadCertificate": "Upload Medical Certificate",
+    "selectPdf": "Select PDF file",
+    "uploading": "Uploading...",
+    "upload": "Upload",
+    "downloadApplicationDocx": "Download Application (DOCX)",
+    "downloadOrderDocx": "Download Order (DOCX)",
+    "downloading": "Downloading...",
+    "approve": "Approve Application",
+    "revision": "Request Revision",
+    "reject": "Reject Application",
+    "reviewing": "Processing...",
+    "createOrder": "Create Order",
+    "creating": "Creating...",
+    "complete": "Activate Leave",
+    "completing": "Activating...",
+    "orderCreatedTitle": "Order Created",
+    "orderCreatedText": "Order created successfully",
+    "orderCreateError": "Failed to create order",
+    "completeSuccessTitle": "Success",
+    "completeSuccessText": "Leave activated",
+    "completeError": "Failed to activate leave",
+    "successTitle": "Success",
+    "uploadSuccess": "File uploaded successfully",
+    "approveSuccessTitle": "Success",
+    "approveSuccessText": "Application approved",
+    "reviewError": "Failed to process application",
+    "reviewSuccessTitle": "Success",
+    "reviewSuccessText": "Application processed",
+    "downloadApplicationDocxError": "Failed to download application",
+    "downloadOrderDocxError": "Failed to download order",
+    "approvePromptTitle": "Approve Application?",
+    "approvePromptText": "Are you sure you want to approve this application?",
+    "uploadApplicationScan": "Upload Application Scan",
+    "updateCertificate": "Update Medical Certificate",
+    "updateCertificateSuccess": "Medical certificate successfully updated"
+  },
+  "details": {
+    "title": "Leave Details",
+    "worker": "Worker",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "daysCount": "Days Count",
+    "reason": "Reason",
+    "approvalResolution": "Approval Resolution",
+    "diagnosis": "Diagnosis",
+    "status": "Status",
+    "annualLeave": "Annual Leave",
+    "unpaidLeave": "Unpaid Leave",
+    "medicalLeave": "Medical Leave",
+    "applicationFileLabel": "Application File",
+    "orderFileLabel": "Order File",
+    "certificateFileLabel": "Medical Certificate"
+  },
+  "review": {
+    "revisionTitle": "Request Revision",
+    "rejectTitle": "Reject Application",
+    "revisionNotePlaceholder": "Comment (optional)",
+    "rejectNotePlaceholder": "Rejection reason (optional)",
+    "submitting": "Submitting..."
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "submit": "Submit"
+  },
+  "messages": {
+    "loading": "Loading...",
+    "noResults": "No results found",
+    "error": "An error occurred while loading data",
+    "errorTitle": "Error",
+    "uploadError": "Failed to upload application",
+    "uploadOrderError": "Failed to upload order",
+    "uploadCertificateError": "Failed to upload certificate",
+    "updateCertificateError": "Failed to update medical certificate",
+    "loadError": "Error loading data",
+    "deleteConfirmTitle": "Confirm Deletion",
+    "deleteConfirmText": "Are you sure you want to delete this leave application?",
+    "deleteSuccessTitle": "Success",
+    "deleteSuccessText": "Leave application deleted successfully",
+    "deleteErrorTitle": "Error",
+    "deleteFailed": "Failed to delete leave application",
+    "submitSuccessTitle": "Success",
+    "submitSuccessText": "Application sent for signing successfully",
+    "submitErrorTitle": "Error",
+    "submitErrorText": "Failed to send application for signing"
+  },
+  "file_uploader": {
+    "drop_here": "Drag a file here or click to select",
+    "formats": "PDF, JPG, PNG format up to {{max}} MB",
+    "formats_images_only": "JPG, PNG format up to {{max}} MB",
+    "errors": {
+      "file_too_large": "File exceeds maximum size: {{max}}MB",
+      "invalid_format": "Invalid file format. Allowed: PDF, JPG, PNG"
+    }
+  },
+  "prompt": {
+    "ok": "OK"
+  },
+  "prompt_form": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "submitting": "Submitting..."
+  }
+}

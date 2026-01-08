@@ -1,0 +1,32 @@
+{
+  "title": "Вход в систему",
+  "meta": {
+    "title": "Вход — SEN Group",
+    "description": "Авторизация в системе управления SEN Group."
+  },
+  "email": {
+    "label": "E-mail",
+    "placeholder": "Введите ваш e-mail",
+    "error": {
+      "required": "Пожалуйста, введите email",
+      "invalid": "Некорректный формат email"
+    }
+  },
+  "password": {
+    "label": "Пароль",
+    "placeholder": "Введите пароль",
+    "error": {
+      "required": "Пожалуйста, введите пароль",
+      "strongPassword": "Пароль должен содержать минимум 8 символов, одну заглавную букву, одну цифру и один специальный символ"
+    }
+  },
+  "button": "Войти",
+  "loading": "Загрузка...",
+  "errors": {
+    "invalid_credentials": "Неверный email или пароль",
+    "manager_not_found": "Менеджер с таким email не найден",
+    "server_unavailable": "Сервер недоступен. Проверьте соединение.",
+    "parsing_error": "Ошибка обработки ответа сервера",
+    "unknown": "Неизвестная ошибка"
+  }
+}

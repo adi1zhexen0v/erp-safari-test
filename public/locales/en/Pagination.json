@@ -1,0 +1,8 @@
+{
+  "results": "{{count}} result",
+  "results_plural": {
+    "one": "{{count}} result",
+    "other": "{{count}} results"
+  },
+  "shown": "Showing <0>{{from}}–{{to}}</0> of <0>{{total}}</0> results"
+}

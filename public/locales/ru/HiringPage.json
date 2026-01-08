@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "Процесс найма — Кадры | SEN Group",
+    "description": "Процесс найма в системе управления SEN Group."
+  },
+  "createForm": {
+    "candidate_name": {
+      "error": {
+        "required": "Пожалуйста, введите имя кандидата"
+      }
+    },
+    "email": {
+      "error": {
+        "required": "Пожалуйста, введите email",
+        "invalid": "Некорректный формат email"
+      }
+    },
+    "phone": {
+      "error": {
+        "required": "Пожалуйста, введите номер телефона",
+        "invalid": "Некорректный формат номера телефона"
+      }
+    },
+    "job_position": {
+      "error": {
+        "required": "Пожалуйста, введите должность"
+      }
+    }
+  },
+  "breadcrumbs": {
+    "hr": "Кадры",
+    "hiring": "Процесс найма"
+  },
+  "header": {
+    "title": "Процесс найма",
+    "newInvitation": "Пригласить кандидата"
+  },
+  "summary": {
+    "totalApplications": "Всего заявок",
+    "submittedApplications": "Отправленные заявки",
+    "approvedApplications": "Одобренные заявки",
+    "compareWithLastMonth": "По сравнению с прошлым месяцем"
+  },
+  "filters": {
+    "searchPlaceholder": "Поиск по имени, email или ИИН",
+    "submittedDate": "Дата отправки",
+    "stage": "Этап",
+    "status": "Статус",
+    "reset": "Сбросить",
+    "all": "Все"
+  },
+  "view": {
+    "table": "Таблица",
+    "cards": "Галерея"
+  },
+  "table": {
+    "candidate": "Кандидат",
+    "email": "Email",
+    "phone": "Телефон",
+    "position": "Должность",
+    "iin": "ИИН",
+    "stage": "Этап",
+    "status": "Статус",
+    "submittedAt": "Отправлено",
+    "reviewedAt": "Проверено",
+    "invitationDate": "Дата приглашения",
+    "actions": "Действия"
+  },
+  "cards": {
+    "actionPrimary": "Открыть заявку",
+    "viewProfile": "Профиль кандидата",
+    "dateInvited": "Дата приглашения",
+    "personalSheet": "Личный листок",
+    "downloadProfile": "Скачать личный листок"
+  },
+  "status": {
+    "draft": "Отправлен кандидату",
+    "submitted": "Ожидание решения",
+    "revision_requested": "На доработке",
+    "approved": "Одобрен",
+    "rejected": "Отклонен"
+  },
+  "stage": {
+    "invited": "Приглашён",
+    "filling": "Заполнение анкеты",
+    "review": "Рассмотрение",
+    "decision": "Решение",
+    "completed": "Завершено"
+  },
+  "invite": {
+    "title": "Пригласить кандидата",
+    "subtitle": "Введите данные кандидата",
+    "name": "Полное имя",
+    "namePlaceholder": "Аман Амина Маратовна",
+    "email": "Email",
+    "emailPlaceholder": "name@sengroup.one",
+    "phone": "Телефон",
+    "phonePlaceholder": "+7 707 123 45 67",
+    "position": "Должность",
+    "positionPlaceholder": "Например: Менеджер по продажам",
+    "cancel": "Отмена",
+    "send": "Отправить приглашение",
+    "loading": "Загрузка...",
+    "error": "Ошибка при создании кандидата",
+    "successTitle": "Приглашение отправлено",
+    "successText": "Кандидат успешно приглашён. На email отправлено письмо."
+  },
+  "actions": {
+    "approve": "Одобрить листок",
+    "requestRevision": "На доработку",
+    "reject": "Отклонить",
+    "createContract": "Сформировать ТД",
+    "viewDetails": "Посмотреть личный листок",
+    "approving": "Одобрение...",
+    "rejecting": "Отклонение...",
+    "creating": "Создание..."
+  },
+  "modals": {
+    "revisionTitle": "Причина доработки",
+    "revisionPlaceholder": "Опишите, что нужно исправить",
+    "sending": "Отправка...",
+    "send": "Отправить",
+    "rejectTitle": "Причина отказа",
+    "rejectPlaceholder": "Опишите причину отказа",
+    "rejecting": "Отклонение...",
+    "createContractTitle": "Создание трудового договора",
+    "startDateLabel": "Дата начала работы",
+    "selectDate": "Выберите дату",
+    "creating": "Создание...",
+    "createContract": "Создать договор",
+    "errorLoading": "Ошибка загрузки данных заявки",
+    "personalSheet": "Личный листок",
+    "personalData": "Личные данные",
+    "iin": "ИИН",
+    "dateOfBirth": "Дата рождения",
+    "gender": "Пол",
+    "familyStatus": "Семейное положение",
+    "cityOfBirth": "Город рождения",
+    "nationality": "Национальность",
+    "citizenship": "Гражданство",
+    "contacts": "Контакты",
+    "email": "Email",
+    "phone": "Телефон",
+    "additionalPhone": "Дополнительный телефон",
+    "emergencyContacts": "Экстренные контакты",
+    "contact1": "Контакт 1",
+    "contact2": "Контакт 2",
+    "fullName": "Полное имя",
+    "relation": "Степень родства",
+    "addresses": "Адреса",
+    "registrationAddress": "Адрес регистрации по прописке",
+    "actualAddress": "Адрес фактического места проживания",
+    "documents": "Документы",
+    "nationalId": "Удостоверение личности",
+    "idNumber": "Номер удостоверения",
+    "issuedBy": "Кем выдано",
+    "issueDate": "Дата выдачи",
+    "expiryDate": "Срок действия",
+    "militaryCertificate": "Военный билет",
+    "banking": "Банковские реквизиты",
+    "bankName": "Название банка",
+    "iban": "Номер счета (IBAN)",
+    "bik": "БИК",
+    "education": "Образование",
+    "university": "Учебное заведение",
+    "specialty": "Специальность",
+    "graduationYear": "Год окончания",
+    "workExperience": "Опыт работы",
+    "position": "Должность или профессия",
+    "startDate": "Начало работы",
+    "endDate": "Окончание работы",
+    "genderValues": {
+      "male": "Мужской",
+      "female": "Женский"
+    },
+    "familyStatusValues": {
+      "single": "Не женат / Не замужем",
+      "married": "Женат / Замужем",
+      "divorced": "Разведён(а)",
+      "widowed": "Вдовец / Вдова"
+    },
+    "relationValues": {
+      "mother": "Мать",
+      "father": "Отец",
+      "spouse": "Супруг / Супруга",
+      "sibling": "Брат / Сестра",
+      "other": "Другое"
+    },
+    "degreeValues": {
+      "bachelor": "Бакалавр",
+      "master": "Магистр",
+      "phd": "PhD",
+      "college": "Колледж"
+    },
+    "noEmergencyContacts": "Экстренные контакты не указаны",
+    "noEducation": "Образование не указано",
+    "noWorkExperience": "Опыт работы не указан",
+    "socialCategories": "Социальные категории"
+  },
+  "messages": {
+    "loading": "Загрузка...",
+    "error": "Не удалось загрузить заявки. Попробуйте обновить страницу.",
+    "noResults": "По заданным фильтрам заявки не найдены.",
+    "errorTitle": "Ошибка",
+    "approveSuccessTitle": "Заявка одобрена",
+    "approveSuccessText": "Кандидат успешно переведён на следующий этап",
+    "approveErrorText": "Не удалось одобрить заявку",
+    "revisionSuccessTitle": "Отправлено на доработку",
+    "revisionSuccessText": "Кандидату отправлено уведомление о необходимости доработки",
+    "revisionErrorText": "Не удалось отправить на доработку",
+    "rejectSuccessTitle": "Кандидат отклонён",
+    "rejectSuccessText": "Статус заявки обновлён",
+    "rejectErrorText": "Не удалось отклонить заявку",
+    "selectStartDate": "Выберите дату начала работы",
+    "contractSuccessTitle": "Трудовой договор создан",
+    "contractSuccessText": "Проект контракта успешно сформирован",
+    "contractErrorText": "Не удалось создать трудовой договор",
+    "contractGeneralErrorText": "Произошла ошибка при создании трудового договора. Пожалуйста, попробуйте еще раз.",
+    "reminderTitle": "Напоминание",
+    "reminderText": "Функция отправки напоминания будет реализована позже",
+    "downloadFailed": "Не удалось скачать личный листок",
+    "waitingForDownload": "Подготовка файла..."
+  },
+  "prompt": {
+    "ok": "ОК"
+  }
+}

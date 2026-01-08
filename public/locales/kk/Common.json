@@ -1,0 +1,21 @@
+{
+  "loadingCities": "Қалалар тізімі жүктелуде...",
+  "statusIndicator": {
+    "amendment": {
+      "cancelled": "Бас тартылды",
+      "applied": "Қолданылды",
+      "default": "Күтуде"
+    },
+    "jobApplication": {
+      "contractSigned": "Келісім қол қойылған",
+      "decision": "Қабылданбады",
+      "jobAppPending": "Дайындауда",
+      "jobAppReview": "Өтініш бойынша шешім күтуде",
+      "default": "Бекітілді"
+    },
+    "order": {
+      "orderPending": "Күтуде",
+      "default": "Аяқталды"
+    }
+  }
+}

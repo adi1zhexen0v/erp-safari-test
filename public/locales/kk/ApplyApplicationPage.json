@@ -1,0 +1,608 @@
+{
+  "personal": {
+    "loading": "Жүктелуде...",
+    "title": "Жеке деректер | SEN Group",
+    "photo": {
+      "label": "3×4 фотосурет"
+    },
+    "surname": {
+      "label": "Тегі",
+      "placeholder": "Тегіңізді енгізіңіз"
+    },
+    "name": {
+      "label": "Аты",
+      "placeholder": "Атыңызды енгізіңіз"
+    },
+    "father_name": {
+      "label": "Әкесінің аты",
+      "placeholder": "Әкесінің атын енгізіңіз"
+    },
+    "iin": {
+      "label": "ЖСН",
+      "placeholder": "123456789012"
+    },
+    "date_of_birth": {
+      "label": "Туған күні",
+      "placeholder": "кк.аа.жжжж"
+    },
+    "gender": {
+      "label": "Жынысы",
+      "placeholder": "Таңдаңыз",
+      "male": "Ер",
+      "female": "Әйел"
+    },
+    "family_status": {
+      "label": "Отбасылық жағдайы",
+      "placeholder": "Таңдаңыз",
+      "single": "Үйленбеген / Тұрмысқа шықпаған",
+      "married": "Үйленген / Тұрмыста",
+      "divorced": "Ажырасқан",
+      "widowed": "Жесір"
+    },
+    "city_of_birth": {
+      "label": "Туған қаласы",
+      "placeholder": "Қаланы енгізіңіз"
+    },
+    "nationality": {
+      "label": "Ұлты",
+      "placeholder": "Енгізіңіз"
+    },
+    "citizenship": {
+      "label": "Азаматтығы",
+      "placeholder": "Енгізіңіз"
+    },
+    "not_resident": "Мен Қазақстан Республикасының тұрғыны емеспін",
+    "is_student": "Мен қазір студентпін",
+    "enrollment": {
+      "label": "Оқу орнына тірелу туралы анықтама"
+    },
+    "submit_review": "Тексеруге жіберу",
+    "save": "Бөлімді сақтау",
+    "saving": "Сақталуда...",
+    "toast": {
+      "success": "Жеке деректер сәтті сақталды",
+      "error": "Деректерді сақтау мүмкін болмады"
+    }
+  },
+  "contacts": {
+    "loading": "Жүктелуде...",
+    "title": "Байланыс ақпараттары",
+    "email": {
+      "label": "Email",
+      "placeholder": "name@example.com"
+    },
+    "phone": {
+      "label": "Телефон",
+      "placeholder": "+7 707 123 45 67"
+    },
+    "phone_additional": {
+      "label": "Қосымша телефон",
+      "placeholder": "+7 707 123 45 67"
+    },
+    "submit_review": "Тексеруге жіберу",
+    "save": "Бөлімді сақтау",
+    "saving": "Сақталуда...",
+    "toast": {
+      "success": "Байланыс деректері сәтті сақталды",
+      "error": "Деректерді сақтау мүмкін болмады"
+    }
+  },
+  "addresses": {
+    "loading": "Жүктелуде...",
+    "title": "Мекенжайлар",
+    "registration": {
+      "label": "Тіркелген мекенжай",
+      "placeholder": "Тіркелген мекенжайды енгізіңіз"
+    },
+    "actual": {
+      "label": "Нақты мекенжай",
+      "placeholder": "Нақты мекенжайды енгізіңіз"
+    },
+    "submit_review": "Тексеруге жіберу",
+    "save": "Бөлімді сақтау",
+    "saving": "Сақталуда...",
+    "toast": {
+      "success": "Мекенжайлар сәтті сақталды",
+      "error": "Деректерді сақтау мүмкін болмады"
+    }
+  },
+  "emergency": {
+    "title": "Төтенше жағдайдағы байланыстар",
+    "contact_1": {
+      "title": "Байланыс 1"
+    },
+    "contact_2": {
+      "title": "Байланыс 2"
+    },
+    "name": {
+      "label": "Төтенше байланыс адамның толық аты-жөні",
+      "placeholder": "Аты-жөнін енгізіңіз"
+    },
+    "relation": {
+      "label": "Туыстық дәрежесі",
+      "placeholder": "Таңдаңыз",
+      "mother": "Ана",
+      "father": "Әке",
+      "spouse": "Жұбайы",
+      "sibling": "Аға / Әпке / Іні / Сіңлі",
+      "other": "Басқа"
+    },
+    "phone": {
+      "label": "Телефон",
+      "placeholder": "+7 707 123 45 67"
+    },
+    "submit_review": "Тексеруге жіберу",
+    "save": "Бөлімді сақтау",
+    "saving": "Сақталуда...",
+    "next": "Келесі қадам",
+    "toast": {
+      "success": "Төтенше байланыстар сәтті сақталды",
+      "error": "Деректерді сақтау мүмкін болмады"
+    }
+  },
+  "id": {
+    "title": "Құжаттар",
+    "identity": {
+      "title": "Жеке куәлік",
+      "number": {
+        "label": "Жеке куәлік нөмірі",
+        "placeholder": "123456789"
+      },
+      "issued_by": {
+        "label": "Кім берген",
+        "placeholder": "Мысалы, ҚР ІІМ"
+      },
+      "issue_date": {
+        "label": "Берілген күні",
+        "placeholder": "кк.аа.жжжж"
+      },
+      "expiry_date": {
+        "label": "Жарамдылық мерзімі",
+        "placeholder": "кк.аа.жжжж"
+      },
+      "file": {
+        "label": "Жеке куәлік файлы",
+        "button": "Файлды таңдау",
+        "hint": "PDF, JPG, PNG форматы, 5 МБ дейін"
+      }
+    },
+    "military": {
+      "title": "Әскери есеп",
+      "file": {
+        "label": "Әскери билет файлы",
+        "button": "Файлды таңдау",
+        "hint": "PDF, JPG, PNG форматы, 5 МБ дейін",
+        "note": "Әскери міндеттілер үшін (әскери билет немесе тіркеу куәлігі)"
+      }
+    },
+    "enrollment": {
+      "title": "Тірелу туралы анықтама",
+      "file": {
+        "label": "Оқу орнына тірелу туралы анықтаманы жүктеңіз",
+        "button": "Файлды таңдау",
+        "hint": "PDF, JPG, PNG форматы, 5 МБ дейін"
+      }
+    },
+    "save": "Сақтау",
+    "saving": "Сақталуда...",
+    "submit_review": "Тексеруге жіберу",
+    "toast": {
+      "success": "Құжаттар сәтті сақталды",
+      "error": "Деректерді сақтау мүмкін болмады"
+    }
+  },
+  "banking": {
+    "title": "Банк деректтері",
+    "bank_name": {
+      "label": "Банк атауы",
+      "placeholder": "Банкті таңдаңыз",
+      "searchPlaceholder": "Атауы немесе БИК бойынша іздеу..."
+    },
+    "iban": {
+      "label": "IBAN шоты",
+      "placeholder": "KZ000000000000000000"
+    },
+    "bik": {
+      "label": "БИК",
+      "placeholder": "ABCDEFGH"
+    },
+    "certificate": {
+      "label": "Шот бар екендігі туралы анықтама"
+    },
+    "submit_review": "Тексеруге жіберу",
+    "save": "Бөлімді сақтау",
+    "saving": "Сақталуда...",
+    "toast": {
+      "success": "Банк деректері сақталды",
+      "error": "Сақтау кезінде қате орын алды"
+    }
+  },
+  "education": {
+    "title": "Білім",
+    "add_more": "Қосу",
+    "new_form": "Жаңа білім",
+    "title_main": "Негізгі білім",
+    "title_additional": "Қосымша білім",
+    "degree": {
+      "label": "Білім дәрежесі",
+      "placeholder": "Таңдаңыз",
+      "options": {
+        "bachelor": "Бакалавр",
+        "master": "Магистр",
+        "phd": "PhD",
+        "college": "Колледж"
+      }
+    },
+    "university": {
+      "label": "Оқу орны",
+      "placeholder": "Мысалы, Әл-Фараби атындағы ҚазҰУ"
+    },
+    "specialty": {
+      "label": "Мамандығы",
+      "placeholder": "Мысалы, Ақпараттық жүйелер"
+    },
+    "year": {
+      "label": "Бітіру жылы",
+      "placeholder": "Мысалы, 2024"
+    },
+    "diploma_number": {
+      "label": "Диплом нөмірі",
+      "placeholder": "AB1234567"
+    },
+    "upload_title": "Диплом мен қосымшаны жүктеңіз",
+    "diploma_file": {
+      "label": "Диплом файлы"
+    },
+    "diploma_transcript": {
+      "label": "Диплом қосымшасы файлы"
+    },
+    "save": "Сақтау",
+    "saving": "Сақталуда...",
+    "cancel": "Болдырмау",
+    "empty": "Сізде білім деректері жүктелмеген",
+    "submit_review": "Тексеруге жіберу",
+    "toast": {
+      "success": "Білім жазбасы сәтті қосылды",
+      "error": "Сақтау кезінде қате пайда болды",
+      "delete_success": "Білім жазбасы сәтті жойылды",
+      "delete_error": "Білім жазбасын жою кезінде қате пайда болды"
+    }
+  },
+  "experience": {
+    "title": "Жұмыс тәжірибесі",
+    "add": "Тағы қосу",
+    "primary_title": "Жұмыс орны",
+    "additional_title": "Жаңа жұмыс орны",
+    "cancel": "Болдырмау",
+    "empty": "Қосылған жазбалар жоқ",
+
+    "work_title": "Жұмыс орны",
+
+    "organization": {
+      "label": "Компания",
+      "placeholder": "Мысалы, TOO Sen Group"
+    },
+
+    "position": {
+      "label": "Лауазымы немесе мамандығы",
+      "placeholder": "Таңдаңыз"
+    },
+    "sector": {
+      "label": "Жұмыс категориясы",
+      "placeholder": "Категорияны таңдаңыз"
+    },
+    "begin": {
+      "label": "Жұмыстың басталуы",
+      "placeholder": "кк.аа.жжжж"
+    },
+
+    "end": {
+      "label": "Жұмыстың аяқталуы",
+      "placeholder": "кк.аа.жжжж"
+    },
+
+    "working_now": "Қазір осында жұмыс істеймін",
+    "save": "Сақтау",
+
+    "proof": {
+      "title": "БЖЗҚ үзіндісін немесе еңбек кітапшасының сканын жүктеңіз",
+      "label": "БЖЗҚ үзіндісі немесе еңбек кітапшасы",
+      "save": "Сақтау",
+      "saving": "Сақталуда...",
+      "submit": "Тексеруге жіберу",
+      "sent_for_review": "Файл тексеруге жіберілді",
+      "toast": {
+        "success": "Файл сәтті жүктелді",
+        "error": "Файлды жүктеу қатесі"
+      }
+    },
+
+    "toast": {
+      "success": "Жұмыс тәжірибесі қосылды",
+      "error": "Жұмыс тәжірибесін қосу қатесі",
+      "delete_success": "Жұмыс тәжірибесі сәтті жойылды",
+      "delete_error": "Жұмыс тәжірибесін жою кезінде қате пайда болды"
+    }
+  },
+  "validation": {
+    "personal": {
+      "iin_length": "ЖСН 12 символдан тұруы тиіс",
+      "name_required": "Аты міндетті",
+      "surname_required": "Тегі міндетті",
+      "date_required": "Туған күн міндетті",
+      "date_invalid": "Қате күн форматы",
+      "gender_required": "Жынысы міндетті",
+      "family_required": "Отбасылық жағдайы міндетті",
+      "city_required": "Туған қаласы міндетті",
+      "nationality_required": "Ұлты міндетті",
+      "citizenship_required": "Азаматтығы міндетті",
+      "photo_required": "3×4 фотосуретті жүктеңіз",
+      "enrollment_file_required": "Тірелу туралы анықтама файлын жүктеу қажет"
+    },
+    "contacts": {
+      "email_invalid": "Дұрыс email енгізіңіз",
+      "phone_required": "Негізгі телефон нөмірі міндетті"
+    },
+    "addresses": {
+      "address_registration_required": "Тіркелген мекенжай міндетті",
+      "address_factual_required": "Нақты мекенжай міндетті"
+    },
+    "emergency": {
+      "name_required": "Аты-жөні міндетті",
+      "phone_required": "Телефон нөмірі міндетті",
+      "relation_required": "Туыстық дәрежесі міндетті"
+    },
+    "id": {
+      "number_required": "Жеке куәлік нөмірі міндетті",
+      "issued_by_required": "Берген орган міндетті",
+      "issue_date_required": "Берілген күні міндетті",
+      "expiry_date_required": "Жарамдылық мерзімі міндетті",
+      "file_required": "Файлды жүктеу қажет",
+      "military_file_required": "Әскери құжатты жүктеу қажет",
+      "enrollment_file_required": "Тірелу туралы анықтама файлын жүктеу қажет"
+    },
+    "banking": {
+      "bank_name_required": "Банк атауы міндетті",
+      "iban_length": "IBAN дәл 20 таңба болуы керек",
+      "bik_length": "БИК 8–11 таңба болуы керек",
+      "file_required": "Файл жүктеу қажет",
+      "file_invalid": "Файл дұрыс болуы керек"
+    },
+    "education": {
+      "degree_required": "Білім деңгейін көрсету міндетті",
+      "university_required": "Оқу орнын көрсету міндетті",
+      "specialty_required": "Мамандық міндетті",
+      "year_invalid": "Жыл дұрыс енгізілмеді",
+      "diploma_number_required": "Диплом нөмірін енгізу міндетті",
+      "file_required": "Диплом файлын жүктеу қажет",
+      "transcript_required": "Қосымша файлды жүктеу қажет"
+    },
+    "experience": {
+      "organization_required": "Ұйым атауы міндетті",
+      "position_required": "Лауазым міндетті",
+      "begin_required": "Басталу күні міндетті",
+      "end_required": "Аяқталу күні міндетті",
+      "begin_invalid": "Басталу күні дұрыс емес",
+      "end_invalid": "Аяқталу күні дұрыс емес",
+      "end_before_begin": "Аяқталу күні басталу күнінен кейін болуы керек",
+      "date_invalid": "Күн дұрыс емес"
+    },
+    "social": {
+      "category_required": "Санат міндетті",
+      "document_file_required": "Құжат міндетті"
+    }
+  },
+  "prompt": {
+    "ok": "Жақсы"
+  },
+  "prompt_form": {
+    "confirm": "Жіберу",
+    "cancel": "Бас тарту",
+    "submitting": "Жіберілуде...",
+    "title": "Анкетаны жіберуге дайынсыз ба?",
+    "description": "Барлық деректердің дұрыс енгізілгенін тексеріңіз. Жібергеннен кейін анкетаны өңдеу мүмкін болмайды."
+  },
+  "file_uploader": {
+    "drop_here": "Файлды осында сүйреңіз немесе таңдау үшін басыңыз",
+    "formats": "PDF, JPG, PNG форматы, көлемі {{max}} МБ дейін",
+    "formats_images_only": "JPG, PNG форматы, көлемі {{max}} МБ дейін",
+    "errors": {
+      "file_too_large": "Файлдың көлемі рұқсат етілген шектен асты: {{max}}МБ",
+      "invalid_format": "Файл форматы рұқсат етілмеген. Рұқсат етілген: PDF, JPG, PNG"
+    }
+  },
+  "page": {
+    "title": "Қызметкердің жеке парағы | SEN Group",
+    "heading": "Қызметкердің жеке парағы",
+    "subtitle": "Жұмысқа алу процесін аяқтау үшін барлық бөлімдерді толтырыңыз",
+    "invalid_link": "Сілтеме жарамсыз",
+    "link_expired": "Сілтеменің мерзімі өткен.",
+    "submit_error": "Жіберу қатесі. Барлық бөлім деректерін тексеріңіз.",
+    "success_title": "Жеке парақ сәтті жіберілді!",
+    "success_message": "Сіздің деректеріңіз тексеруге жіберілді. Басшы анкетаны қарағаннан кейін сізбен байланысады.",
+    "error_title": "Қате",
+    "error_message": "Жіберу қатесі. Барлық бөлім деректерін тексеріңіз.",
+    "return_home": "Басты бетке оралу"
+  },
+  "social": {
+    "title": "Әлеуметтік санаттар",
+    "loading": "Жүктелуде...",
+    "add_more": "Санат қосу",
+    "empty": "Сізде қосылған әлеуметтік санаттар жоқ",
+    "category": {
+      "label": "Санат",
+      "placeholder": "Санатты таңдаңыз"
+    },
+    "categories": {
+      "disability_1": "Мүгедектік 1 топ",
+      "disability_2": "Мүгедектік 2 топ",
+      "disability_3": "Мүгедектік 3 топ",
+      "child_disability": "Мүгедек бала",
+      "veteran": "Ардагер",
+      "orphan": "Жетім",
+      "large_family": "Көпбалалы отбасы"
+    },
+    "document": {
+      "label": "Санатты растайтын құжат"
+    },
+    "issue_date": {
+      "label": "Берілген күні",
+      "placeholder": "кк.аа.жжжж"
+    },
+    "expiry_date": {
+      "label": "Жарамдылық мерзімі",
+      "placeholder": "кк.аа.жжжж"
+    },
+    "notes": {
+      "label": "Ескертпелер",
+      "placeholder": "Ескертпелерді енгізіңіз (міндетті емес)"
+    },
+    "save": "Сақтау",
+    "saving": "Сақталуда...",
+    "cancel": "Болдырмау",
+    "submit_review": "Тексеруге жіберу",
+    "toast": {
+      "success": "Әлеуметтік санат сәтті қосылды",
+      "error": "Санатты қосу қатесі",
+      "delete_success": "Санат сәтті жойылды",
+      "delete_error": "Санатты жою қатесі"
+    }
+  },
+  "sections": {
+    "personal_data": "Жеке деректер",
+    "contacts": "Байланыс ақпараттары",
+    "addresses": "Мекенжайлар",
+    "emergency_contacts": "Төтенше байланыстар",
+    "id_documents": "Құжаттар",
+    "banking": "Банк деректтері",
+    "education": "Білім",
+    "experience": "Жұмыс тәжірибесі",
+    "social_categories": "Әлеуметтік санаттар",
+    "personal_data_required_tooltip": "Алдымен «Жеке деректер» бөлімін толтыру қажет"
+  },
+  "GeneralForm": {
+    "citizenship": {
+      "kazakhstan": "Қазақстан",
+      "china": "Қытай",
+      "india": "Үндістан",
+      "usa": "АҚШ",
+      "indonesia": "Индонезия",
+      "pakistan": "Пәкістан",
+      "nigeria": "Нигерия",
+      "brazil": "Бразилия",
+      "bangladesh": "Бангладеш",
+      "russia": "Ресей",
+      "mexico": "Мексика",
+      "japan": "Жапония",
+      "ethiopia": "Эфиопия",
+      "philippines": "Филиппин",
+      "egypt": "Мысыр",
+      "vietnam": "Вьетнам",
+      "drc": "ДР Конго",
+      "iran": "Иран",
+      "turkey": "Түркия",
+      "germany": "Германия",
+      "thailand": "Таиланд",
+      "uk": "Ұлыбритания",
+      "tanzania": "Танзания",
+      "france": "Франция",
+      "south_africa": "Оңтүстік Африка",
+      "italy": "Италия",
+      "kenya": "Кения",
+      "myanmar": "Мьянма",
+      "colombia": "Колумбия",
+      "south_korea": "Оңтүстік Корея",
+      "spain": "Испания",
+      "uganda": "Уганда",
+      "argentina": "Аргентина",
+      "algeria": "Алжир",
+      "sudan": "Судан",
+      "ukraine": "Украина",
+      "iraq": "Ирак",
+      "afghanistan": "Ауғанстан",
+      "poland": "Польша",
+      "canada": "Канада",
+      "morocco": "Марокко",
+      "saudi_arabia": "Сауд Арабиясы",
+      "uzbekistan": "Өзбекстан",
+      "malaysia": "Малайзия",
+      "angola": "Ангола",
+      "mozambique": "Мозамбик",
+      "peru": "Перу",
+      "yemen": "Йемен",
+      "ghana": "Гана",
+      "nepal": "Непал",
+      "venezuela": "Венесуэла",
+      "kyrgyzstan": "Қырғызстан",
+      "tajikistan": "Тәжікстан",
+      "turkmenistan": "Түрікменстан"
+    },
+    "nationality": {
+      "kazakh": "Қазақ",
+      "russian": "Орыс",
+      "uzbek": "Өзбек",
+      "ukrainian": "Украин",
+      "uyghur": "Ұйғыр",
+      "tatar": "Татар",
+      "german": "Неміс",
+      "turkmen": "Түрікмен",
+      "azerbaijani": "Әзірбайжан",
+      "armenian": "Армян",
+      "korean": "Корей",
+      "chechen": "Шешен",
+      "ingush": "Ингуш",
+      "belarusian": "Беларусь",
+      "tajik": "Тәжік",
+      "kyrgyz": "Қырғыз",
+      "turk": "Түрік",
+      "chinese": "Қытай",
+      "dungan": "Дунган",
+      "polish": "Поляк",
+      "greek": "Грек",
+      "kumyk": "Құмық",
+      "karakalpak": "Қарақалпақ",
+      "bashkir": "Башқұрт",
+      "buryat": "Бурят",
+      "kalmyk": "Қалмақ",
+      "lezgin": "Лезгин",
+      "ossetian": "Осетин",
+      "mari": "Мари",
+      "mordvin": "Мордва",
+      "chuvash": "Чуваш",
+      "jewish": "Еврей",
+      "bulgarian": "Болгар",
+      "romanian": "Румын",
+      "serbian": "Серб",
+      "montenegrin": "Черногория",
+      "croatian": "Хорват",
+      "macedonian": "Македон",
+      "latvian": "Латвия",
+      "lithuanian": "Литва",
+      "estonian": "Эстония",
+      "finnish": "Фин",
+      "swedish": "Швед",
+      "norwegian": "Норвег",
+      "english": "Ағылшын",
+      "american": "Америкалық",
+      "french": "Француз",
+      "italian": "Италиян",
+      "spanish": "Испан",
+      "portuguese": "Португал",
+      "arab": "Араб",
+      "afghan": "Ауған",
+      "iranian": "Иран",
+      "pakistani": "Пәкістан",
+      "indian": "Үнді",
+      "kurd": "Күрд",
+      "assyrian": "Ассирия",
+      "gagauz": "Гағауыз",
+      "karaim": "Қараим",
+      "moldovan": "Молдаван",
+      "hungarian": "Венгр",
+      "czech": "Чех",
+      "slovak": "Словак",
+      "japanese": "Жапон"
+    }
+  }
+}
+

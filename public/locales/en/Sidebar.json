@@ -1,0 +1,42 @@
+{
+  "main": "Home",
+  "home": "Home",
+
+  "social": "Social Impact",
+  "impact": "Impact",
+
+  "workflows": "Workflows",
+  "requests": "Requests",
+  "projects": "Projects",
+  "socialBank": "Social Bank",
+
+  "finance": "Financial Processes",
+  "accounting": "Accounting",
+  "accounting.timesheets": "Timesheets",
+  "accounting.payrolls": "Payroll",
+  "financePage": "Finance",
+
+  "legal": "Legal Support",
+  "legal.help": "Legal Assistance",
+  "legal.consultation": "Consultation",
+  "legal.templates": "Templates",
+  "legal.cases": "Legal Cases",
+  "legal.applications": "Created Documents",
+  "people": "People & Collaboration",
+  "tasks": "Tasks",
+  "hr": "HR",
+
+  "hr.employees": "Employees",
+  "hr.hiring": "Hiring Process",
+  "hr.contracts": "Employment Contracts",
+  "hr.vacations": "Vacations",
+
+  "team": "Team",
+
+  "support": "Support",
+  "settings": "Settings",
+  "supportCenter": "Support Center",
+
+  "logout": "Log out",
+  "logout.loading": "Logging out..."
+}

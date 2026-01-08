@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Consultation — Legal Support | SEN Group",
+    "description": "Consultation in the SEN Group management system."
+  },
+  "breadcrumbs": {
+    "legal": "Legal Support",
+    "consultation": "Consultation"
+  },
+  "header": {
+    "title": "Consultation",
+    "newForm": "Book a consultation"
+  },
+  "form": {
+    "title": "Book a consultation",
+    "description": "Get professional help with legal and financial issues for NGOs",
+    "topic": {
+      "label": "Select topic",
+      "placeholder": "NGO taxation issues",
+      "options": {
+        "tax": "NGO taxation issues",
+        "legal": "Legal issues",
+        "finance": "Financial issues"
+      }
+    },
+    "format": {
+      "label": "Meeting format",
+      "offline": "Offline",
+      "online": "Online"
+    },
+    "location": {
+      "label": "Location",
+      "placeholder": "name@sengroup.com"
+    },
+    "meetingLink": {
+      "label": "Meeting link",
+      "placeholder": "Paste the online meeting link"
+    },
+    "dateTime": {
+      "label": "Date and time",
+      "placeholder": "dd.mm.yyyy 00:00"
+    },
+    "details": {
+      "label": "Details",
+      "placeholder": "Enter a brief description of your question..."
+    },
+    "cancel": "Cancel",
+    "submit": "Book"
+  }
+}

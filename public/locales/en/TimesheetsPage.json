@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "title": "Timesheets — Accounting | SEN Group",
+    "description": "Timesheet management in SEN Group management system.",
+    "detailTitle": "Timesheet for {{month}} {{year}}",
+    "detailTitleFull": "Timesheet for {{month}} {{year}} — Accounting | SEN Group",
+    "pageTitle": "Timesheet for {{month}} {{year}}"
+  },
+  "breadcrumbs": {
+    "accounting": "Accounting",
+    "timesheets": "Timesheets"
+  },
+  "title": "Timesheets",
+  "table": {
+    "period": "Period",
+    "status": "Status",
+    "workDays": "Work Days",
+    "workHours": "Work Hours",
+    "entries": "Entries",
+    "actions": "Actions"
+  },
+  "status": {
+    "draft": "Draft",
+    "approved": "Approved"
+  },
+  "actions": {
+    "generate": "Generate Timesheet",
+    "open": "Open",
+    "approve": "Approve",
+    "delete": "Delete",
+    "download": "Download timesheet",
+    "saveChanges": "Save Changes",
+    "saving": "Saving..."
+  },
+  "generate": {
+    "title": "Generate Timesheet",
+    "text": "Select year and month for timesheet generation",
+    "year": "Year",
+    "month": "Month",
+    "yearPlaceholder": "Select year",
+    "monthPlaceholder": "Select month",
+    "confirm": "Generate",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "alreadyExists": "Timesheet already exists",
+    "needToApprove": ". You need to approve it"
+  },
+  "detail": {
+    "title": "Timesheet",
+    "worker": "Worker",
+    "workDays": "Work Days",
+    "workHours": "Work Hours",
+    "overtimeHours": "Overtime hours",
+    "annualLeave": "Annual Leave",
+    "medicalLeave": "Medical Leave",
+    "weekDays": {
+      "sun": "Sun",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat"
+    },
+    "summary": "Summary",
+    "total": "Total",
+    "totalWorkDays": "Work Days",
+    "totalWorkHours": "Work Hours",
+    "totalLeaveDays": "Total Leave Days",
+    "totalAbsenceDays": "Absences",
+    "totalEmployees": "Employees",
+    "helpTitle": "How to use the timesheet?",
+    "helpText": "Drag a code to fill multiple cells at once, or click on a cell to edit",
+    "legend": "Legend",
+    "holidays": "Holidays",
+    "invalidCode": "You can only enter valid values: 1-12 or W, L, S, U, T, M, A",
+    "codeLabels": {
+      "8": "Full day (8h)",
+      "4": "Half day (4h)",
+      "В": "Weekend",
+      "О": "Vacation",
+      "Б": "Medical leave",
+      "А": "Unpaid leave",
+      "К": "Business trip",
+      "Р": "Maternity leave",
+      "П": "Absence"
+    }
+  },
+  "confirm": {
+    "approveTitle": "Approve Timesheet",
+    "approveText": "After approval, the timesheet cannot be edited. Continue?",
+    "approveConfirm": "Approve",
+    "deleteTitle": "Delete Timesheet",
+    "deleteText": "Are you sure you want to delete this timesheet? This action cannot be undone.",
+    "deleteConfirm": "Delete",
+    "cancel": "Cancel"
+  },
+  "messages": {
+    "loading": "Loading...",
+    "error": "An error occurred while loading timesheets",
+    "noResults": "No timesheets found",
+    "errorTitle": "Error",
+    "waitingForDownload": "Please wait for the file to download",
+    "generateSuccessTitle": "Timesheet Generated",
+    "generateSuccessText": "Timesheet has been successfully generated",
+    "generateErrorText": "Failed to generate timesheet",
+    "approveSuccessTitle": "Timesheet Approved",
+    "approveSuccessText": "Timesheet has been successfully approved",
+    "approveErrorText": "Failed to approve timesheet",
+    "deleteSuccessTitle": "Timesheet Deleted",
+    "deleteSuccessText": "Timesheet has been successfully deleted",
+    "deleteErrorText": "Failed to delete timesheet",
+    "updateSuccessTitle": "Entry Updated",
+    "updateSuccessText": "Entry has been successfully updated",
+    "updateErrorText": "Failed to update entry",
+    "downloadErrorText": "Failed to download timesheet",
+    "batchUpdateSuccessTitle": "Changes Saved",
+    "batchUpdateSuccessText": "Successfully saved {{count}} entries",
+    "batchUpdatePartialTitle": "Partial Save",
+    "batchUpdatePartialText": "Saved {{success}} out of {{failed}} entries",
+    "batchUpdateErrorText": "Failed to save changes"
+  },
+  "prompt": {
+    "ok": "OK"
+  },
+  "prompt_form": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "submitting": "Submitting..."
+  },
+  "filters": {
+    "searchPlaceholder": "Period",
+    "period": "Period",
+    "status": "Status",
+    "reset": "Reset"
+  }
+}
+

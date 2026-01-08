@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Демалыстар - Кадрлар | SEN Group",
+    "description": "Демалысқа өтініштерді басқару"
+  },
+  "breadcrumbs": {
+    "hr": "Кадрлар",
+    "leaves": "Демалыстар"
+  },
+  "header": {
+    "title": "Демалыстар"
+  },
+  "filters": {
+    "searchPlaceholder": "Атын немесе себебін енгізіңіз",
+    "period": "Кезең",
+    "status": "Мәртебе",
+    "reset": "Тазалау",
+    "statusOptions": {
+      "annual": "Жыл сайынғы демалыс",
+      "unpaid": "Ақысыз демалыс",
+      "medical": "Сырқаттану парағы"
+    }
+  },
+  "view": {
+    "table": "Кесте",
+    "cards": "Галерея"
+  },
+  "cards": {
+    "leaveType": "Демалыс түрі",
+    "status": "Мәртебе",
+    "period": "Кезең",
+    "duration": "Ұзақтығы",
+    "days": "күн",
+    "sendForSigning": "Қол қоюға жіберу",
+    "leaveTypeLabels": {
+      "annual": "Демалыста",
+      "unpaid": "Ақысыз",
+      "medical": "Сырқаттану парағында"
+    }
+  },
+  "table": {
+    "employee": "Қызметкер",
+    "leaveType": "Демалыс түрі",
+    "period": "Кезең",
+    "duration": "Ұзақтығы",
+    "status": "Мәртебе",
+    "actions": "Әрекеттер",
+    "leaveTypeLabels": {
+      "annual": "Демалыста",
+      "unpaid": "Ақысыз",
+      "medical": "Сырқаттану парағында"
+    }
+  },
+  "statusLabels": {
+    "draft": "Жоба",
+    "app_pending": "Өтініш күтуде",
+    "app_review": "Өтініш тексерілуде",
+    "app_approved": "Өтініш бекітілді",
+    "order_pending": "Бұйрық күтуде",
+    "order_uploaded": "Бұйрық жүктелді",
+    "active": "Белсенді",
+    "activeFrom": "{{date}} бастап белсенді",
+    "completed": "Аяқталды",
+    "cancelled": "Бас тартылды"
+  },
+  "actions": {
+    "preview": "Өтінішті алдын ала қарау",
+    "edit": "Өңдеу",
+    "delete": "Жою",
+    "sendForSigning": "Қол қоюға жіберу",
+    "uploadApplication": "Өтінішті жүктеу",
+    "uploadOrder": "Бұйрықты жүктеу",
+    "uploadCertificate": "Медициналық анықтаманы жүктеу",
+    "selectPdf": "PDF файлды таңдаңыз",
+    "uploading": "Жүктелуде...",
+    "upload": "Жүктеу",
+    "downloadApplicationDocx": "Өтінішті жүктеу (DOCX)",
+    "downloadOrderDocx": "Бұйрықты жүктеу (DOCX)",
+    "downloading": "Жүктелуде...",
+    "approve": "Өтінішті бекіту",
+    "revision": "Қайта өңдеуге жіберу",
+    "reject": "Өтінішті қабылдамау",
+    "reviewing": "Өңделуде...",
+    "createOrder": "Бұйрық құру",
+    "creating": "Құрылуда...",
+    "complete": "Демалысты белсендіру",
+    "completing": "Белсендіруде...",
+    "orderCreatedTitle": "Бұйрық құрылды",
+    "orderCreatedText": "Бұйрық сәтті құрылды",
+    "orderCreateError": "Бұйрықты құру мүмкін болмады",
+    "completeSuccessTitle": "Сәтті",
+    "completeSuccessText": "Демалыс белсендірілді",
+    "completeError": "Демалысты белсендіру мүмкін болмады",
+    "successTitle": "Сәтті",
+    "uploadSuccess": "Файл сәтті жүктелді",
+    "approveSuccessTitle": "Сәтті",
+    "approveSuccessText": "Өтініш бекітілді",
+    "reviewError": "Өтінішті өңдеу мүмкін болмады",
+    "reviewSuccessTitle": "Сәтті",
+    "reviewSuccessText": "Өтініш өңделді",
+    "downloadApplicationDocxError": "Өтінішті жүктеу мүмкін болмады",
+    "downloadOrderDocxError": "Бұйрықты жүктеу мүмкін болмады",
+    "approvePromptTitle": "Өтінішті бекіту керек пе?",
+    "approvePromptText": "Сіз бұл өтінішті бекіткіңіз келетініне сенімдісіз бе?",
+    "uploadApplicationScan": "Өтініштің сканын жүктеу",
+    "updateCertificate": "Медициналық анықтаманы жаңарту",
+    "updateCertificateSuccess": "Медициналық анықтама сәтті жаңартылды"
+  },
+  "details": {
+    "title": "Демалыс мәліметтері",
+    "worker": "Қызметкер",
+    "startDate": "Басталу күні",
+    "endDate": "Аяқталу күні",
+    "daysCount": "Күн саны",
+    "reason": "Себебі",
+    "approvalResolution": "Резолюция",
+    "diagnosis": "Диагноз",
+    "status": "Мәртебе",
+    "annualLeave": "Жылдық демалыс",
+    "unpaidLeave": "Еңбекақысыз демалыс",
+    "medicalLeave": "Сырқаттану парағы",
+    "applicationFileLabel": "Өтініш файлы",
+    "orderFileLabel": "Бұйрық файлы",
+    "certificateFileLabel": "Медициналық анықтама"
+  },
+  "review": {
+    "revisionTitle": "Қайта өңдеуге жіберу",
+    "rejectTitle": "Өтінішті қабылдамау",
+    "revisionNotePlaceholder": "Пікір (міндетті емес)",
+    "rejectNotePlaceholder": "Қабылдамау себебі (міндетті емес)",
+    "submitting": "Жіберілуде..."
+  },
+  "buttons": {
+    "cancel": "Болдырмау",
+    "submit": "Жіберу"
+  },
+  "messages": {
+    "loading": "Жүктелуде...",
+    "noResults": "Нәтижелер табылмады",
+    "error": "Деректерді жүктеу кезінде қате орын алды",
+    "errorTitle": "Қате",
+    "uploadError": "Өтінішті жүктеу мүмкін болмады",
+    "uploadOrderError": "Бұйрықты жүктеу мүмкін болмады",
+    "uploadCertificateError": "Анықтаманы жүктеу мүмкін болмады",
+    "updateCertificateError": "Медициналық анықтаманы жаңарту мүмкін болмады",
+    "loadError": "Деректерді жүктеу кезінде қате",
+    "deleteConfirmTitle": "Жоюды растау",
+    "deleteConfirmText": "Сіз бұл демалысқа өтінішті жойғыңыз келетініне сенімдісіз бе?",
+    "deleteSuccessTitle": "Сәтті",
+    "deleteSuccessText": "Демалысқа өтініш сәтті жойылды",
+    "deleteErrorTitle": "Қате",
+    "deleteFailed": "Демалысқа өтінішті жою мүмкін болмады",
+    "submitSuccessTitle": "Сәтті",
+    "submitSuccessText": "Өтініш қол қоюға сәтті жіберілді",
+    "submitErrorTitle": "Қате",
+    "submitErrorText": "Өтінішті қол қоюға жіберу мүмкін болмады"
+  },
+  "file_uploader": {
+    "drop_here": "Файлды осында сүйреңіз немесе таңдау үшін басыңыз",
+    "formats": "PDF, JPG, PNG форматы, көлемі {{max}} МБ дейін",
+    "formats_images_only": "JPG, PNG форматы, көлемі {{max}} МБ дейін",
+    "errors": {
+      "file_too_large": "Файлдың көлемі рұқсат етілген шектен асты: {{max}}МБ",
+      "invalid_format": "Файл форматы рұқсат етілмеген. Рұқсат етілген: PDF, JPG, PNG"
+    }
+  },
+  "prompt": {
+    "ok": "OK"
+  },
+  "prompt_form": {
+    "confirm": "Растау",
+    "cancel": "Болдырмау",
+    "submitting": "Жіберілуде..."
+  }
+}

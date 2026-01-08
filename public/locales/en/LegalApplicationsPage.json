@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "title": "Created Documents — Legal Support | SEN Group",
+    "description": "Created Documents in the SEN Group management system."
+  },
+  "breadcrumbs": {
+    "legal": "Legal Support",
+    "applications": "Created Documents"
+  },
+  "header": {
+    "title": "Created Documents",
+    "newForm": "Book a consultation"
+  },
+  "filters": {
+    "searchPlaceholder": "Search...",
+    "createdDate": "Created Date",
+    "status": "Status",
+    "documentType": "Document Type",
+    "reset": "Reset",
+    "documentTypes": {
+      "vehicleRental": "Vehicle Rental Contract",
+      "premisesLease": "Premises Rental Contract",
+      "serviceAgreementIndividual": "Service Agreement",
+      "serviceAgreementMSB": "Service Agreement",
+      "goodsSupply": "Goods Supply Contract",
+      "vehicleHandover": "Act to Vehicle Rental Contract",
+      "premisesHandover": "Act to Premises Rental Contract"
+    },
+    "statuses": {
+      "draft": "Draft",
+      "signed": "Signed",
+      "pendingSigning": "Pending Signing"
+    }
+  },
+  "cards": {
+    "supplier": "Supplier",
+    "lessor": "Lessor",
+    "vehicle": "Vehicle",
+    "rentalAmount": "Rental Amount",
+    "rentalTerm": "Rental Term",
+    "premise": "Premise",
+    "area": "Area",
+    "executor": "Executor",
+    "service": "Service",
+    "contractAmount": "Contract Amount",
+    "product": "Product",
+    "totalAmount": "Total Amount",
+    "parentContract": "Parent Contract",
+    "actDate": "Act Date",
+    "createdAt": "Created At",
+    "edit": "Edit",
+    "preview": "Preview Contract",
+    "download": "Download",
+    "downloadDraft": "Download Draft DOCX",
+    "downloadPDF": "Download PDF",
+    "downloading": "Downloading...",
+    "submitForSigning": "Submit for Signing",
+    "submitting": "Submitting...",
+    "generateHandoverAct": "Generate Handover Act",
+    "createAct": "Create Handover Act",
+    "creating": "Creating...",
+    "handoverActPrefix": "Handover Act",
+    "handoverActTo": "of acceptance and transfer to",
+    "actsCount": "Number of acts",
+    "documents": "Documents",
+    "documentPrefix": "Document",
+    "vehicleInfo": "Vehicle Information",
+    "withPlateNumber": "with plate number",
+    "premiseAddress": "Premise Address",
+    "squareMeters": "sq.m",
+    "serviceLocation": "Service Location",
+    "representative": "Representative",
+    "servicesDescription": "Services Description",
+    "servicePeriod": "Service Period",
+    "model": "Model",
+    "manufacturer": "Manufacturer",
+    "pieces": "pcs",
+    "deliveryAddress": "Delivery Address",
+    "parentContractStatus": "Parent Contract Status",
+    "vehicleRentalContract": "Vehicle Rental Contract",
+    "premisesRentalContract": "Premises Rental Contract",
+    "previewContract": "Preview Contract",
+    "previewAct": "Preview Act",
+    "delete": "Delete",
+    "deleting": "Deleting..."
+  },
+  "messages": {
+    "loading": "Loading...",
+    "waitingForDownload": "Please wait for the file to download",
+    "noResults": "No results",
+    "noData": "No data",
+    "error": "An error occurred while loading documents",
+    "errorTitle": "Error",
+    "editNotSupported": "Editing for this document type is not yet supported",
+    "submitFailed": "Failed to submit for signing",
+    "downloadFailed": "Error downloading",
+    "handoverFailed": "Failed to create handover act",
+    "actExistsTitle": "Warning",
+    "actExistsText": "A handover act already exists for this contract. Are you sure you want to create another act?",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "submitSuccessTitle": "Success",
+    "submitSuccessText": "Contract has been successfully submitted for signing",
+    "createActSuccessTitle": "Success",
+    "createActSuccessText": "Handover act has been successfully created",
+    "createActFailed": "Failed to create handover act",
+    "selectActDate": "Please select an act date",
+    "updateSuccessTitle": "Success",
+    "updateSuccessText": "Contract has been successfully updated",
+    "delete": "Delete",
+    "deleteConfirmTitle": "Confirm Deletion",
+    "deleteConfirmText": "Are you sure you want to delete this contract? This action cannot be undone.",
+    "deleteSuccessTitle": "Success",
+    "deleteSuccessText": "Contract has been successfully deleted",
+    "deleteFailed": "Failed to delete contract"
+  },
+  "handoverAct": {
+    "title": "Create Handover Act",
+    "description": "Create handover act for {{type}} #{{id}}",
+    "vehicleHandover": "Vehicle Rental",
+    "premisesHandover": "Premises Lease",
+    "actDate": "Act Date",
+    "selectDate": "Select date",
+    "dateRequired": "Act date is required",
+    "create": "Create",
+    "creating": "Creating...",
+    "cancel": "Cancel",
+    "createFailed": "Failed to create handover act"
+  },
+  "prompt": {
+    "ok": "OK"
+  },
+  "prompt_form": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "submitting": "Deleting..."
+  },
+  "prompts": {
+    "contractSubmitted": {
+      "title": "Contract Submitted for Signing",
+      "text": "Contract has been successfully submitted for signing"
+    },
+    "contractUpdated": {
+      "title": "Contract Updated",
+      "text": "Contract has been successfully updated"
+    },
+    "contractCreated": {
+      "title": "Contract Created",
+      "text": "Contract has been successfully created"
+    },
+    "vehicleRentCreated": {
+      "title": "Contract Created",
+      "text": "Vehicle rental contract has been successfully created"
+    },
+    "vehicleRentUpdated": {
+      "title": "Contract Updated",
+      "text": "Vehicle rental contract has been successfully updated"
+    },
+    "premisesLeaseCreated": {
+      "title": "Contract Created",
+      "text": "Commercial premises lease contract has been successfully created"
+    },
+    "premisesLeaseUpdated": {
+      "title": "Contract Updated",
+      "text": "Commercial premises lease contract has been successfully updated"
+    },
+    "serviceAgreementIndividualCreated": {
+      "title": "Contract Created",
+      "text": "Service agreement contract has been successfully created"
+    },
+    "serviceAgreementIndividualUpdated": {
+      "title": "Contract Updated",
+      "text": "Service agreement contract has been successfully updated"
+    },
+    "serviceAgreementMSBCreated": {
+      "title": "Contract Created",
+      "text": "Service agreement contract has been successfully created"
+    },
+    "serviceAgreementMSBUpdated": {
+      "title": "Contract Updated",
+      "text": "Service agreement contract has been successfully updated"
+    },
+    "goodsSupplyCreated": {
+      "title": "Contract Created",
+      "text": "Goods supply contract has been successfully created"
+    },
+    "goodsSupplyUpdated": {
+      "title": "Contract Updated",
+      "text": "Goods supply contract has been successfully updated"
+    },
+    "vehicleHandoverCreated": {
+      "title": "Act Created",
+      "text": "Vehicle handover act has been successfully created"
+    },
+    "premisesHandoverCreated": {
+      "title": "Act Created",
+      "text": "Premises handover act has been successfully created"
+    },
+    "handoverActCreated": {
+      "title": "Handover Act Created",
+      "text": "Handover act has been successfully created"
+    },
+    "close": "Close"
+  },
+  "modals": {
+    "createActTitle": "Create Handover Act",
+    "actDate": "Handover act date",
+    "selectDate": "Select act date",
+    "cancel": "Close",
+    "create": "Create",
+    "creating": "Creating...",
+    "createAct": {
+      "title": "Create Handover Act",
+      "datePlaceholder": "Select act date",
+      "dateLabel": "Handover act date",
+      "cancel": "Cancel",
+      "confirm": "Create",
+      "creating": "Creating..."
+    }
+  },
+  "templates": {
+    "paidServiceContract": {
+      "title": "Paid Service Contract"
+    }
+  },
+  "completionAct": {
+    "fields": {
+      "uploadedDocument": "Uploaded Document"
+    },
+    "messages": {
+      "fullyUsed": "Full service amount already allocated"
+    }
+  }
+}
+

@@ -1,0 +1,613 @@
+{
+  "personal": {
+    "loading": "Загрузка...",
+    "title": "Личные данные",
+    "photo": {
+      "label": "Файл фото 3×4"
+    },
+    "surname": {
+      "label": "Фамилия",
+      "placeholder": "Введите фамилию"
+    },
+    "name": {
+      "label": "Имя",
+      "placeholder": "Введите имя"
+    },
+    "father_name": {
+      "label": "Отчество",
+      "placeholder": "Введите отчество"
+    },
+    "iin": {
+      "label": "ИИН",
+      "placeholder": "123456789012"
+    },
+    "date_of_birth": {
+      "label": "Дата рождения",
+      "placeholder": "дд.мм.гггг"
+    },
+    "gender": {
+      "label": "Пол",
+      "placeholder": "Выберите",
+      "male": "Мужской",
+      "female": "Женский"
+    },
+    "family_status": {
+      "label": "Семейное положение",
+      "placeholder": "Выберите",
+      "single": "Не женат / Не замужем",
+      "married": "Женат / Замужем",
+      "divorced": "Разведён(а)",
+      "widowed": "Вдовец / Вдова"
+    },
+    "city_of_birth": {
+      "label": "Город рождения",
+      "placeholder": "Введите город"
+    },
+    "nationality": {
+      "label": "Национальность",
+      "placeholder": "Введите"
+    },
+    "citizenship": {
+      "label": "Гражданство",
+      "placeholder": "Выберите"
+    },
+    "not_resident": "Я не являюсь резидентом Республики Казахстан",
+    "is_student": "Я являюсь студентом в настоящее время",
+    "enrollment": {
+      "label": "Справка о зачислении в учебное заведение"
+    },
+    "submit_review": "Отправить на проверку",
+    "save": "Сохранить раздел",
+    "saving": "Сохранение...",
+    "toast": {
+      "success": "Личные данные успешно сохранены",
+      "error": "Не удалось сохранить данные"
+    }
+  },
+  "contacts": {
+    "loading": "Загрузка...",
+    "title": "Контакты",
+    "email": {
+      "label": "Email",
+      "placeholder": "name@example.com"
+    },
+    "phone": {
+      "label": "Телефон",
+      "placeholder": "+7 707 123 45 67"
+    },
+    "phone_additional": {
+      "label": "Дополнительный телефон",
+      "placeholder": "+7 707 123 45 67"
+    },
+    "submit_review": "Отправить на проверку",
+    "save": "Сохранить раздел",
+    "saving": "Сохранение...",
+    "toast": {
+      "success": "Контактные данные успешно сохранены",
+      "error": "Не удалось сохранить данные"
+    }
+  },
+  "addresses": {
+    "loading": "Загрузка...",
+    "title": "Адреса",
+    "registration": {
+      "label": "Адрес регистрации",
+      "placeholder": "Введите адрес регистрации"
+    },
+    "actual": {
+      "label": "Фактический адрес",
+      "placeholder": "Введите фактический адрес"
+    },
+    "submit_review": "Отправить на проверку",
+    "save": "Сохранить раздел",
+    "saving": "Сохранение...",
+    "toast": {
+      "success": "Адреса успешно сохранены",
+      "error": "Не удалось сохранить данные"
+    }
+  },
+  "emergency": {
+    "title": "Экстренные контакты",
+    "contact_1": {
+      "title": "Контакт 1"
+    },
+    "contact_2": {
+      "title": "Контакт 2"
+    },
+    "name": {
+      "label": "Полное имя экстренного контакта",
+      "placeholder": "Введите ФИО"
+    },
+    "relation": {
+      "label": "Степень родства",
+      "placeholder": "Выберите",
+      "mother": "Мать",
+      "father": "Отец",
+      "spouse": "Супруг / Супруга",
+      "sibling": "Брат / Сестра",
+      "other": "Другое"
+    },
+    "phone": {
+      "label": "Телефон",
+      "placeholder": "+7 707 123 45 67"
+    },
+    "submit_review": "Отправить на проверку",
+    "save": "Сохранить раздел",
+    "saving": "Сохранение...",
+    "next": "Следующий шаг",
+    "toast": {
+      "success": "Экстренные контакты успешно сохранены",
+      "error": "Не удалось сохранить данные"
+    }
+  },
+  "id": {
+    "title": "Документы",
+    "identity": {
+      "title": "Удостоверение личности",
+      "number": {
+        "label": "Номер удостоверения",
+        "placeholder": "123456789"
+      },
+      "issued_by": {
+        "label": "Кем выдано",
+        "placeholder": "Например, МВД РК"
+      },
+      "issue_date": {
+        "label": "Дата выдачи",
+        "placeholder": "дд.мм.гггг"
+      },
+      "expiry_date": {
+        "label": "Срок действия",
+        "placeholder": "дд.мм.гггг"
+      },
+      "file": {
+        "label": "Файл удостоверения личности",
+        "button": "Выбрать файл",
+        "hint": "Формат PDF, JPG, PNG до 5 МБ"
+      }
+    },
+    "military": {
+      "title": "Воинский учет",
+      "file": {
+        "label": "Файл военного билета",
+        "button": "Выбрать файл",
+        "hint": "Формат PDF, JPG, PNG до 5 МБ",
+        "note": "Для военнообязанных (военный билет или приписное)"
+      }
+    },
+    "enrollment": {
+      "title": "Справка о зачислении",
+      "file": {
+        "label": "Загрузите справку о зачислении в учебное заведение",
+        "button": "Выбрать файл",
+        "hint": "Формат PDF, JPG, PNG до 5 МБ"
+      }
+    },
+    "save": "Сохранить",
+    "saving": "Сохранение...",
+    "submit_review": "Отправить на проверку",
+    "toast": {
+      "success": "Документы успешно сохранены",
+      "error": "Не удалось сохранить данные"
+    }
+  },
+  "banking": {
+    "title": "Банковские реквизиты",
+
+    "bank_name": {
+      "label": "Название банка",
+      "placeholder": "Выберите банк",
+      "searchPlaceholder": "Поиск по названию или БИК..."
+    },
+
+    "iban": {
+      "label": "IBAN счет",
+      "placeholder": "KZ000000000000000000"
+    },
+
+    "bik": {
+      "label": "БИК",
+      "placeholder": "ABCDEFGH"
+    },
+
+    "certificate": {
+      "label": "Справка о наличии счёта"
+    },
+
+    "submit_review": "Отправить на проверку",
+    "save": "Сохранить раздел",
+    "saving": "Сохранение...",
+
+    "toast": {
+      "success": "Банковские данные сохранены",
+      "error": "Ошибка при сохранении"
+    }
+  },
+  "education": {
+    "title": "Образование",
+    "add_more": "Добавить еще",
+    "new_form": "Новое образование",
+    "title_main": "Основное образование",
+    "title_additional": "Дополнительное образование",
+    "degree": {
+      "label": "Степень образования",
+      "placeholder": "Выберите",
+      "options": {
+        "bachelor": "Бакалавр",
+        "master": "Магистр",
+        "phd": "PhD",
+        "college": "Колледж"
+      }
+    },
+    "university": {
+      "label": "Учебное заведение",
+      "placeholder": "Например, КазНУ им. Аль-Фараби"
+    },
+    "specialty": {
+      "label": "Специальность",
+      "placeholder": "Например, Информационные системы"
+    },
+    "year": {
+      "label": "Год окончания",
+      "placeholder": "Например, 2024"
+    },
+    "diploma_number": {
+      "label": "Номер диплома",
+      "placeholder": "AB1234567"
+    },
+    "upload_title": "Загрузите скан диплома с приложением",
+    "diploma_file": {
+      "label": "Файл диплома"
+    },
+    "diploma_transcript": {
+      "label": "Файл приложения к диплому"
+    },
+    "save": "Сохранить",
+    "saving": "Сохранение...",
+    "cancel": "Отмена",
+    "empty": "У вас нет загруженных данных об образовании",
+    "submit_review": "Отправить на проверку",
+    "toast": {
+      "success": "Образование успешно добавлено",
+      "error": "Ошибка при сохранении",
+      "delete_success": "Образование успешно удалено",
+      "delete_error": "Ошибка при удалении образования"
+    }
+  },
+  "experience": {
+    "title": "Опыт работы",
+    "add": "Добавить еще",
+    "primary_title": "Место работы",
+    "additional_title": "Новое место работы",
+    "cancel": "Отмена",
+    "empty": "Пока нет добавленных записей",
+
+    "work_title": "Место работы",
+
+    "organization": {
+      "label": "Компания",
+      "placeholder": "Например, TOO Sen Group"
+    },
+
+    "position": {
+      "label": "Должность",
+      "placeholder": "Выберите должность"
+    },
+    "sector": {
+      "label": "Категория занятости",
+      "placeholder": "Выберите категорию"
+    },
+    "begin": {
+      "label": "Начало работы",
+      "placeholder": "дд.мм.гггг"
+    },
+
+    "end": {
+      "label": "Окончание работы",
+      "placeholder": "дд.мм.гггг"
+    },
+
+    "working_now": "Работаю здесь сейчас",
+    "save": "Сохранить",
+
+    "proof": {
+      "title": "Загрузите выписку из ЕНПФ или скан трудовой книжки",
+      "label": "Выписка из ЕНПФ или трудовой книжки",
+      "save": "Сохранить",
+      "saving": "Сохранение...",
+      "submit": "Отправить на проверку",
+      "sent_for_review": "Файл отправлен на проверку",
+      "toast": {
+        "success": "Файл успешно загружен",
+        "error": "Ошибка при загрузке файла"
+      }
+    },
+
+    "toast": {
+      "success": "Опыт работы добавлен",
+      "error": "Ошибка при добавлении опыта работы",
+      "delete_success": "Опыт работы успешно удален",
+      "delete_error": "Ошибка при удалении опыта работы"
+    }
+  },
+  "validation": {
+    "personal": {
+      "iin_length": "ИИН должен содержать 12 символов",
+      "name_required": "Имя обязательно",
+      "surname_required": "Фамилия обязательна",
+      "date_required": "Дата рождения обязательна",
+      "date_invalid": "Некорректная дата",
+      "gender_required": "Пол обязателен",
+      "family_required": "Семейное положение обязательно",
+      "city_required": "Город рождения обязателен",
+      "nationality_required": "Национальность обязательна",
+      "citizenship_required": "Гражданство обязательно",
+      "photo_required": "Загрузите фото 3×4",
+      "enrollment_file_required": "Необходимо загрузить справку о зачислении"
+    },
+    "contacts": {
+      "email_invalid": "Введите корректный email",
+      "phone_required": "Основной номер обязателен"
+    },
+    "addresses": {
+      "address_registration_required": "Адрес регистрации обязателен",
+      "address_factual_required": "Фактический адрес обязателен"
+    },
+    "emergency": {
+      "name_required": "Имя обязательно",
+      "phone_required": "Номер телефона обязателен",
+      "relation_required": "Степень родства обязательна"
+    },
+    "id": {
+      "number_required": "Номер удостоверения обязателен",
+      "issued_by_required": "Орган выдачи обязателен",
+      "issue_date_required": "Дата выдачи обязательна",
+      "expiry_date_required": "Дата истечения обязательна",
+      "file_required": "Необходимо загрузить файл",
+      "military_file_required": "Необходимо загрузить военный документ",
+      "enrollment_file_required": "Необходимо загрузить справку о зачислении"
+    },
+    "banking": {
+      "bank_name_required": "Название банка обязательно",
+      "iban_length": "IBAN должен содержать ровно 20 символов",
+      "bik_length": "БИК должен быть от 8 до 11 символов",
+      "file_required": "Необходимо загрузить файл",
+      "file_invalid": "Файл должен быть корректным"
+    },
+    "education": {
+      "degree_required": "Уровень образования обязателен",
+      "university_required": "Учебное заведение обязательно",
+      "specialty_required": "Специальность обязательна",
+      "year_invalid": "Введите корректный год",
+      "diploma_number_required": "Номер диплома обязателен",
+      "file_required": "Файл диплома обязателен",
+      "transcript_required": "Файл приложения обязателен"
+    },
+    "experience": {
+      "organization_required": "Название организации обязательно",
+      "position_required": "Должность обязательна",
+      "begin_required": "Дата начала обязательна",
+      "end_required": "Дата окончания обязательна",
+      "begin_invalid": "Некорректная дата начала",
+      "end_invalid": "Некорректная дата окончания",
+      "end_before_begin": "Дата окончания должна быть позже даты начала",
+      "date_invalid": "Некорректная дата"
+    },
+    "social": {
+      "category_required": "Категория обязательна",
+      "document_file_required": "Документ обязателен"
+    }
+  },
+  "prompt": {
+    "ok": "Отлично"
+  },
+  "prompt_form": {
+    "confirm": "Отправить",
+    "cancel": "Отмена",
+    "submitting": "Отправка...",
+    "title": "Вы готовы отправить анкету?",
+    "description": "Пожалуйста, убедитесь, что все данные указаны верно. После отправки редактирование анкеты будет недоступно."
+  },
+  "file_uploader": {
+    "drop_here": "Перетащите файл сюда или нажмите, чтобы выбрать",
+    "formats": "Формат PDF, JPG, PNG до {{max}} MB",
+    "formats_images_only": "Формат JPG, PNG до {{max}} MB",
+    "errors": {
+      "file_too_large": "Файл превышает максимальный размер: {{max}}MB",
+      "invalid_format": "Недопустимый формат файла. Разрешены: PDF, JPG, PNG"
+    }
+  },
+  "page": {
+    "title": "Личный листок работника | SEN Group",
+    "heading": "Личный листок работника",
+    "subtitle": "Заполните все разделы для завершения процесса найма",
+    "invalid_link": "Ссылка недействительна",
+    "link_expired": "Срок действия ссылки истёк.",
+    "submit_error": "Ошибка отправки. Проверьте данные всех разделов.",
+    "success_title": "Личный листок успешно отправлен!",
+    "success_message": "Ваши данные переданы на проверку. Руководитель свяжется с вами после рассмотрения анкеты.",
+    "error_title": "Ошибка",
+    "error_message": "Ошибка отправки. Проверьте данные всех разделов.",
+    "return_home": "Вернуться на главную"
+  },
+  "sections": {
+    "personal_data": "Личные данные",
+    "contacts": "Контакты",
+    "addresses": "Адреса",
+    "emergency_contacts": "Экстренные контакты",
+    "id_documents": "Документы",
+    "banking": "Банковские реквизиты",
+    "education": "Образование",
+    "experience": "Опыт работы",
+    "social_categories": "Социальные категории",
+    "personal_data_required_tooltip": "Сначала необходимо заполнить раздел «Личные данные»"
+  },
+  "GeneralForm": {
+    "citizenship": {
+      "kazakhstan": "Казахстан",
+      "china": "Китай",
+      "india": "Индия",
+      "usa": "США",
+      "indonesia": "Индонезия",
+      "pakistan": "Пакистан",
+      "nigeria": "Нигерия",
+      "brazil": "Бразилия",
+      "bangladesh": "Бангладеш",
+      "russia": "Россия",
+      "mexico": "Мексика",
+      "japan": "Япония",
+      "ethiopia": "Эфиопия",
+      "philippines": "Филиппины",
+      "egypt": "Египет",
+      "vietnam": "Вьетнам",
+      "drc": "ДР Конго",
+      "iran": "Иран",
+      "turkey": "Турция",
+      "germany": "Германия",
+      "thailand": "Таиланд",
+      "uk": "Великобритания",
+      "tanzania": "Танзания",
+      "france": "Франция",
+      "south_africa": "Южная Африка",
+      "italy": "Италия",
+      "kenya": "Кения",
+      "myanmar": "Мьянма",
+      "colombia": "Колумбия",
+      "south_korea": "Южная Корея",
+      "spain": "Испания",
+      "uganda": "Уганда",
+      "argentina": "Аргентина",
+      "algeria": "Алжир",
+      "sudan": "Судан",
+      "ukraine": "Украина",
+      "iraq": "Ирак",
+      "afghanistan": "Афганистан",
+      "poland": "Польша",
+      "canada": "Канада",
+      "morocco": "Марокко",
+      "saudi_arabia": "Саудовская Аравия",
+      "uzbekistan": "Узбекистан",
+      "malaysia": "Малайзия",
+      "angola": "Ангола",
+      "mozambique": "Мозамбик",
+      "peru": "Перу",
+      "yemen": "Йемен",
+      "ghana": "Гана",
+      "nepal": "Непал",
+      "venezuela": "Венесуэла",
+      "kyrgyzstan": "Кыргызстан",
+      "tajikistan": "Таджикистан",
+      "turkmenistan": "Туркменистан"
+    },
+    "nationality": {
+      "kazakh": "Казах",
+      "russian": "Русский",
+      "uzbek": "Узбек",
+      "ukrainian": "Украинец",
+      "uyghur": "Уйгур",
+      "tatar": "Татарин",
+      "german": "Немец",
+      "turkmen": "Туркмен",
+      "azerbaijani": "Азербайджанец",
+      "armenian": "Армянин",
+      "korean": "Кореец",
+      "chechen": "Чеченец",
+      "ingush": "Ингуш",
+      "belarusian": "Белорус",
+      "tajik": "Таджик",
+      "kyrgyz": "Кыргызстанец",
+      "turk": "Турок",
+      "chinese": "Китаец",
+      "dungan": "Дунганин",
+      "polish": "Польяк",
+      "greek": "Грек",
+      "kumyk": "Курык",
+      "karakalpak": "Каракалпак",
+      "bashkir": "Башкир",
+      "buryat": "Бурят",
+      "kalmyk": "Калмык",
+      "lezgin": "Лезгин",
+      "ossetian": "Осетин",
+      "mari": "Мариец",
+      "mordvin": "Мордвин",
+      "chuvash": "Чуваш",
+      "jewish": "Еврей",
+      "bulgarian": "Болгарин",
+      "romanian": "Румын",
+      "serbian": "Серб",
+      "montenegrin": "Черногорец",
+      "croatian": "Хорват",
+      "macedonian": "Македонец",
+      "latvian": "Латыш",
+      "lithuanian": "Литовец",
+      "estonian": "Эстонец",
+      "finnish": "Финн",
+      "swedish": "Швед",
+      "norwegian": "Норвежец",
+      "english": "Англичанин",
+      "american": "Американец",
+      "french": "Француз",
+      "italian": "Итальянец",
+      "spanish": "Испанец",
+      "portuguese": "Португалец",
+      "arab": "Араб",
+      "afghan": "Афганец",
+      "iranian": "Иранец",
+      "pakistani": "Пакистанец",
+      "indian": "Индиец",
+      "kurd": "Курд",
+      "assyrian": "Ассириец",
+      "gagauz": "Гагауз",
+      "karaim": "Караим",
+      "moldovan": "Молдаванин",
+      "hungarian": "Венгр",
+      "czech": "Чех",
+      "slovak": "Словак",
+      "japanese": "Японец"
+    }
+  },
+  "social": {
+    "title": "Социальные категории",
+    "loading": "Загрузка...",
+    "add_more": "Добавить категорию",
+    "empty": "У вас нет добавленных социальных категорий",
+    "category": {
+      "label": "Категория",
+      "placeholder": "Выберите категорию"
+    },
+    "categories": {
+      "disability_1": "Инвалидность 1 группы",
+      "disability_2": "Инвалидность 2 группы",
+      "disability_3": "Инвалидность 3 группы",
+      "child_disability": "Ребенок с инвалидностью",
+      "veteran": "Ветеран",
+      "orphan": "Сирота",
+      "large_family": "Многодетная семья"
+    },
+    "document": {
+      "label": "Файл документа, подтверждающего категорию"
+    },
+    "issue_date": {
+      "label": "Дата выдачи",
+      "placeholder": "дд.мм.гггг"
+    },
+    "expiry_date": {
+      "label": "Срок действия",
+      "placeholder": "дд.мм.гггг"
+    },
+    "notes": {
+      "label": "Примечания",
+      "placeholder": "Введите примечания (необязательно)"
+    },
+    "save": "Сохранить",
+    "saving": "Сохранение...",
+    "cancel": "Отмена",
+    "submit_review": "Отправить на проверку",
+    "toast": {
+      "success": "Социальная категория успешно добавлена",
+      "error": "Ошибка при добавлении категории",
+      "delete_success": "Категория успешно удалена",
+      "delete_error": "Ошибка при удалении категории"
+    }
+  }
+}

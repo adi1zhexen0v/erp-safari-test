@@ -1,0 +1,970 @@
+{
+  "meta": {
+    "title": "Шаблоны — Юридическая помощь | SEN Group",
+    "description": "Шаблоны в системе управления SEN Group."
+  },
+  "breadcrumbs": {
+    "legal": "Юридическая помощь",
+    "templates": "Шаблоны"
+  },
+  "header": {
+    "title": "Шаблоны",
+    "newForm": "Записаться на консультацию"
+  },
+  "common": {
+    "approvalDate": "Дата утверждения",
+    "fill": "Заполнить",
+    "close": "Закрыть",
+    "prompts": {
+      "contractUpdated": {
+        "title": "Договор обновлен",
+        "text": "Договор успешно обновлен"
+      },
+      "contractCreated": {
+        "title": "Договор создан",
+        "text": "Договор успешно создан"
+      },
+      "vehicleRentCreated": {
+        "title": "Договор создан",
+        "text": "Договор аренды транспортного средства успешно создан"
+      },
+      "vehicleRentUpdated": {
+        "title": "Договор обновлен",
+        "text": "Договор аренды транспортного средства успешно обновлен"
+      },
+      "premisesLeaseCreated": {
+        "title": "Договор создан",
+        "text": "Договор аренды нежилого помещения успешно создан"
+      },
+      "premisesLeaseUpdated": {
+        "title": "Договор обновлен",
+        "text": "Договор аренды нежилого помещения успешно обновлен"
+      },
+      "serviceAgreementIndividualCreated": {
+        "title": "Договор создан",
+        "text": "Договор возмездного оказания услуг успешно создан"
+      },
+      "serviceAgreementIndividualUpdated": {
+        "title": "Договор обновлен",
+        "text": "Договор возмездного оказания услуг успешно обновлен"
+      },
+      "serviceAgreementMSBCreated": {
+        "title": "Договор создан",
+        "text": "Договор на оказание услуг успешно создан"
+      },
+      "serviceAgreementMSBUpdated": {
+        "title": "Договор обновлен",
+        "text": "Договор на оказание услуг успешно обновлен"
+      },
+      "goodsSupplyCreated": {
+        "title": "Договор создан",
+        "text": "Договор поставки товара успешно создан"
+      },
+      "goodsSupplyUpdated": {
+        "title": "Договор обновлен",
+        "text": "Договор поставки товара успешно обновлен"
+      },
+      "serviceContractCreated": {
+        "title": "Договор создан",
+        "text": "Договор на оказание услуг успешно отправлен"
+      },
+      "serviceContractUpdated": {
+        "title": "Договор обновлен",
+        "text": "Договор на оказание услуг успешно обновлен"
+      }
+    }
+  },
+  "templates": {
+    "vehicleRent": {
+      "title": "Договор аренды транспортного средства",
+      "subtitle": "Аренда автомобиля для использования в служебных целях"
+    },
+    "commercialPremiseRent": {
+      "title": "Договор аренды нежилого помещения",
+      "subtitle": "Передача офиса или помещения во временное пользование"
+    },
+    "paidService": {
+      "title": "Договор на оказание услуг",
+      "subtitle": "ГПХ-договор на выполнение услуг физическим лицом"
+    },
+    "serviceContract": {
+      "title": "Договор возмездного оказания услуг",
+      "subtitle": "Оказание услуг с оплатой по акту выполненных работ"
+    },
+    "supplyContract": {
+      "title": "Договор поставки товара",
+      "subtitle": "Поставка товара с условиями качества, сроков и оплаты"
+    }
+  },
+  "forms": {
+    "vehicleRent": {
+      "title": "Договор аренды транспортного средства",
+      "contract_city": {
+        "label": "Город",
+        "placeholder": "Например: Алматы"
+      },
+      "contract_date": {
+        "label": "Дата договора",
+        "placeholder": "Выберите дату"
+      },
+      "lessor_name": {
+        "label": "Наименование арендодателя",
+        "placeholder": "Например: ТОО «Компания»"
+      },
+      "lessor_representative": {
+        "label": "Представитель арендодателя",
+        "placeholder": "Например: Иванов Иван Иванович"
+      },
+      "lessor_basis": {
+        "label": "Основание полномочий арендодателя",
+        "placeholder": "Например: Устава"
+      },
+      "lessor_phone": {
+        "label": "Телефон арендодателя",
+        "placeholder": "Например: +77771234567"
+      },
+      "lessor_bin": {
+        "label": "БИН арендодателя",
+        "placeholder": "Например: 123456789012"
+      },
+      "lessor_iban": {
+        "label": "ИИК (IBAN) арендодателя",
+        "placeholder": "Например: KZ123456789012345678"
+      },
+      "bank": {
+        "label": "Банк",
+        "placeholder": "Выберите банк",
+        "searchPlaceholder": "Поиск по названию или БИК..."
+      },
+      "signer_type": {
+        "label": "Тип подписанта",
+        "individual": "Физ.лицо",
+        "legal_entity": "Юр.лицо"
+      },
+      "car_brand": {
+        "label": "Марка автомобиля",
+        "placeholder": "Например: Toyota Camry"
+      },
+      "car_year": {
+        "label": "Год выпуска",
+        "placeholder": "Например: 2020"
+      },
+      "car_vin": {
+        "label": "VIN номер",
+        "placeholder": "Например: 1HGBH41JXMN109186"
+      },
+      "car_plate": {
+        "label": "Государственный номер",
+        "placeholder": "Например: 123ABC01"
+      },
+      "car_color": {
+        "label": "Цвет автомобиля",
+        "placeholder": "Например: Белый"
+      },
+      "rental_term_text": {
+        "label": "Срок аренды",
+        "placeholder": "Например: 12"
+      },
+      "rental_amount": {
+        "label": "Стоимость аренды (числом)",
+        "placeholder": "Например: 150000"
+      },
+      "rental_amount_text": {
+        "label": "Стоимость аренды (прописью)",
+        "placeholder": "Например: сто пятьдесят тысяч"
+      },
+      "save": "Сохранить",
+      "saving": "Сохранение...",
+      "preview": "Предпросмотр",
+      "back": "Вернуться",
+      "submit": "Отправить договор",
+      "submitting": "Отправка...",
+      "createContract": "Создать договор",
+      "updateContract": "Обновить договор",
+      "creating": "Создание...",
+      "updating": "Обновление...",
+      "close": "Закрыть",
+      "previewTitle": "Предпросмотр договора",
+      "errors": {
+        "createFailed": "Не удалось отправить договор",
+        "updateFailed": "Не удалось обновить договор"
+      },
+      "toast": {
+        "success": "Договор успешно создан",
+        "error": "Ошибка при создании договора"
+      }
+    },
+    "commercialPremiseRent": {
+      "title": "Договор аренды нежилого помещения",
+      "contract_city": {
+        "label": "Город",
+        "placeholder": "Например: Алматы"
+      },
+      "contract_date": {
+        "label": "Дата договора",
+        "placeholder": "Выберите дату"
+      },
+      "lessor_name": {
+        "label": "Наименование арендодателя",
+        "placeholder": "Например: ТОО «Компания»"
+      },
+      "lessor_representative": {
+        "label": "Представитель арендодателя",
+        "placeholder": "Например: Иванов Иван Иванович"
+      },
+      "lessor_basis": {
+        "label": "Основание полномочий арендодателя",
+        "placeholder": "Например: Устава"
+      },
+      "lessor_phone": {
+        "label": "Телефон арендодателя",
+        "placeholder": "Например: +77771234567"
+      },
+      "lessor_bin": {
+        "label": "БИН арендодателя",
+        "placeholder": "Например: 123456789012"
+      },
+      "lessor_iban": {
+        "label": "ИИК (IBAN) арендодателя",
+        "placeholder": "Например: KZ123456789012345678"
+      },
+      "bank": {
+        "label": "Банк",
+        "placeholder": "Выберите банк",
+        "searchPlaceholder": "Поиск по названию или БИК..."
+      },
+      "signer_type": {
+        "label": "Тип подписанта",
+        "individual": "Физ.лицо",
+        "legal_entity": "Юр.лицо"
+      },
+      "premise_area": {
+        "label": "Площадь помещения (кв.м)",
+        "placeholder": "Например: 50.5"
+      },
+      "premise_address": {
+        "label": "Адрес помещения",
+        "placeholder": "Например: г. Алматы, ул. Абая, д. 150"
+      },
+      "premise_usage_purpose": {
+        "label": "Цель использования",
+        "placeholder": "Например, размещение офиса"
+      },
+      "rental_start_date": {
+        "label": "Дата начала аренды",
+        "placeholder": "Выберите дату"
+      },
+      "rental_end_date": {
+        "label": "Дата окончания аренды",
+        "placeholder": "Выберите дату"
+      },
+      "rental_term_text": {
+        "label": "Срок аренды",
+        "placeholder": "Например: 12 (двенадцать) месяцев"
+      },
+      "rental_amount": {
+        "label": "Стоимость аренды (числом)",
+        "placeholder": "Например: 150000"
+      },
+      "rental_amount_text": {
+        "label": "Стоимость аренды (прописью)",
+        "placeholder": "Например: сто пятьдесят тысяч"
+      },
+      "first_month_payment_deadline": {
+        "label": "Срок оплаты за первый месяц",
+        "placeholder": "Выберите дату"
+      },
+      "save": "Сохранить",
+      "saving": "Сохранение...",
+      "preview": "Предпросмотр",
+      "back": "Вернуться",
+      "submit": "Отправить договор",
+      "submitting": "Отправка...",
+      "previewTitle": "Предпросмотр договора",
+      "close": "Закрыть",
+      "createContract": "Создать договор",
+      "updateContract": "Обновить договор",
+      "creating": "Создание...",
+      "updating": "Обновление...",
+      "errors": {
+        "createFailed": "Не удалось отправить договор",
+        "updateFailed": "Не удалось обновить договор"
+      },
+      "toast": {
+        "success": "Договор успешно создан",
+        "error": "Ошибка при создании договора"
+      }
+    },
+    "paidServiceContract": {
+      "title": "Договор на оказание услуг",
+      "contract_city": {
+        "label": "Город",
+        "placeholder": "Например: Алматы"
+      },
+      "contract_date": {
+        "label": "Дата договора",
+        "placeholder": "Выберите дату"
+      },
+      "executor_full_name": {
+        "label": "ФИО исполнителя",
+        "placeholder": "Например: Иванов Иван Иванович"
+      },
+      "executor_phone": {
+        "label": "Телефон исполнителя",
+        "placeholder": "Например: +77771234567"
+      },
+      "executor_iin": {
+        "label": "ИИН исполнителя",
+        "placeholder": "Например: 123456789012"
+      },
+      "contract_amount": {
+        "label": "Сумма договора (числом)",
+        "placeholder": "Например: 200000"
+      },
+      "contract_amount_kk_text": {
+        "label": "Сумма договора прописью (казахский)",
+        "placeholder": "Например: екі жүз мың"
+      },
+      "contract_amount_ru_text": {
+        "label": "Сумма договора прописью (русский)",
+        "placeholder": "Например: двести тысяч"
+      },
+      "employer_bank_name": {
+        "label": "Банк заказчика",
+        "placeholder": "Например: АО «Банк»"
+      },
+      "employer_iban": {
+        "label": "ИИК (IBAN) заказчика",
+        "placeholder": "Например: KZ123456789012345678"
+      },
+      "employer_bik": {
+        "label": "БИК заказчика",
+        "placeholder": "Например: 123456789"
+      },
+      "executor_bank_name": {
+        "label": "Банк исполнителя",
+        "placeholder": "Например: АО «Банк»"
+      },
+      "executor_iban": {
+        "label": "ИИК (IBAN) исполнителя",
+        "placeholder": "Например: KZ123456789012345678"
+      },
+      "executor_bik": {
+        "label": "БИК исполнителя",
+        "placeholder": "Например: 123456789"
+      },
+      "service_name": {
+        "label": "Наименование услуги",
+        "placeholder": "Например: Консультационные услуги"
+      },
+      "service_location": {
+        "label": "Место оказания услуг",
+        "placeholder": "Например: г. Алматы, ул. Абая, д. 150"
+      },
+      "service_period_text": {
+        "label": "Срок оказания услуги",
+        "placeholder": "Например: 12 (двенадцать) месяцев"
+      },
+      "contract_end_date": {
+        "label": "Дата окончания договора",
+        "placeholder": "Выберите дату"
+      },
+      "services": {
+        "title": "Услуги",
+        "label": "Услуги",
+        "add": "Добавить услугу",
+        "item": "Услуга {{number}}",
+        "name": {
+          "label": "Наименование услуги",
+          "placeholder": "Например: Консультационные услуги"
+        },
+        "date": {
+          "label": "Срок оказания",
+          "placeholder": "Выберите дату"
+        },
+        "price": {
+          "label": "Сумма к оплате (тенге)",
+          "placeholder": "Например: 100000"
+        },
+        "service_name": {
+          "label": "Наименование услуги",
+          "placeholder": "Например: Консультационные услуги"
+        },
+        "service_date": {
+          "label": "Срок оказания",
+          "placeholder": "Выберите дату"
+        },
+        "service_price": {
+          "label": "Сумма к оплате (тенге)",
+          "placeholder": "Например: 100000"
+        }
+      },
+      "save": "Сохранить",
+      "saving": "Сохранение...",
+      "preview": "Предпросмотр",
+      "back": "Вернуться",
+      "submit": "Отправить договор",
+      "submitting": "Отправка...",
+      "previewTitle": "Предпросмотр договора",
+      "close": "Закрыть",
+      "createContract": "Создать договор",
+      "updateContract": "Обновить договор",
+      "creating": "Создание...",
+      "updating": "Обновление...",
+      "errors": {
+        "createFailed": "Не удалось отправить договор",
+        "updateFailed": "Не удалось обновить договор"
+      },
+      "toast": {
+        "success": "Договор успешно создан",
+        "error": "Ошибка при создании договора"
+      }
+    },
+    "serviceAgreementMSB": {
+      "title": "Договор на оказание услуг",
+      "previewTitle": "Предпросмотр договора",
+      "contract_city": {
+        "label": "Город",
+        "placeholder": "Например: Алматы"
+      },
+      "contract_date": {
+        "label": "Дата договора",
+        "placeholder": "Выберите дату"
+      },
+      "executor_name": {
+        "label": "Наименование исполнителя",
+        "placeholder": "Например: ТОО Компания"
+      },
+      "executor_representative": {
+        "label": "Представитель исполнителя",
+        "placeholder": "Например: Иванов Иван Иванович"
+      },
+      "executor_bin": {
+        "label": "БИН исполнителя",
+        "placeholder": "Например: 123456789012"
+      },
+      "executor_basis": {
+        "label": "Основание полномочий",
+        "placeholder": "Например: Устава"
+      },
+      "executor_phone": {
+        "label": "Телефон исполнителя",
+        "placeholder": "Например: +77771234567"
+      },
+      "executor_iban": {
+        "label": "ИИК (IBAN) исполнителя",
+        "placeholder": "Например: KZ123456789012345678"
+      },
+      "bank": {
+        "label": "Банк",
+        "placeholder": "Выберите банк",
+        "searchPlaceholder": "Поиск по названию или БИК..."
+      },
+      "contract_amount": {
+        "label": "Сумма договора (числом)",
+        "placeholder": "Например: 200000"
+      },
+      "contract_amount_text": {
+        "label": "Сумма договора (прописью)",
+        "placeholder": "Например: двести тысяч"
+      },
+      "services_description": {
+        "label": "Описание услуг",
+        "placeholder": "Опишите предоставляемые услуги"
+      },
+      "service_start_date": {
+        "label": "Дата начала оказания услуг",
+        "placeholder": "Выберите дату"
+      },
+      "service_end_date": {
+        "label": "Дата окончания оказания услуг",
+        "placeholder": "Выберите дату"
+      },
+      "correction_days": {
+        "label": "Срок устранения недостатков (дни)",
+        "placeholder": "Например: 5"
+      },
+      "payment_days": {
+        "label": "Срок оплаты (дни)",
+        "placeholder": "Например: 10"
+      },
+      "penalty_percent": {
+        "label": "Процент пени",
+        "placeholder": "Например: 0.1"
+      },
+      "daily_penalty_percent": {
+        "label": "Процент пени за день",
+        "placeholder": "Например: 0.01"
+      },
+      "dispute_resolution_body": {
+        "label": "Орган разрешения споров",
+        "placeholder": "Например: суд по месту нахождения ответчика"
+      },
+      "saving": "Сохранение...",
+      "preview": "Предпросмотр",
+      "close": "Закрыть",
+      "back": "Вернуться",
+      "createContract": "Создать договор",
+      "updateContract": "Обновить договор",
+      "creating": "Создание...",
+      "updating": "Обновление...",
+      "errors": {
+        "createFailed": "Не удалось отправить договор",
+        "updateFailed": "Не удалось обновить договор"
+      }
+    },
+    "serviceContract": {
+      "title": "Договор возмездного оказания услуг",
+      "contract_city": {
+        "label": "Город",
+        "placeholder": "Например: Алматы"
+      },
+      "contract_date": {
+        "label": "Дата договора",
+        "placeholder": "Выберите дату"
+      },
+      "signer_type": {
+        "label": "Тип подписанта",
+        "individual": "Физ.лицо",
+        "legal_entity": "Юр.лицо"
+      },
+      "executor_full_name": {
+        "label": "ФИО исполнителя",
+        "placeholder": "Например: Иванов Иван Иванович"
+      },
+      "executor_phone": {
+        "label": "Телефон исполнителя",
+        "placeholder": "Например: +77771234567"
+      },
+      "executor_iin": {
+        "label": "ИИН исполнителя",
+        "placeholder": "Например: 123456789012"
+      },
+      "signer_phone": {
+        "label": "Телефон подписанта",
+        "placeholder": "Например: +77771234567"
+      },
+      "signer_iin": {
+        "label": "ИИН подписанта",
+        "placeholder": "Например: 123456789012"
+      },
+      "contract_end_date": {
+        "label": "Дата окончания договора",
+        "placeholder": "Выберите дату"
+      },
+      "executor_bank_name": {
+        "label": "Банк исполнителя",
+        "placeholder": "Например: АО «Банк»"
+      },
+      "executor_iban": {
+        "label": "ИИК (IBAN) исполнителя",
+        "placeholder": "Например: KZ123456789012345678"
+      },
+      "executor_bik": {
+        "label": "БИК исполнителя",
+        "placeholder": "Например: 123456789"
+      },
+      "bank": {
+        "label": "Банк",
+        "placeholder": "Выберите банк",
+        "searchPlaceholder": "Поиск по названию или БИК..."
+      },
+      "service_name": {
+        "label": "Наименование услуги",
+        "placeholder": "Например: Консультационные услуги"
+      },
+      "service_location": {
+        "label": "Место оказания услуг",
+        "placeholder": "Например: г. Алматы, ул. Абая, д. 150"
+      },
+      "service_period_text": {
+        "label": "Срок оказания услуги",
+        "placeholder": "Например: 12 (двенадцать) месяцев"
+      },
+      "services": {
+        "label": "Услуги",
+        "add": "Добавить услугу",
+        "remove": "Удалить",
+        "item": "Услуга {{number}}",
+        "name": {
+          "label": "Наименование услуги",
+          "placeholder": "Например: Консультационные услуги"
+        },
+        "start_date": {
+          "label": "Дата начала",
+          "placeholder": "Выберите дату"
+        },
+        "end_date": {
+          "label": "Дата окончания",
+          "placeholder": "Выберите дату"
+        },
+        "price": {
+          "label": "Стоимость (тенге)",
+          "placeholder": "Например: 100000"
+        }
+      },
+      "executor_name": {
+        "label": "Наименование исполнителя",
+        "placeholder": "Например: ТОО «Компания»"
+      },
+      "executor_representative": {
+        "label": "Представитель исполнителя",
+        "placeholder": "Например: Иванов Иван Иванович"
+      },
+      "executor_basis": {
+        "label": "Основание полномочий исполнителя",
+        "placeholder": "Например: Устава"
+      },
+      "services_description": {
+        "label": "Описание услуг",
+        "placeholder": "Например: Консультационные услуги по вопросам..."
+      },
+      "service_start_date": {
+        "label": "Дата начала оказания услуг",
+        "placeholder": "Выберите дату"
+      },
+      "service_end_date": {
+        "label": "Дата окончания оказания услуг",
+        "placeholder": "Выберите дату"
+      },
+      "correction_days": {
+        "label": "Срок устранения недостатков (дней)",
+        "placeholder": "Например: 5"
+      },
+      "payment_days": {
+        "label": "Срок оплаты (дней)",
+        "placeholder": "Например: 10"
+      },
+      "contract_amount": {
+        "label": "Сумма договора (числом)",
+        "placeholder": "Например: 200000"
+      },
+      "contract_amount_text": {
+        "label": "Сумма договора (прописью)",
+        "placeholder": "Например: двести тысяч"
+      },
+      "penalty_percent": {
+        "label": "Процент неустойки",
+        "placeholder": "Например: 0.1"
+      },
+      "daily_penalty_percent": {
+        "label": "Процент пени за день",
+        "placeholder": "Например: 0.01"
+      },
+      "dispute_resolution_body": {
+        "label": "Орган рассмотрения споров",
+        "placeholder": "Например: суд по месту нахождения ответчика"
+      },
+      "save": "Сохранить",
+      "saving": "Сохранение...",
+      "preview": "Предпросмотр",
+      "back": "Вернуться",
+      "submit": "Отправить договор",
+      "submitting": "Отправка...",
+      "previewTitle": "Предпросмотр договора",
+      "close": "Закрыть",
+      "createContract": "Создать договор",
+      "updateContract": "Обновить договор",
+      "creating": "Создание...",
+      "updating": "Обновление...",
+      "errors": {
+        "createFailed": "Не удалось отправить договор",
+        "updateFailed": "Не удалось обновить договор"
+      },
+      "toast": {
+        "success": "Договор успешно создан",
+        "error": "Ошибка при создании договора"
+      }
+    },
+    "supplyContract": {
+      "title": "Договор поставки товара",
+      "contract_city": {
+        "label": "Город",
+        "placeholder": "Например: Алматы"
+      },
+      "contract_date": {
+        "label": "Дата договора",
+        "placeholder": "Выберите дату"
+      },
+      "supplier_name": {
+        "label": "Наименование поставщика",
+        "placeholder": "Например: ТОО «Компания»"
+      },
+      "supplier_representative": {
+        "label": "Представитель поставщика",
+        "placeholder": "Например: Иванов Иван Иванович"
+      },
+      "supplier_basis": {
+        "label": "Основание полномочий поставщика",
+        "placeholder": "Например: Устава"
+      },
+      "supplier_phone": {
+        "label": "Телефон поставщика",
+        "placeholder": "Например: +77771234567"
+      },
+      "supplier_bin": {
+        "label": "БИН поставщика",
+        "placeholder": "Например: 123456789012"
+      },
+      "supplier_iban": {
+        "label": "ИИК (IBAN) поставщика",
+        "placeholder": "Например: KZ123456789012345678"
+      },
+      "bank": {
+        "label": "Банк",
+        "placeholder": "Выберите банк",
+        "searchPlaceholder": "Поиск по названию или БИК..."
+      },
+      "delivery_address": {
+        "label": "Адрес поставки",
+        "placeholder": "Например: г. Алматы, ул. Абая, д. 150"
+      },
+      "delivery_days": {
+        "label": "Срок поставки (дней)",
+        "placeholder": "Например: 10"
+      },
+      "delivery_days_text": {
+        "label": "Срок поставки (прописью)",
+        "placeholder": "Например: десять"
+      },
+      "total_amount": {
+        "label": "Общая сумма договора (числом)",
+        "placeholder": "Например: 500000"
+      },
+      "total_amount_text": {
+        "label": "Общая сумма договора (прописью)",
+        "placeholder": "Например: пятьсот тысяч"
+      },
+      "payment_days": {
+        "label": "Срок оплаты (дней)",
+        "placeholder": "Например: 5"
+      },
+      "payment_days_text": {
+        "label": "Срок оплаты (прописью)",
+        "placeholder": "Например: пять"
+      },
+      "warranty_months": {
+        "label": "Гарантия (месяцев)",
+        "placeholder": "Например: 12"
+      },
+      "court_location": {
+        "label": "Место рассмотрения споров",
+        "placeholder": "Например: г. Алматы"
+      },
+      "product_name": {
+        "label": "Наименование товара",
+        "placeholder": "Например: Оборудование"
+      },
+      "product_model": {
+        "label": "Модель",
+        "placeholder": "Например: Model-2024"
+      },
+      "product_manufacturer": {
+        "label": "Производитель",
+        "placeholder": "Например: Компания-Производитель"
+      },
+      "product_power": {
+        "label": "Мощность / производительность",
+        "placeholder": "Например: 1000 Вт"
+      },
+      "product_voltage": {
+        "label": "Питание / напряжение",
+        "placeholder": "Например: 220 В"
+      },
+      "product_material": {
+        "label": "Материал / исполнение",
+        "placeholder": "Например: Металл"
+      },
+      "product_package": {
+        "label": "Комплектация",
+        "placeholder": "Например: Полная комплектация"
+      },
+      "product_size": {
+        "label": "Габаритные размеры",
+        "placeholder": "Например: 100x50x30 см"
+      },
+      "product_weight": {
+        "label": "Вес",
+        "placeholder": "Например: 25 кг"
+      },
+      "product_quantity": {
+        "label": "Количество",
+        "placeholder": "Например: 1"
+      },
+      "product_unit_price": {
+        "label": "Цена за единицу (тенге)",
+        "placeholder": "Например: 500000"
+      },
+      "product_total_price": {
+        "label": "Общая стоимость (тенге)",
+        "placeholder": "Например: 500000"
+      },
+      "product_warranty_months": {
+        "label": "Гарантия (месяцев)",
+        "placeholder": "Например: 12"
+      },
+      "product_delivery_place": {
+        "label": "Место поставки",
+        "placeholder": "Например: г. Алматы, ул. Абая, д. 150"
+      },
+      "product_warranty_term": {
+        "label": "Срок гарантии (числом)",
+        "placeholder": "Например: 12"
+      },
+      "save": "Сохранить",
+      "saving": "Сохранение...",
+      "preview": "Предпросмотр",
+      "back": "Вернуться",
+      "submit": "Отправить договор",
+      "submitting": "Отправка...",
+      "previewTitle": "Предпросмотр договора",
+      "close": "Закрыть",
+      "createContract": "Создать договор",
+      "updateContract": "Обновить договор",
+      "creating": "Создание...",
+      "updating": "Обновление...",
+      "errors": {
+        "createFailed": "Не удалось отправить договор",
+        "updateFailed": "Не удалось обновить договор"
+      },
+      "toast": {
+        "success": "Договор успешно создан",
+        "error": "Ошибка при создании договора"
+      }
+    }
+  },
+  "validation": {
+    "legal": {
+      "city_required": "Город обязателен для заполнения",
+      "date_required": "Дата обязательна для заполнения",
+      "lessor_name_required": "Наименование арендодателя обязательно",
+      "lessor_representative_required": "Представитель арендодателя обязателен",
+      "lessor_basis_required": "Основание полномочий арендодателя обязательно",
+      "rental_term_text_required": "Срок аренды обязателен",
+      "rental_amount_required": "Стоимость аренды обязательна",
+      "rental_amount_invalid": "Стоимость аренды должна содержать только цифры",
+      "rental_amount_text_required": "Стоимость аренды прописью обязательна",
+      "car_brand_required": "Марка автомобиля обязательна",
+      "car_year_required": "Год выпуска обязателен",
+      "car_year_invalid": "Год выпуска должен содержать только цифры",
+      "car_vin_required": "VIN номер обязателен",
+      "car_plate_required": "Государственный номер обязателен",
+      "car_color_required": "Цвет автомобиля обязателен",
+      "lessor_phone_required": "Телефон арендодателя обязателен",
+      "lessor_phone_invalid": "Телефон должен быть в формате +7XXXXXXXXXX",
+      "lessor_bin_required": "БИН арендодателя обязателен",
+      "lessor_bin_invalid": "БИН должен содержать 12 цифр",
+      "lessor_iban_required": "ИИК арендодателя обязателен",
+      "lessor_bank_name_required": "Банк арендодателя обязателен",
+      "lessor_bank_bik_required": "БИК банка арендодателя обязателен",
+      "premise_area_required": "Площадь помещения обязательна",
+      "premise_area_invalid": "Площадь помещения должна содержать только цифры",
+      "premise_address_required": "Адрес помещения обязателен",
+      "premise_usage_purpose_required": "Цель использования обязательна",
+      "rental_start_date_required": "Дата начала аренды обязательна",
+      "rental_end_date_required": "Дата окончания аренды обязательна",
+      "first_month_payment_deadline_required": "Срок оплаты за первый месяц обязателен",
+      "executor_full_name_required": "ФИО исполнителя обязательно",
+      "contract_amount_required": "Сумма договора обязательна",
+      "contract_amount_invalid": "Сумма договора должна содержать только цифры",
+      "contract_kk_date_required": "Дата договора (казахский) обязательна",
+      "contract_ru_date_required": "Дата договора (русский) обязательна",
+      "contract_amount_kk_text_required": "Сумма договора прописью (казахский) обязательна",
+      "contract_amount_ru_text_required": "Сумма договора прописью (русский) обязательна",
+      "executor_phone_required": "Телефон исполнителя обязателен",
+      "executor_phone_invalid": "Телефон должен быть в формате +7XXXXXXXXXX",
+      "executor_iin_required": "ИИН исполнителя обязателен",
+      "executor_iin_invalid": "ИИН должен содержать 12 цифр",
+      "employer_bank_name_required": "Банк заказчика обязателен",
+      "employer_iban_required": "ИИК заказчика обязателен",
+      "employer_bik_required": "БИК заказчика обязателен",
+      "executor_bank_name_required": "Банк исполнителя обязателен",
+      "executor_iban_required": "ИИК исполнителя обязателен",
+      "executor_bank_bik_required": "БИК банка исполнителя обязателен",
+      "service_name_required": "Наименование услуги обязательно",
+      "service_location_required": "Место оказания услуг обязательно",
+      "service_period_text_required": "Срок оказания услуги обязателен",
+      "contract_end_date_required": "Дата окончания договора обязательна",
+      "service_date_required": "Срок оказания обязателен",
+      "service_price_required": "Сумма к оплате обязательна",
+      "service_price_invalid": "Сумма к оплате должна содержать только цифры",
+      "service_item_name_required": "Наименование услуги обязательно",
+      "service_item_date_required": "Срок оказания услуги обязателен",
+      "service_item_price_required": "Сумма к оплате обязательна",
+      "services_required": "Необходимо добавить хотя бы одну услугу",
+      "services_min_one": "Необходимо добавить хотя бы одну услугу",
+      "services_min_one_required": "Необходимо добавить хотя бы одну услугу",
+      "services_max_three": "Максимум 3 услуги",
+      "signer_type_required": "Тип подписанта обязателен",
+      "signer_phone_required": "Телефон подписанта обязателен",
+      "signer_phone_invalid": "Телефон должен быть в формате +7XXXXXXXXXX",
+      "signer_iin_required": "ИИН подписанта обязателен",
+      "signer_iin_invalid": "ИИН должен содержать 12 цифр",
+      "contract_end_kk_date_required": "Дата окончания договора (казахский) обязательна",
+      "contract_end_ru_date_required": "Дата окончания договора (русский) обязательна",
+      "executor_name_required": "Наименование исполнителя обязательно",
+      "executor_representative_required": "Представитель исполнителя обязателен",
+      "executor_basis_required": "Основание полномочий исполнителя обязательно",
+      "services_description_required": "Описание услуг обязательно",
+      "service_start_date_required": "Дата начала оказания услуг обязательна",
+      "service_end_date_required": "Дата окончания оказания услуг обязательна",
+      "correction_days_required": "Срок устранения недостатков обязателен",
+      "correction_days_invalid": "Срок устранения недостатков должен содержать только цифры",
+      "payment_days_required": "Срок оплаты обязателен",
+      "payment_days_invalid": "Срок оплаты должен содержать только цифры",
+      "contract_amount_text_required": "Сумма договора прописью обязательна",
+      "penalty_percent_required": "Процент неустойки обязателен",
+      "penalty_percent_invalid": "Процент неустойки должен содержать только цифры",
+      "daily_penalty_percent_required": "Процент пени за день обязателен",
+      "daily_penalty_percent_invalid": "Процент пени за день должен содержать только цифры",
+      "dispute_resolution_body_required": "Орган рассмотрения споров обязателен",
+      "supplier_name_required": "Наименование поставщика обязательно",
+      "supplier_representative_required": "Представитель поставщика обязателен",
+      "supplier_basis_required": "Основание полномочий поставщика обязательно",
+      "supplier_phone_required": "Телефон поставщика обязателен",
+      "supplier_phone_invalid": "Телефон должен быть в формате +7XXXXXXXXXX",
+      "supplier_bin_required": "БИН поставщика обязателен",
+      "supplier_bin_invalid": "БИН должен содержать 12 цифр",
+      "supplier_iban_required": "ИИК поставщика обязателен",
+      "supplier_bank_name_required": "Банк поставщика обязателен",
+      "supplier_bank_bik_required": "БИК банка поставщика обязателен",
+      "delivery_address_required": "Адрес поставки обязателен",
+      "delivery_days_required": "Срок поставки обязателен",
+      "delivery_days_invalid": "Срок поставки должен содержать только цифры",
+      "delivery_days_text_required": "Срок поставки прописью обязателен",
+      "total_amount_required": "Общая сумма договора обязательна",
+      "total_amount_invalid": "Общая сумма договора должна содержать только цифры",
+      "total_amount_text_required": "Общая сумма договора прописью обязательна",
+      "payment_days_text_required": "Срок оплаты прописью обязателен",
+      "warranty_months_required": "Гарантия обязательна",
+      "warranty_months_invalid": "Гарантия должна содержать только цифры",
+      "court_location_required": "Место рассмотрения споров обязательно",
+      "product_name_required": "Наименование товара обязательно",
+      "product_model_required": "Модель обязательна",
+      "product_manufacturer_required": "Производитель обязателен",
+      "product_power_required": "Мощность / производительность обязательна",
+      "product_voltage_required": "Питание / напряжение обязательно",
+      "product_material_required": "Материал / исполнение обязательно",
+      "product_package_required": "Комплектация обязательна",
+      "product_size_required": "Габаритные размеры обязательны",
+      "product_weight_required": "Вес обязателен",
+      "product_quantity_required": "Количество обязательно",
+      "product_quantity_invalid": "Количество должно содержать только цифры",
+      "product_unit_price_required": "Цена за единицу обязательна",
+      "product_unit_price_invalid": "Цена за единицу должна содержать только цифры",
+      "product_total_price_required": "Общая стоимость обязательна",
+      "product_total_price_invalid": "Общая стоимость должна содержать только цифры",
+      "product_warranty_months_required": "Гарантия товара обязательна",
+      "product_warranty_months_invalid": "Гарантия товара должна содержать только цифры",
+      "product_delivery_place_required": "Место поставки обязательно",
+      "product_warranty_term_required": "Срок гарантии обязателен"
+    }
+  },
+  "messages": {
+    "loading": "Загрузка..."
+  },
+  "prompt": {
+    "ok": "ОК"
+  }
+}
+

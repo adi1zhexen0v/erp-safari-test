@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "Hiring process — HR | SEN Group",
+    "description": "Hiring process in the SEN Group management system."
+  },
+  "createForm": {
+    "candidate_name": {
+      "error": {
+        "required": "Please enter the candidate's name"
+      }
+    },
+    "email": {
+      "error": {
+        "required": "Please enter an email",
+        "invalid": "Invalid email format"
+      }
+    },
+    "phone": {
+      "error": {
+        "required": "Please enter a phone number",
+        "invalid": "Invalid phone number format"
+      }
+    },
+    "job_position": {
+      "error": {
+        "required": "Please enter a position"
+      }
+    }
+  },
+  "breadcrumbs": {
+    "hr": "HR",
+    "hiring": "Hiring process"
+  },
+  "header": {
+    "title": "Hiring process",
+    "newInvitation": "Invite candidate"
+  },
+  "summary": {
+    "totalApplications": "Total applications",
+    "submittedApplications": "Submitted applications",
+    "approvedApplications": "Approved applications",
+    "compareWithLastMonth": "Compared to last month"
+  },
+  "filters": {
+    "searchPlaceholder": "Search by name, email or IIN",
+    "submittedDate": "Submitted date",
+    "stage": "Stage",
+    "status": "Status",
+    "reset": "Reset",
+    "all": "All"
+  },
+  "view": {
+    "table": "Table View",
+    "cards": "Grid View"
+  },
+  "table": {
+    "candidate": "Candidate",
+    "email": "Email",
+    "phone": "Phone",
+    "position": "Position",
+    "iin": "IIN",
+    "stage": "Stage",
+    "status": "Status",
+    "submittedAt": "Submitted at",
+    "reviewedAt": "Reviewed at",
+    "invitationDate": "Invitation date",
+    "actions": "Actions"
+  },
+  "cards": {
+    "actionPrimary": "Open application",
+    "viewProfile": "Candidate profile",
+    "dateInvited": "Invitation date",
+    "personalSheet": "Personal sheet",
+    "downloadProfile": "Download personal sheet"
+  },
+  "status": {
+    "draft": "Sent to candidate",
+    "submitted": "Pending decision",
+    "revision_requested": "Under revision",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "stage": {
+    "invited": "Invited",
+    "filling": "Form filling",
+    "review": "Review",
+    "decision": "Decision",
+    "completed": "Completed"
+  },
+  "invite": {
+    "title": "Invite candidate",
+    "subtitle": "Enter candidate's information",
+    "name": "Full name",
+    "namePlaceholder": "Amina Aman Maratovna",
+    "email": "Email",
+    "emailPlaceholder": "name@sengroup.one",
+    "phone": "Phone number",
+    "phonePlaceholder": "+7 707 123 45 67",
+    "position": "Position",
+    "positionPlaceholder": "For example: Sales Manager",
+    "cancel": "Cancel",
+    "send": "Send invitation",
+    "loading": "Loading...",
+    "error": "Failed to create candidate",
+    "successTitle": "Invitation sent",
+    "successText": "The candidate has been successfully invited. An email has been sent."
+  },
+  "actions": {
+    "approve": "Approve application",
+    "requestRevision": "Request revision",
+    "reject": "Reject",
+    "createContract": "Create employment contract",
+    "viewDetails": "View personal sheet",
+    "approving": "Approving...",
+    "rejecting": "Rejecting...",
+    "creating": "Creating..."
+  },
+  "modals": {
+    "revisionTitle": "Revision reason",
+    "revisionPlaceholder": "Describe what needs to be corrected",
+    "sending": "Sending...",
+    "send": "Send",
+    "rejectTitle": "Rejection reason",
+    "rejectPlaceholder": "Describe the reason for rejection",
+    "rejecting": "Rejecting...",
+    "createContractTitle": "Create employment contract",
+    "startDateLabel": "Work start date",
+    "selectDate": "Select date",
+    "creating": "Creating...",
+    "createContract": "Create contract",
+    "errorLoading": "Error loading application details",
+    "personalSheet": "Personal sheet",
+    "personalData": "Personal data",
+    "iin": "IIN",
+    "dateOfBirth": "Date of birth",
+    "gender": "Gender",
+    "familyStatus": "Marital status",
+    "cityOfBirth": "City of birth",
+    "nationality": "Nationality",
+    "citizenship": "Citizenship",
+    "contacts": "Contacts",
+    "email": "Email",
+    "phone": "Phone",
+    "additionalPhone": "Additional phone",
+    "emergencyContacts": "Emergency contacts",
+    "contact1": "Contact 1",
+    "contact2": "Contact 2",
+    "fullName": "Full name",
+    "relation": "Relationship",
+    "addresses": "Addresses",
+    "registrationAddress": "Registration address",
+    "actualAddress": "Actual residence address",
+    "documents": "Documents",
+    "nationalId": "National ID",
+    "idNumber": "ID number",
+    "issuedBy": "Issued by",
+    "issueDate": "Issue date",
+    "expiryDate": "Expiry date",
+    "militaryCertificate": "Military certificate",
+    "banking": "Banking details",
+    "bankName": "Bank name",
+    "iban": "Account number (IBAN)",
+    "bik": "BIC",
+    "education": "Education",
+    "university": "Educational institution",
+    "specialty": "Specialty",
+    "graduationYear": "Graduation year",
+    "workExperience": "Work experience",
+    "position": "Position or profession",
+    "startDate": "Start date",
+    "endDate": "End date",
+    "genderValues": {
+      "male": "Male",
+      "female": "Female"
+    },
+    "familyStatusValues": {
+      "single": "Single",
+      "married": "Married",
+      "divorced": "Divorced",
+      "widowed": "Widowed"
+    },
+    "relationValues": {
+      "mother": "Mother",
+      "father": "Father",
+      "spouse": "Spouse",
+      "sibling": "Sibling",
+      "other": "Other"
+    },
+    "degreeValues": {
+      "bachelor": "Bachelor",
+      "master": "Master",
+      "phd": "PhD",
+      "college": "College"
+    },
+    "noEmergencyContacts": "Emergency contacts not specified",
+    "noEducation": "Education not specified",
+    "noWorkExperience": "Work experience not specified",
+    "socialCategories": "Social categories"
+  },
+  "messages": {
+    "loading": "Loading...",
+    "error": "Failed to load applications. Please try again.",
+    "noResults": "No applications found for the selected filters.",
+    "errorTitle": "Error",
+    "approveSuccessTitle": "Application approved",
+    "approveSuccessText": "Candidate has been successfully moved to the next stage",
+    "approveErrorText": "Failed to approve application",
+    "revisionSuccessTitle": "Sent for revision",
+    "revisionSuccessText": "Candidate has been notified about the need for revision",
+    "revisionErrorText": "Failed to send for revision",
+    "rejectSuccessTitle": "Candidate rejected",
+    "rejectSuccessText": "Application status updated",
+    "rejectErrorText": "Failed to reject application",
+    "selectStartDate": "Please select work start date",
+    "contractSuccessTitle": "Employment contract created",
+    "contractSuccessText": "Contract draft has been successfully created",
+    "contractErrorText": "Failed to create employment contract",
+    "contractGeneralErrorText": "An error occurred while creating the employment contract. Please try again.",
+    "reminderTitle": "Reminder",
+    "reminderText": "Reminder functionality will be implemented later",
+    "downloadFailed": "Failed to download personal sheet",
+    "waitingForDownload": "Preparing file..."
+  },
+  "prompt": {
+    "ok": "OK"
+  }
+}

@@ -1,0 +1,98 @@
+.background-brand-fill {
+  @apply bg-primary-500 dark:bg-primary-500;
+}
+.background-brand-subtle {
+  @apply bg-primary-100 dark:bg-primary-100;
+}
+.background-brand-stroke {
+  @apply border-primary-600 dark:border-alpha-white-30;
+}
+.background-neutral-background {
+  @apply bg-grey-500 dark:bg-grey-500;
+}
+.background-neutral-stroke {
+  @apply border-grey-100 dark:border-grey-100;
+}
+.background-neutral-border {
+  @apply border-grey-600 dark:border-grey-300;
+}
+.background-info-fill {
+  @apply bg-info-500 dark:bg-info-500;
+}
+.background-info-subtle {
+  @apply bg-info-100 dark:bg-info-100;
+}
+.background-info-stroke {
+  @apply border-info-600 dark:border-alpha-white-30;
+}
+.background-notice-fill {
+  @apply bg-notice-500 dark:bg-notice-500;
+}
+.background-notice-subtle {
+  @apply bg-notice-100 dark:bg-notice-100;
+}
+.background-notice-stroke {
+  @apply border-notice-600 dark:border-notice-300;
+}
+.background-positive-fill {
+  @apply bg-positive-500 dark:bg-positive-500;
+}
+.background-positive-subtle {
+  @apply bg-positive-100 dark:bg-positive-100;
+}
+.background-positive-stroke {
+  @apply border-positive-600 dark:border-positive-300;
+}
+.background-negative-background {
+  @apply bg-negative-500 dark:bg-negative-500;
+}
+.background-negative-stroke {
+  @apply border-negative-100 dark:border-negative-100;
+}
+.background-negative-border {
+  @apply border-negative-600 dark:border-negative-300;
+}
+.background-static-white {
+  @apply bg-white dark:bg-black transition-colors duration-250;
+}
+.background-static-black {
+  @apply bg-black dark:bg-white transition-colors duration-250;
+}
+
+.background-on-background-subtle-brand {
+  @apply bg-primary-50 dark:bg-primary-50;
+}
+.background-on-background-subtle-neutral {
+  @apply bg-grey-50 dark:bg-grey-50;
+}
+.background-on-background-subtle-info {
+  @apply bg-info-50 dark:bg-info-50;
+}
+.background-on-background-subtle-notice {
+  @apply bg-notice-50 dark:bg-notice-50;
+}
+.background-on-background-subtle-positive {
+  @apply bg-positive-50 dark:bg-positive-50;
+}
+.background-on-background-subtle-negative {
+  @apply bg-negative-50 dark:bg-negative-50;
+}
+
+.background-on-background-strong-brand {
+  @apply text-primary-900 dark:text-primary-500;
+}
+.background-on-background-strong-neutral {
+  @apply text-grey-900 dark:text-grey-500;
+}
+.background-on-background-strong-info {
+  @apply text-info-900 dark:text-info-500;
+}
+.background-on-background-strong-notice {
+  @apply text-notice-900 dark:text-notice-500;
+}
+.background-on-background-strong-positive {
+  @apply text-positive-900 dark:text-positive-500;
+}
+.background-on-background-strong-negative {
+  @apply text-negative-900 dark:text-negative-500;
+}

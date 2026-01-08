@@ -1,0 +1,32 @@
+{
+  "title": "Sign In",
+  "meta": {
+    "title": "Sign In — SEN Group",
+    "description": "Authentication for the SEN Group management system."
+  },
+  "email": {
+    "label": "E-mail",
+    "placeholder": "Enter your email",
+    "error": {
+      "required": "Please enter your email",
+      "invalid": "Invalid email format"
+    }
+  },
+  "password": {
+    "label": "Password",
+    "placeholder": "Please enter your password",
+    "error": {
+      "required": "Please enter your password",
+      "strongPassword": "Password must contain at least 8 characters, one uppercase letter, one number, and one special character"
+    }
+  },
+  "button": "Login",
+  "loading": "Loading...",
+  "errors": {
+    "invalid_credentials": "Invalid email or password",
+    "manager_not_found": "Manager with this email was not found",
+    "server_unavailable": "Server is unavailable. Please check your connection.",
+    "parsing_error": "Error parsing server response",
+    "unknown": "Unknown error"
+  }
+}

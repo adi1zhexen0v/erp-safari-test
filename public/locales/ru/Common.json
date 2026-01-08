@@ -1,0 +1,21 @@
+{
+  "loadingCities": "Загрузка списка городов...",
+  "statusIndicator": {
+    "amendment": {
+      "cancelled": "Отменено",
+      "applied": "Применено",
+      "default": "В ожидании"
+    },
+    "jobApplication": {
+      "contractSigned": "Договор подписан",
+      "decision": "Отклонено",
+      "jobAppPending": "На доработке",
+      "jobAppReview": "Ожидает решения по заявлению",
+      "default": "Одобрено"
+    },
+    "order": {
+      "orderPending": "В ожидании",
+      "default": "Завершено"
+    }
+  }
+}

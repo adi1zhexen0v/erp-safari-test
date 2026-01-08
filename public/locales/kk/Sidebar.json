@@ -1,0 +1,43 @@
+{
+  "main": "Бастысы",
+  "home": "Басты бет",
+
+  "social": "Әлеуметтік әсер",
+  "impact": "Әсер ету",
+
+  "workflows": "Жұмыс процестері",
+  "requests": "Өтініштер",
+  "projects": "Жобалар",
+  "socialBank": "Әлеуметтік банк",
+
+  "finance": "Қаржы процестері",
+  "accounting": "Бухгалтерия",
+  "accounting.timesheets": "Табельдер",
+  "accounting.payrolls": "Жалақы есебі",
+  "financePage": "Қаржы",
+
+  "legal": "Құқықтық қолдау",
+  "legal.help": "Құқықтық көмек",
+  "legal.consultation": "Консультация",
+  "legal.templates": "Үлгілер",
+  "legal.cases": "Құқықтық істер",
+  "legal.applications": "Құрылған құжаттар",
+
+  "people": "Адамдар және өзара әрекеттестік",
+  "tasks": "Тапсырмалар",
+  "hr": "Кадрлар",
+
+  "hr.employees": "Қызметкерлер",
+  "hr.hiring": "Жалдау процесі",
+  "hr.contracts": "Еңбек шарттары",
+  "hr.vacations": "Демалыстар",
+
+  "team": "Топ",
+
+  "support": "Қолдау",
+  "settings": "Баптаулар",
+  "supportCenter": "Қолдау қызметі",
+
+  "logout": "Шығу",
+  "logout.loading": "Шығуда..."
+}

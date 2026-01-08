@@ -1,0 +1,973 @@
+{
+  "meta": {
+    "title": "Templates — Legal Support | SEN Group",
+    "description": "Templates in the SEN Group management system."
+  },
+  "breadcrumbs": {
+    "legal": "Legal Support",
+    "templates": "Templates"
+  },
+  "header": {
+    "title": "Templates",
+    "newForm": "Book a consultation"
+  },
+  "common": {
+    "approvalDate": "Approval Date",
+    "fill": "Fill the template",
+    "close": "Close",
+    "prompts": {
+      "contractUpdated": {
+        "title": "Contract Updated",
+        "text": "Contract has been successfully updated"
+      },
+      "contractCreated": {
+        "title": "Contract Created",
+        "text": "Contract has been successfully created"
+      },
+      "vehicleRentCreated": {
+        "title": "Contract Created",
+        "text": "Vehicle rental contract has been successfully created"
+      },
+      "vehicleRentUpdated": {
+        "title": "Contract Updated",
+        "text": "Vehicle rental contract has been successfully updated"
+      },
+      "premisesLeaseCreated": {
+        "title": "Contract Created",
+        "text": "Commercial premises lease contract has been successfully created"
+      },
+      "premisesLeaseUpdated": {
+        "title": "Contract Updated",
+        "text": "Commercial premises lease contract has been successfully updated"
+      },
+      "serviceAgreementIndividualCreated": {
+        "title": "Contract Created",
+        "text": "Service agreement contract has been successfully created"
+      },
+      "serviceAgreementIndividualUpdated": {
+        "title": "Contract Updated",
+        "text": "Service agreement contract has been successfully updated"
+      },
+      "serviceAgreementMSBCreated": {
+        "title": "Contract Created",
+        "text": "Service agreement contract has been successfully created"
+      },
+      "serviceAgreementMSBUpdated": {
+        "title": "Contract Updated",
+        "text": "Service agreement contract has been successfully updated"
+      },
+      "goodsSupplyCreated": {
+        "title": "Contract Created",
+        "text": "Goods supply contract has been successfully created"
+      },
+      "goodsSupplyUpdated": {
+        "title": "Contract Updated",
+        "text": "Goods supply contract has been successfully updated"
+      },
+      "serviceContractCreated": {
+        "title": "Contract Created",
+        "text": "Service agreement contract has been successfully sent"
+      },
+      "serviceContractUpdated": {
+        "title": "Contract Updated",
+        "text": "Service agreement contract has been successfully updated"
+      }
+    }
+  },
+  "templates": {
+    "vehicleRent": {
+      "title": "Vehicle Rental Agreement",
+      "subtitle": "Car rental for business use"
+    },
+    "commercialPremiseRent": {
+      "title": "Non-Residential Premise Rental Agreement",
+      "subtitle": "Office or premises rental for temporary use"
+    },
+    "paidService": {
+      "title": "Service Agreement",
+      "subtitle": "Contract for services provided by an individual"
+    },
+    "serviceContract": {
+      "title": "Paid Service Contract",
+      "subtitle": "Service provision with payment based on work completion certificate"
+    },
+    "supplyContract": {
+      "title": "Goods Supply Agreement",
+      "subtitle": "Goods supply with quality, delivery and payment terms"
+    }
+  },
+  "forms": {
+    "vehicleRent": {
+      "title": "Vehicle Rental Agreement",
+      "contract_city": {
+        "label": "City",
+        "placeholder": "For example: Almaty"
+      },
+      "contract_date": {
+        "label": "Contract Date",
+        "placeholder": "Select date"
+      },
+      "lessor_name": {
+        "label": "Lessor Name",
+        "placeholder": "For example: Company LLP"
+      },
+      "lessor_representative": {
+        "label": "Lessor Representative",
+        "placeholder": "For example: John Doe"
+      },
+      "lessor_basis": {
+        "label": "Lessor Authority Basis",
+        "placeholder": "For example: Charter"
+      },
+      "lessor_phone": {
+        "label": "Lessor Phone",
+        "placeholder": "For example: +77771234567"
+      },
+      "lessor_bin": {
+        "label": "Lessor BIN",
+        "placeholder": "For example: 123456789012"
+      },
+      "lessor_iban": {
+        "label": "Lessor IBAN",
+        "placeholder": "For example: KZ123456789012345678"
+      },
+      "bank": {
+        "label": "Bank",
+        "placeholder": "Select bank",
+        "searchPlaceholder": "Search by name or BIC..."
+      },
+      "signer_type": {
+        "label": "Signer Type",
+        "individual": "Individual",
+        "legal_entity": "Legal Entity"
+      },
+      "car_brand": {
+        "label": "Vehicle Brand",
+        "placeholder": "For example: Toyota Camry"
+      },
+      "car_year": {
+        "label": "Year of Manufacture",
+        "placeholder": "For example: 2020"
+      },
+      "car_vin": {
+        "label": "VIN Number",
+        "placeholder": "For example: 1HGBH41JXMN109186"
+      },
+      "car_plate": {
+        "label": "License Plate",
+        "placeholder": "For example: 123ABC01"
+      },
+      "car_color": {
+        "label": "Vehicle Color",
+        "placeholder": "For example: White"
+      },
+      "rental_term_text": {
+        "label": "Rental Term",
+        "placeholder": "For example: 12 (twelve) months"
+      },
+      "rental_amount": {
+        "label": "Rental Price (numeric)",
+        "placeholder": "For example: 150000"
+      },
+      "rental_amount_text": {
+        "label": "Rental Price (in words)",
+        "placeholder": "For example: one hundred fifty thousand"
+      },
+      "save": "Save",
+      "saving": "Saving...",
+      "preview": "Preview",
+      "back": "Back",
+      "submit": "Submit Contract",
+      "submitting": "Submitting...",
+      "createContract": "Create Contract",
+      "updateContract": "Update Contract",
+      "creating": "Creating...",
+      "updating": "Updating...",
+      "close": "Close",
+      "previewTitle": "Contract Preview",
+      "errors": {
+        "createFailed": "Failed to submit contract",
+        "updateFailed": "Failed to update contract"
+      },
+      "toast": {
+        "success": "Contract created successfully",
+        "error": "Error creating contract"
+      }
+    },
+    "commercialPremiseRent": {
+      "title": "Non-Residential Premise Rental Agreement",
+      "contract_city": {
+        "label": "City",
+        "placeholder": "For example: Almaty"
+      },
+      "contract_date": {
+        "label": "Contract Date",
+        "placeholder": "Select date"
+      },
+      "lessor_name": {
+        "label": "Lessor Name",
+        "placeholder": "For example: Company LLP"
+      },
+      "lessor_representative": {
+        "label": "Lessor Representative",
+        "placeholder": "For example: John Doe"
+      },
+      "lessor_basis": {
+        "label": "Lessor Authority Basis",
+        "placeholder": "For example: Charter"
+      },
+      "lessor_phone": {
+        "label": "Lessor Phone",
+        "placeholder": "For example: +77771234567"
+      },
+      "lessor_bin": {
+        "label": "Lessor BIN",
+        "placeholder": "For example: 123456789012"
+      },
+      "lessor_iban": {
+        "label": "Lessor IBAN",
+        "placeholder": "For example: KZ123456789012345678"
+      },
+      "bank": {
+        "label": "Bank",
+        "placeholder": "Select bank",
+        "searchPlaceholder": "Search by name or BIC..."
+      },
+      "signer_type": {
+        "label": "Signer Type",
+        "individual": "Individual",
+        "legal_entity": "Legal Entity"
+      },
+      "premise_area": {
+        "label": "Premise Area (sq.m)",
+        "placeholder": "For example: 50.5"
+      },
+      "premise_address": {
+        "label": "Premise Address",
+        "placeholder": "For example: Almaty, Abay St., 150"
+      },
+      "premise_usage_purpose": {
+        "label": "Usage Purpose",
+        "placeholder": "For example, office placement"
+      },
+      "rental_start_date": {
+        "label": "Rental Start Date",
+        "placeholder": "Select date"
+      },
+      "rental_end_date": {
+        "label": "Rental End Date",
+        "placeholder": "Select date"
+      },
+      "rental_term_text": {
+        "label": "Rental Term",
+        "placeholder": "For example: 12 (twelve) months"
+      },
+      "rental_amount": {
+        "label": "Rental Price (numeric)",
+        "placeholder": "For example: 150000"
+      },
+      "rental_amount_text": {
+        "label": "Rental Price (in words)",
+        "placeholder": "For example: one hundred fifty thousand"
+      },
+      "first_month_payment_deadline": {
+        "label": "First Month Payment Deadline",
+        "placeholder": "Select date"
+      },
+      "save": "Save",
+      "saving": "Saving...",
+      "preview": "Preview",
+      "back": "Back",
+      "submit": "Submit Contract",
+      "submitting": "Submitting...",
+      "previewTitle": "Contract Preview",
+      "close": "Close",
+      "createContract": "Create Contract",
+      "updateContract": "Update Contract",
+      "creating": "Creating...",
+      "updating": "Updating...",
+      "errors": {
+        "createFailed": "Failed to submit contract",
+        "updateFailed": "Failed to update contract"
+      },
+      "toast": {
+        "success": "Contract created successfully",
+        "error": "Error creating contract"
+      }
+    },
+    "paidServiceContract": {
+      "title": "Service Agreement",
+      "contract_city": {
+        "label": "City",
+        "placeholder": "For example: Almaty"
+      },
+      "contract_date": {
+        "label": "Contract Date",
+        "placeholder": "Select date"
+      },
+      "executor_full_name": {
+        "label": "Executor Full Name",
+        "placeholder": "For example: John Doe"
+      },
+      "executor_phone": {
+        "label": "Executor Phone",
+        "placeholder": "For example: +77771234567"
+      },
+      "executor_iin": {
+        "label": "Executor IIN",
+        "placeholder": "For example: 123456789012"
+      },
+      "contract_amount": {
+        "label": "Contract Amount (numeric)",
+        "placeholder": "For example: 200000"
+      },
+      "contract_amount_kk_text": {
+        "label": "Contract Amount in Words (Kazakh)",
+        "placeholder": "For example: екі жүз мың"
+      },
+      "contract_amount_ru_text": {
+        "label": "Contract Amount in Words (Russian)",
+        "placeholder": "For example: двести тысяч"
+      },
+      "employer_bank_name": {
+        "label": "Employer Bank",
+        "placeholder": "For example: Bank JSC"
+      },
+      "employer_iban": {
+        "label": "Employer IBAN",
+        "placeholder": "For example: KZ123456789012345678"
+      },
+      "employer_bik": {
+        "label": "Employer BIC",
+        "placeholder": "For example: 123456789"
+      },
+      "executor_bank_name": {
+        "label": "Executor Bank",
+        "placeholder": "For example: Bank JSC"
+      },
+      "executor_iban": {
+        "label": "Executor IBAN",
+        "placeholder": "For example: KZ123456789012345678"
+      },
+      "executor_bik": {
+        "label": "Executor BIC",
+        "placeholder": "For example: 123456789"
+      },
+      "service_name": {
+        "label": "Service Name",
+        "placeholder": "For example: Consulting Services"
+      },
+      "service_location": {
+        "label": "Service Location",
+        "placeholder": "For example: Almaty, Abay St., 150"
+      },
+      "service_period_text": {
+        "label": "Service Period",
+        "placeholder": "For example: 12 (twelve) months"
+      },
+      "contract_end_date": {
+        "label": "Contract End Date",
+        "placeholder": "Select date"
+      },
+      "services": {
+        "title": "Services",
+        "label": "Services",
+        "add": "Add Service",
+        "item": "Service {{number}}",
+        "name": {
+          "label": "Service Name",
+          "placeholder": "For example: Consulting Services"
+        },
+        "date": {
+          "label": "Service Date",
+          "placeholder": "Select date"
+        },
+        "price": {
+          "label": "Amount Payable (Tenge)",
+          "placeholder": "For example: 100000"
+        },
+        "service_name": {
+          "label": "Service Name",
+          "placeholder": "For example: Consulting Services"
+        },
+        "service_date": {
+          "label": "Service Date",
+          "placeholder": "Select date"
+        },
+        "service_price": {
+          "label": "Amount Payable (Tenge)",
+          "placeholder": "For example: 100000"
+        }
+      },
+      "save": "Save",
+      "saving": "Saving...",
+      "preview": "Preview",
+      "back": "Back",
+      "submit": "Submit Contract",
+      "submitting": "Submitting...",
+      "previewTitle": "Contract Preview",
+      "close": "Close",
+      "createContract": "Create Contract",
+      "updateContract": "Update Contract",
+      "creating": "Creating...",
+      "updating": "Updating...",
+      "errors": {
+        "createFailed": "Failed to submit contract",
+        "updateFailed": "Failed to update contract"
+      },
+      "toast": {
+        "success": "Contract created successfully",
+        "error": "Error creating contract"
+      }
+    },
+    "serviceAgreementMSB": {
+      "title": "Service Agreement",
+      "previewTitle": "Contract Preview",
+      "contract_city": {
+        "label": "City",
+        "placeholder": "For example: Almaty"
+      },
+      "contract_date": {
+        "label": "Contract Date",
+        "placeholder": "Select date"
+      },
+      "executor_name": {
+        "label": "Executor Name",
+        "placeholder": "For example: Company LLP"
+      },
+      "executor_representative": {
+        "label": "Executor Representative",
+        "placeholder": "For example: Ivan Ivanov"
+      },
+      "executor_bin": {
+        "label": "Executor BIN",
+        "placeholder": "For example: 123456789012"
+      },
+      "executor_basis": {
+        "label": "Authority Basis",
+        "placeholder": "For example: Charter"
+      },
+      "executor_phone": {
+        "label": "Executor Phone",
+        "placeholder": "For example: +77771234567"
+      },
+      "executor_iban": {
+        "label": "Executor IBAN",
+        "placeholder": "For example: KZ123456789012345678"
+      },
+      "bank": {
+        "label": "Bank",
+        "placeholder": "Select bank",
+        "searchPlaceholder": "Search by name or BIC..."
+      },
+      "contract_amount": {
+        "label": "Contract Amount (numeric)",
+        "placeholder": "For example: 200000"
+      },
+      "contract_amount_text": {
+        "label": "Contract Amount (text)",
+        "placeholder": "For example: two hundred thousand"
+      },
+      "services_description": {
+        "label": "Services Description",
+        "placeholder": "Describe the services provided"
+      },
+      "service_start_date": {
+        "label": "Service Start Date",
+        "placeholder": "Select date"
+      },
+      "service_end_date": {
+        "label": "Service End Date",
+        "placeholder": "Select date"
+      },
+      "correction_days": {
+        "label": "Defect Correction Period (days)",
+        "placeholder": "For example: 5"
+      },
+      "payment_days": {
+        "label": "Payment Period (days)",
+        "placeholder": "For example: 10"
+      },
+      "penalty_percent": {
+        "label": "Penalty Percentage",
+        "placeholder": "For example: 0.1"
+      },
+      "daily_penalty_percent": {
+        "label": "Daily Penalty Percentage",
+        "placeholder": "For example: 0.01"
+      },
+      "dispute_resolution_body": {
+        "label": "Dispute Resolution Body",
+        "placeholder": "For example: court at the defendant's location"
+      },
+      "saving": "Saving...",
+      "preview": "Preview",
+      "close": "Close",
+      "back": "Back",
+      "createContract": "Create Contract",
+      "updateContract": "Update Contract",
+      "creating": "Creating...",
+      "updating": "Updating...",
+      "errors": {
+        "createFailed": "Failed to submit contract",
+        "updateFailed": "Failed to update contract"
+      }
+    },
+    "serviceContract": {
+      "title": "Paid Service Contract",
+      "contract_city": {
+        "label": "City",
+        "placeholder": "For example: Almaty"
+      },
+      "contract_date": {
+        "label": "Contract Date",
+        "placeholder": "Select date"
+      },
+      "signer_type": {
+        "label": "Signer Type",
+        "individual": "Individual",
+        "legal_entity": "Legal Entity"
+      },
+      "executor_full_name": {
+        "label": "Executor Full Name",
+        "placeholder": "For example: John Doe"
+      },
+      "executor_phone": {
+        "label": "Executor Phone",
+        "placeholder": "For example: +77771234567"
+      },
+      "executor_iin": {
+        "label": "Executor IIN",
+        "placeholder": "For example: 123456789012"
+      },
+      "executor_iban": {
+        "label": "Executor IBAN",
+        "placeholder": "For example: KZ123456789012345678"
+      },
+      "signer_phone": {
+        "label": "Signer Phone",
+        "placeholder": "For example: +77771234567"
+      },
+      "signer_iin": {
+        "label": "Signer IIN",
+        "placeholder": "For example: 123456789012"
+      },
+      "contract_end_date": {
+        "label": "Contract End Date",
+        "placeholder": "Select date"
+      },
+      "executor_bank_name": {
+        "label": "Executor Bank",
+        "placeholder": "For example: Bank JSC"
+      },
+      "executor_iban": {
+        "label": "Executor IBAN",
+        "placeholder": "For example: KZ123456789012345678"
+      },
+      "executor_bik": {
+        "label": "Executor BIC",
+        "placeholder": "For example: 123456789"
+      },
+      "bank": {
+        "label": "Bank",
+        "placeholder": "Select bank",
+        "searchPlaceholder": "Search by name or BIC..."
+      },
+      "service_name": {
+        "label": "Service Name",
+        "placeholder": "For example: Consulting Services"
+      },
+      "service_location": {
+        "label": "Service Location",
+        "placeholder": "For example: Almaty, Abay St., 150"
+      },
+      "service_period_text": {
+        "label": "Service Period",
+        "placeholder": "For example: 12 (twelve) months"
+      },
+      "services": {
+        "label": "Services",
+        "add": "Add Service",
+        "remove": "Remove",
+        "item": "Service {{number}}",
+        "name": {
+          "label": "Service Name",
+          "placeholder": "For example: Consulting Services"
+        },
+        "date": {
+          "label": "Service Date",
+          "placeholder": "Select date"
+        },
+        "price": {
+          "label": "Price (Tenge)",
+          "placeholder": "For example: 100000"
+        }
+      },
+      "executor_name": {
+        "label": "Executor Name",
+        "placeholder": "For example: Company LLP"
+      },
+      "executor_representative": {
+        "label": "Executor Representative",
+        "placeholder": "For example: John Doe"
+      },
+      "executor_basis": {
+        "label": "Executor Authority Basis",
+        "placeholder": "For example: Charter"
+      },
+      "services_description": {
+        "label": "Services Description",
+        "placeholder": "For example: Consulting services on..."
+      },
+      "service_start_date": {
+        "label": "Service Start Date",
+        "placeholder": "Select date"
+      },
+      "service_end_date": {
+        "label": "Service End Date",
+        "placeholder": "Select date"
+      },
+      "correction_days": {
+        "label": "Defect Correction Period (days)",
+        "placeholder": "For example: 5"
+      },
+      "payment_days": {
+        "label": "Payment Period (days)",
+        "placeholder": "For example: 10"
+      },
+      "contract_amount": {
+        "label": "Contract Amount (numeric)",
+        "placeholder": "For example: 200000"
+      },
+      "contract_amount_text": {
+        "label": "Contract Amount (in words)",
+        "placeholder": "For example: two hundred thousand"
+      },
+      "penalty_percent": {
+        "label": "Penalty Percentage",
+        "placeholder": "For example: 0.1"
+      },
+      "daily_penalty_percent": {
+        "label": "Daily Penalty Percentage",
+        "placeholder": "For example: 0.01"
+      },
+      "dispute_resolution_body": {
+        "label": "Dispute Resolution Body",
+        "placeholder": "For example: court at the location of the defendant"
+      },
+      "save": "Save",
+      "saving": "Saving...",
+      "preview": "Preview",
+      "back": "Back",
+      "submit": "Submit Contract",
+      "submitting": "Submitting...",
+      "previewTitle": "Contract Preview",
+      "close": "Close",
+      "createContract": "Create Contract",
+      "updateContract": "Update Contract",
+      "creating": "Creating...",
+      "updating": "Updating...",
+      "errors": {
+        "createFailed": "Failed to submit contract",
+        "updateFailed": "Failed to update contract"
+      },
+      "toast": {
+        "success": "Contract created successfully",
+        "error": "Error creating contract"
+      }
+    },
+    "supplyContract": {
+      "title": "Goods Supply Agreement",
+      "contract_city": {
+        "label": "City",
+        "placeholder": "For example: Almaty"
+      },
+      "contract_date": {
+        "label": "Contract Date",
+        "placeholder": "Select date"
+      },
+      "supplier_name": {
+        "label": "Supplier Name",
+        "placeholder": "For example: Company LLP"
+      },
+      "supplier_representative": {
+        "label": "Supplier Representative",
+        "placeholder": "For example: John Doe"
+      },
+      "supplier_basis": {
+        "label": "Supplier Authority Basis",
+        "placeholder": "For example: Charter"
+      },
+      "supplier_phone": {
+        "label": "Supplier Phone",
+        "placeholder": "For example: +77771234567"
+      },
+      "supplier_bin": {
+        "label": "Supplier BIN",
+        "placeholder": "For example: 123456789012"
+      },
+      "supplier_iban": {
+        "label": "Supplier IBAN",
+        "placeholder": "For example: KZ123456789012345678"
+      },
+      "bank": {
+        "label": "Bank",
+        "placeholder": "Select bank",
+        "searchPlaceholder": "Search by name or BIC..."
+      },
+      "delivery_address": {
+        "label": "Delivery Address",
+        "placeholder": "For example: Almaty, Abay St., 150"
+      },
+      "delivery_days": {
+        "label": "Delivery Period (days)",
+        "placeholder": "For example: 10"
+      },
+      "delivery_days_text": {
+        "label": "Delivery Period (in words)",
+        "placeholder": "For example: ten"
+      },
+      "total_amount": {
+        "label": "Total Contract Amount (numeric)",
+        "placeholder": "For example: 500000"
+      },
+      "total_amount_text": {
+        "label": "Total Contract Amount (in words)",
+        "placeholder": "For example: five hundred thousand"
+      },
+      "payment_days": {
+        "label": "Payment Period (days)",
+        "placeholder": "For example: 5"
+      },
+      "payment_days_text": {
+        "label": "Payment Period (in words)",
+        "placeholder": "For example: five"
+      },
+      "warranty_months": {
+        "label": "Warranty (months)",
+        "placeholder": "For example: 12"
+      },
+      "court_location": {
+        "label": "Dispute Resolution Location",
+        "placeholder": "For example: Almaty"
+      },
+      "product_name": {
+        "label": "Product Name",
+        "placeholder": "For example: Equipment"
+      },
+      "product_model": {
+        "label": "Model",
+        "placeholder": "For example: Model-2024"
+      },
+      "product_manufacturer": {
+        "label": "Manufacturer",
+        "placeholder": "For example: Manufacturer Company"
+      },
+      "product_power": {
+        "label": "Power / Performance",
+        "placeholder": "For example: 1000 W"
+      },
+      "product_voltage": {
+        "label": "Power Supply / Voltage",
+        "placeholder": "For example: 220 V"
+      },
+      "product_material": {
+        "label": "Material / Execution",
+        "placeholder": "For example: Metal"
+      },
+      "product_package": {
+        "label": "Package Contents",
+        "placeholder": "For example: Full package"
+      },
+      "product_size": {
+        "label": "Overall Dimensions",
+        "placeholder": "For example: 100x50x30 cm"
+      },
+      "product_weight": {
+        "label": "Weight",
+        "placeholder": "For example: 25 kg"
+      },
+      "product_quantity": {
+        "label": "Quantity",
+        "placeholder": "For example: 1"
+      },
+      "product_unit_price": {
+        "label": "Price per Unit (Tenge)",
+        "placeholder": "For example: 500000"
+      },
+      "product_total_price": {
+        "label": "Total Cost (Tenge)",
+        "placeholder": "For example: 500000"
+      },
+      "product_warranty_months": {
+        "label": "Warranty (months)",
+        "placeholder": "For example: 12"
+      },
+      "product_delivery_place": {
+        "label": "Place of Delivery",
+        "placeholder": "For example: Almaty, Abay St., 150"
+      },
+      "product_warranty_term": {
+        "label": "Warranty Term (numeric)",
+        "placeholder": "For example: 12"
+      },
+      "save": "Save",
+      "saving": "Saving...",
+      "preview": "Preview",
+      "back": "Back",
+      "submit": "Submit Contract",
+      "submitting": "Submitting...",
+      "previewTitle": "Contract Preview",
+      "close": "Close",
+      "createContract": "Create Contract",
+      "updateContract": "Update Contract",
+      "creating": "Creating...",
+      "updating": "Updating...",
+      "errors": {
+        "createFailed": "Failed to submit contract",
+        "updateFailed": "Failed to update contract"
+      },
+      "toast": {
+        "success": "Contract created successfully",
+        "error": "Error creating contract"
+      }
+    }
+  },
+  "validation": {
+    "legal": {
+      "city_required": "City is required",
+      "date_required": "Date is required",
+      "lessor_name_required": "Lessor name is required",
+      "lessor_representative_required": "Lessor representative is required",
+      "lessor_basis_required": "Lessor authority basis is required",
+      "rental_term_text_required": "Rental term is required",
+      "rental_amount_required": "Rental amount is required",
+      "rental_amount_invalid": "Rental amount must contain only numbers",
+      "rental_amount_text_required": "Rental price in words is required",
+      "car_brand_required": "Vehicle brand is required",
+      "car_year_required": "Year is required",
+      "car_year_invalid": "Year must contain only numbers",
+      "car_vin_required": "VIN number is required",
+      "car_plate_required": "License plate is required",
+      "car_color_required": "Vehicle color is required",
+      "lessor_phone_required": "Lessor phone is required",
+      "lessor_phone_invalid": "Phone must be in format +7XXXXXXXXXX",
+      "lessor_bin_required": "Lessor BIN is required",
+      "lessor_bin_invalid": "BIN must contain 12 digits",
+      "lessor_iban_required": "Lessor IBAN is required",
+      "lessor_bank_name_required": "Lessor bank is required",
+      "lessor_bank_bik_required": "Lessor bank BIC is required",
+      "premise_area_required": "Premise area is required",
+      "premise_area_invalid": "Premise area must contain only numbers",
+      "premise_address_required": "Premise address is required",
+      "premise_usage_purpose_required": "Usage purpose is required",
+      "rental_start_date_required": "Rental start date is required",
+      "rental_end_date_required": "Rental end date is required",
+      "first_month_payment_deadline_required": "First month payment deadline is required",
+      "executor_full_name_required": "Executor full name is required",
+      "contract_amount_required": "Contract amount is required",
+      "contract_amount_invalid": "Contract amount must contain only numbers",
+      "contract_kk_date_required": "Contract date (Kazakh) is required",
+      "contract_ru_date_required": "Contract date (Russian) is required",
+      "contract_amount_kk_text_required": "Contract amount in words (Kazakh) is required",
+      "contract_amount_ru_text_required": "Contract amount in words (Russian) is required",
+      "executor_phone_required": "Executor phone is required",
+      "executor_phone_invalid": "Phone must be in format +7XXXXXXXXXX",
+      "executor_iin_required": "Executor IIN is required",
+      "executor_iin_invalid": "IIN must contain 12 digits",
+      "employer_bank_name_required": "Employer bank is required",
+      "employer_iban_required": "Employer IBAN is required",
+      "employer_bik_required": "Employer BIC is required",
+      "executor_bank_name_required": "Executor bank is required",
+      "executor_iban_required": "Executor IBAN is required",
+      "executor_bank_bik_required": "Executor bank BIC is required",
+      "service_name_required": "Service name is required",
+      "service_location_required": "Service location is required",
+      "service_period_text_required": "Service period is required",
+      "contract_end_date_required": "Contract end date is required",
+      "service_date_required": "Service date is required",
+      "service_price_required": "Service price is required",
+      "service_price_invalid": "Service price must contain only numbers",
+      "service_item_name_required": "Service name is required",
+      "service_item_date_required": "Service date is required",
+      "service_item_price_required": "Service price is required",
+      "services_required": "At least one service must be added",
+      "services_min_one": "At least one service must be added",
+      "services_min_one_required": "At least one service must be added",
+      "services_max_three": "Maximum 3 services",
+      "signer_type_required": "Signer type is required",
+      "signer_phone_required": "Signer phone is required",
+      "signer_phone_invalid": "Phone must be in format +7XXXXXXXXXX",
+      "signer_iin_required": "Signer IIN is required",
+      "signer_iin_invalid": "IIN must contain 12 digits",
+      "contract_end_kk_date_required": "Contract end date (Kazakh) is required",
+      "contract_end_ru_date_required": "Contract end date (Russian) is required",
+      "executor_name_required": "Executor name is required",
+      "executor_representative_required": "Executor representative is required",
+      "executor_basis_required": "Executor authority basis is required",
+      "executor_iban_required": "Executor IBAN is required",
+      "executor_bank_name_required": "Executor bank is required",
+      "executor_bank_bik_required": "Executor bank BIC is required",
+      "services_description_required": "Services description is required",
+      "service_start_date_required": "Service start date is required",
+      "service_end_date_required": "Service end date is required",
+      "correction_days_required": "Defect correction period is required",
+      "correction_days_invalid": "Defect correction period must contain only numbers",
+      "payment_days_required": "Payment period is required",
+      "payment_days_invalid": "Payment period must contain only numbers",
+      "contract_amount_text_required": "Contract amount in words is required",
+      "penalty_percent_required": "Penalty percentage is required",
+      "penalty_percent_invalid": "Penalty percentage must contain only numbers",
+      "daily_penalty_percent_required": "Daily penalty percentage is required",
+      "daily_penalty_percent_invalid": "Daily penalty percentage must contain only numbers",
+      "dispute_resolution_body_required": "Dispute resolution body is required",
+      "supplier_name_required": "Supplier name is required",
+      "supplier_representative_required": "Supplier representative is required",
+      "supplier_basis_required": "Supplier authority basis is required",
+      "supplier_phone_required": "Supplier phone is required",
+      "supplier_phone_invalid": "Phone must be in format +7XXXXXXXXXX",
+      "supplier_bin_required": "Supplier BIN is required",
+      "supplier_bin_invalid": "BIN must contain 12 digits",
+      "supplier_iban_required": "Supplier IBAN is required",
+      "supplier_bank_name_required": "Supplier bank is required",
+      "supplier_bank_bik_required": "Supplier bank BIC is required",
+      "delivery_address_required": "Delivery address is required",
+      "delivery_days_required": "Delivery period is required",
+      "delivery_days_invalid": "Delivery period must contain only numbers",
+      "delivery_days_text_required": "Delivery period in words is required",
+      "total_amount_required": "Total contract amount is required",
+      "total_amount_invalid": "Total contract amount must contain only numbers",
+      "total_amount_text_required": "Total contract amount in words is required",
+      "payment_days_text_required": "Payment period in words is required",
+      "warranty_months_required": "Warranty is required",
+      "warranty_months_invalid": "Warranty must contain only numbers",
+      "court_location_required": "Dispute resolution location is required",
+      "product_name_required": "Product name is required",
+      "product_model_required": "Model is required",
+      "product_manufacturer_required": "Manufacturer is required",
+      "product_power_required": "Power / performance is required",
+      "product_voltage_required": "Power supply / voltage is required",
+      "product_material_required": "Material / execution is required",
+      "product_package_required": "Package contents is required",
+      "product_size_required": "Overall dimensions is required",
+      "product_weight_required": "Weight is required",
+      "product_quantity_required": "Quantity is required",
+      "product_quantity_invalid": "Quantity must contain only numbers",
+      "product_unit_price_required": "Price per unit is required",
+      "product_unit_price_invalid": "Price per unit must contain only numbers",
+      "product_total_price_required": "Total cost is required",
+      "product_total_price_invalid": "Total cost must contain only numbers",
+      "product_warranty_months_required": "Product warranty is required",
+      "product_warranty_months_invalid": "Product warranty must contain only numbers",
+      "product_delivery_place_required": "Place of delivery is required",
+      "product_warranty_term_required": "Warranty term is required"
+    }
+  },
+  "messages": {
+    "loading": "Loading..."
+  },
+  "prompt": {
+    "ok": "OK"
+  }
+}
+

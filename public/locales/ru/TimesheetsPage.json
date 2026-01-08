@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "title": "Табели — Бухгалтерия | SEN Group",
+    "description": "Табели учета рабочего времени в системе управления SEN Group.",
+    "detailTitle": "Табель за {{month}} {{year}}",
+    "detailTitleFull": "Табель за {{month}} {{year}} — Бухгалтерия | SEN Group",
+    "pageTitle": "Табель за {{month}} {{year}}"
+  },
+  "breadcrumbs": {
+    "accounting": "Бухгалтерия",
+    "timesheets": "Табели"
+  },
+  "title": "Табели",
+  "table": {
+    "period": "Период",
+    "status": "Статус",
+    "workDays": "Рабочие дни",
+    "workHours": "Рабочие часы",
+    "entries": "Записей",
+    "actions": "Действия"
+  },
+  "status": {
+    "draft": "Черновик",
+    "approved": "Утвержден"
+  },
+  "actions": {
+    "generate": "Сформировать табель",
+    "open": "Открыть",
+    "approve": "Утвердить",
+    "delete": "Удалить",
+    "download": "Скачать табель",
+    "saveChanges": "Сохранить изменения",
+    "saving": "Сохранение..."
+  },
+  "generate": {
+    "title": "Сформировать табель",
+    "text": "Выберите год и месяц для формирования табеля",
+    "year": "Год",
+    "month": "Месяц",
+    "yearPlaceholder": "Выберите год",
+    "monthPlaceholder": "Выберите месяц",
+    "confirm": "Сформировать",
+    "cancel": "Отмена",
+    "loading": "Загрузка...",
+    "alreadyExists": "Табель уже создан",
+    "needToApprove": ". Вам нужно его подтвердить"
+  },
+  "detail": {
+    "title": "Табель",
+    "worker": "Сотрудник",
+    "workDays": "Раб. дни",
+    "workHours": "Раб. часы",
+    "overtimeHours": "Сверхурочные часы",
+    "annualLeave": "Отпуск",
+    "medicalLeave": "Больничный",
+    "weekDays": {
+      "sun": "Вс",
+      "mon": "Пн",
+      "tue": "Вт",
+      "wed": "Ср",
+      "thu": "Чт",
+      "fri": "Пт",
+      "sat": "Сб"
+    },
+    "summary": "Сводка",
+    "total": "Итого",
+    "totalWorkDays": "Рабочие дни",
+    "totalWorkHours": "Рабочие часы",
+    "totalLeaveDays": "Всего дней отпуска",
+    "totalAbsenceDays": "Отсутствия",
+    "totalEmployees": "Сотрудники",
+    "helpTitle": "Как работать с табелем?",
+    "helpText": "Потяните код, чтобы заполнить сразу несколько ячеек, или нажмите на ячейку для редактирования",
+    "legend": "Обозначения",
+    "holidays": "Праздники",
+    "invalidCode": "Можно вводить только допустимые значения: 1-12 или В, О, Б, А, К, Р, П",
+    "codeLabels": {
+      "8": "Полный день (8ч)",
+      "4": "Половина дня (4ч)",
+      "В": "Выходной",
+      "О": "Отпуск",
+      "Б": "Больничный",
+      "А": "Без содержания",
+      "К": "Командировка",
+      "Р": "Декрет",
+      "П": "Прогул"
+    }
+  },
+  "confirm": {
+    "approveTitle": "Утвердить табель",
+    "approveText": "После утверждения табель нельзя будет редактировать. Продолжить?",
+    "approveConfirm": "Утвердить",
+    "deleteTitle": "Удалить табель",
+    "deleteText": "Вы уверены, что хотите удалить этот табель? Это действие нельзя отменить.",
+    "deleteConfirm": "Удалить",
+    "cancel": "Отмена"
+  },
+  "messages": {
+    "loading": "Загрузка...",
+    "error": "Произошла ошибка при загрузке табелей",
+    "noResults": "Табели не найдены",
+    "errorTitle": "Ошибка",
+    "waitingForDownload": "Пожалуйста дождитесь скачивание файла",
+    "generateSuccessTitle": "Табель сформирован",
+    "generateSuccessText": "Табель успешно сформирован",
+    "generateErrorText": "Не удалось сформировать табель",
+    "approveSuccessTitle": "Табель утвержден",
+    "approveSuccessText": "Табель успешно утвержден",
+    "approveErrorText": "Не удалось утвердить табель",
+    "deleteSuccessTitle": "Табель удален",
+    "deleteSuccessText": "Табель успешно удален",
+    "deleteErrorText": "Не удалось удалить табель",
+    "updateSuccessTitle": "Запись обновлена",
+    "updateSuccessText": "Запись успешно обновлена",
+    "updateErrorText": "Не удалось обновить запись",
+    "downloadErrorText": "Не удалось скачать табель",
+    "batchUpdateSuccessTitle": "Изменения сохранены",
+    "batchUpdateSuccessText": "Успешно сохранено {{count}} записей",
+    "batchUpdatePartialTitle": "Частичное сохранение",
+    "batchUpdatePartialText": "Сохранено {{success}} из {{failed}} записей",
+    "batchUpdateErrorText": "Не удалось сохранить изменения"
+  },
+  "prompt": {
+    "ok": "ОК"
+  },
+  "prompt_form": {
+    "confirm": "Подтвердить",
+    "cancel": "Отмена",
+    "submitting": "Отправка..."
+  },
+  "filters": {
+    "searchPlaceholder": "Период",
+    "period": "Период",
+    "status": "Статус",
+    "reset": "Сбросить"
+  }
+}
+

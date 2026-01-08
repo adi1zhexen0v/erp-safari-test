@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "title": "Табельдер — Бухгалтерия | SEN Group",
+    "description": "SEN Group басқару жүйесіндегі жұмыс уақытын есепке алу табельдері.",
+    "detailTitle": "{{month}} {{year}} табелі",
+    "detailTitleFull": "{{month}} {{year}} табелі — Бухгалтерия | SEN Group",
+    "pageTitle": "{{month}} {{year}} табелі"
+  },
+  "breadcrumbs": {
+    "accounting": "Бухгалтерия",
+    "timesheets": "Табельдер"
+  },
+  "title": "Табельдер",
+  "table": {
+    "period": "Кезең",
+    "status": "Мәртебе",
+    "workDays": "Жұмыс күндері",
+    "workHours": "Жұмыс сағаттары",
+    "entries": "Жазбалар",
+    "actions": "Әрекеттер"
+  },
+  "status": {
+    "draft": "Жоба",
+    "approved": "Бекітілген"
+  },
+  "actions": {
+    "generate": "Табель құру",
+    "open": "Ашу",
+    "approve": "Бекіту",
+    "delete": "Жою",
+    "download": "Табель жүктеу",
+    "saveChanges": "Өзгерістерді сақтау",
+    "saving": "Сақталуда..."
+  },
+  "generate": {
+    "title": "Табель құру",
+    "text": "Табель құру үшін жыл мен айды таңдаңыз",
+    "year": "Жыл",
+    "month": "Ай",
+    "yearPlaceholder": "Жылды таңдаңыз",
+    "monthPlaceholder": "Айды таңдаңыз",
+    "confirm": "Құру",
+    "cancel": "Болдырмау",
+    "loading": "Жүктелуде...",
+    "alreadyExists": "Табель құрылған",
+    "needToApprove": ". Сіз оны бекітуіңіз керек"
+  },
+  "detail": {
+    "title": "Табель",
+    "worker": "Қызметкер",
+    "workDays": "Жұмыс күндері",
+    "workHours": "Жұмыс сағаттары",
+    "overtimeHours": "Артық сағаттар",
+    "annualLeave": "Еңбек демалысы",
+    "medicalLeave": "Ауру",
+    "weekDays": {
+      "sun": "Жс",
+      "mon": "Дс",
+      "tue": "Сс",
+      "wed": "Ср",
+      "thu": "Бс",
+      "fri": "Жм",
+      "sat": "Сн"
+    },
+    "summary": "Қорытынды",
+    "total": "Барлығы",
+    "totalWorkDays": "Жұмыс күндері",
+    "totalWorkHours": "Жұмыс сағаттары",
+    "totalLeaveDays": "Барлығы демалыс күндері",
+    "totalAbsenceDays": "Болмаулар",
+    "totalEmployees": "Қызметкерлер",
+    "helpTitle": "Табельмен қалай жұмыс істеу керек?",
+    "helpText": "Бірнеше ұяшықты бірден толтыру үшін кодты сүйреңіз немесе өңдеу үшін ұяшықты басыңыз",
+    "legend": "Белгілер",
+    "holidays": "Мейрамдар",
+    "invalidCode": "Тек рұқсат етілген мәндерді енгізуге болады: 1-12 немесе В, О, Б, А, К, Р, П",
+    "codeLabels": {
+      "8": "Толық күн (8сағ)",
+      "4": "Жарты күн (4сағ)",
+      "В": "Демалыс",
+      "О": "Еңбек демалысы",
+      "Б": "Ауру",
+      "А": "Ақысыз",
+      "К": "Кәсіби сапар",
+      "Р": "Аналық",
+      "П": "Қатыспау"
+    }
+  },
+  "confirm": {
+    "approveTitle": "Табельді бекіту",
+    "approveText": "Бекітуден кейін табельді өңдеу мүмкін емес. Жалғастыру керек пе?",
+    "approveConfirm": "Бекіту",
+    "deleteTitle": "Табельді жою",
+    "deleteText": "Сіз бұл табельді жойғыңыз келетініне сенімдісіз бе? Бұл әрекетті болдырғызу мүмкін емес.",
+    "deleteConfirm": "Жою",
+    "cancel": "Болдырмау"
+  },
+  "messages": {
+    "loading": "Жүктелуде...",
+    "error": "Табельдерді жүктеу кезінде қате пайда болды",
+    "noResults": "Табельдер табылмады",
+    "errorTitle": "Қате",
+    "waitingForDownload": "Файлдың жүктелуін күтіңіз",
+    "generateSuccessTitle": "Табель құрылды",
+    "generateSuccessText": "Табель сәтті құрылды",
+    "generateErrorText": "Табельді құру сәтсіз аяқталды",
+    "approveSuccessTitle": "Табель бекітілді",
+    "approveSuccessText": "Табель сәтті бекітілді",
+    "approveErrorText": "Табельді бекіту сәтсіз аяқталды",
+    "deleteSuccessTitle": "Табель жойылды",
+    "deleteSuccessText": "Табель сәтті жойылды",
+    "deleteErrorText": "Табельді жою сәтсіз аяқталды",
+    "updateSuccessTitle": "Жазба жаңартылды",
+    "updateSuccessText": "Жазба сәтті жаңартылды",
+    "updateErrorText": "Жазбаны жаңарту сәтсіз аяқталды",
+    "downloadErrorText": "Табельді жүктеу сәтсіз аяқталды",
+    "batchUpdateSuccessTitle": "Өзгерістер сақталды",
+    "batchUpdateSuccessText": "{{count}} жазба сәтті сақталды",
+    "batchUpdatePartialTitle": "Жартылай сақтау",
+    "batchUpdatePartialText": "{{failed}} жазбаның {{success}} сақталды",
+    "batchUpdateErrorText": "Өзгерістерді сақтау сәтсіз аяқталды"
+  },
+  "prompt": {
+    "ok": "OK"
+  },
+  "prompt_form": {
+    "confirm": "Растау",
+    "cancel": "Болдырмау",
+    "submitting": "Жіберілуде..."
+  },
+  "filters": {
+    "searchPlaceholder": "Кезең",
+    "period": "Кезең",
+    "status": "Мәртебе",
+    "reset": "Тазалау"
+  }
+}
+
